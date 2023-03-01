@@ -6,12 +6,22 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class User_01_Register {
+import commons.BaseTest;
+import pageObjects.HomePageObject;
+import pageObjects.LoginPageObject;
+import pageObjects.RegisterPageObject;
 
+public class User_01_Register extends BaseTest {
+	WebDriver driver;
+	private RegisterPageObject registerPage;
+	private LoginPageObject loginPage;
+	private HomePageObject homePage;
+	
 	@Parameters({"browser","url"})
 	@BeforeClass
-	public void beforeClass(String browser, String appUrl) {
-		WebDriver driver;
+	public void beforeClass(String browserName, String appUrl) {
+		driver = getBrowserDriver(browserName, appUrl);
+		
 		
 	}
 
@@ -41,6 +51,7 @@ public class User_01_Register {
 
 	@AfterClass
 	public void afterClass() {
+		closeBrowserDriver();
 	}
 
 }

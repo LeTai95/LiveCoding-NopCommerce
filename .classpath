@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="testcaes"/>
+	<classpathentry kind="src" path="testcases"/>
 	<classpathentry kind="src" path="actions"/>
 	<classpathentry kind="src" path="testdata"/>
 	<classpathentry kind="src" path="interfaces"/>
@@ -36,5 +36,7 @@
 	<classpathentry kind="lib" path="libWebDriverManager5/jna-5.8.0.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager5/slf4j-api-2.0.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager5/webdrivermanager-5.3.1.jar"/>
+	<classpathentry kind="lib" path="libLog4j/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libLog4j/log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
