@@ -23,11 +23,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 	
-	public static BasePage getBasePageObject() {
-		
-		return new BasePage();
-	}
-	
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		
 		driver.get(pageUrl);
@@ -111,7 +106,7 @@ public class BasePage {
 		}
  	}
  	
- 	public void switchToWindowByPageTitle (WebDriver driver,String tabTitle) {
+ 	public void switchToWindowByPageTitle (WebDriver driver, String tabTitle) {
  		
  		Set<String> allWindowIDs = driver.getWindowHandles();
  		for (String id : allWindowIDs) {
@@ -175,7 +170,7 @@ public class BasePage {
  		getWebElement(driver, locatorType).click();
  	}
  	
-	public void clickToElement(WebDriver driver,String locatorType, String... dynamicValues) {
+	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
  		
  		getWebElement(driver, getDynamicXpath(locatorType,dynamicValues)).click();
  	}
@@ -435,7 +430,7 @@ public class BasePage {
 		jsExecutor.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	}
 	
-	public void hightlightElement(WebDriver driver,String locatorType) {
+	public void hightlightElement(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		WebElement element = getWebElement(driver, locatorType);
 		String originalStyle = element.getAttribute("style");
@@ -444,7 +439,7 @@ public class BasePage {
 		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, originalStyle);
 	}
 	
-	public void clickToElementByJS(WebDriver driver,String locatorType) {
+	public void clickToElementByJS(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, locatorType));
 	}

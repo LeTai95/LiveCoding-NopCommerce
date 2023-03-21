@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -59,6 +60,8 @@ public class BaseTest {
 			driver = new ChromeDriver(option);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver = new ChromeDriver();
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
@@ -89,6 +92,8 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + "\\browerLogs\\FirefoxLog.log");
 			driver = new FirefoxDriver();
 		}else if (browserList == BrowserList.SAFARI) {
 			driver = new SafariDriver();
@@ -173,6 +178,10 @@ public class BaseTest {
 		return rand.nextInt(9999);
 	}
 
+	public static long getRandomNumberByDateTime() {
+		return  Calendar.getInstance().getTimeInMillis() % 100000;
+	}
+	
 	public void sleepInSecond(long timeInSecond) {
 		try {
 			Thread.sleep(timeInSecond * 1000);

@@ -1,0 +1,640 @@
+ [2023-03-21 11:36:26,230] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 11:36:31,405] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 11:36:32,753] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 11:36:32,959] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 11:36:33,110] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 11:36:33,270] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 11:36:33,392] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 11:36:33,512] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 11:36:34,535] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 11:36:35,171] Pre-Condition - Step 10: Enter to  Email textbox 
+ [2023-03-21 11:36:35,401] Pre-Condition - Step 11: Enter to  Password textbox 
+ [2023-03-21 11:36:35,615] Pre-Condition - Step 12: Click to login button 
+ [2023-03-21 11:36:36,557] My_Account_01- Step 01: Click to My Account link
+ [2023-03-21 11:36:37,134] My_Account_01- Step 01: Check to Female radio
+ [2023-03-21 11:36:37,463] My_Account_01- Step 02: Enter to Firstname textbox
+ [2023-03-21 11:36:37,616] My_Account_01- Step 03: Check to Lastname textbox
+ [2023-03-21 11:36:37,797] My_Account_01- Step 04: Select day from dropdown
+ [2023-03-21 11:36:38,166] My_Account_01- Step 05: Select month from dropdown
+ [2023-03-21 11:36:38,552] My_Account_01- Step 06: Select year from dropdown
+ [2023-03-21 11:36:38,926] My_Account_01- Step 07: Enter to Company name textbox
+ [2023-03-21 11:36:39,105] My_Account_01- Step 08: Click to save button
+ [2023-03-21 11:36:39,955] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-21 11:36:40,103] My_Account_01- Step 10: Verify Firstname textbox
+ [2023-03-21 11:36:40,279] My_Account_01- Step 11: Verify Lastname textbox
+ [2023-03-21 11:36:40,419] My_Account_01- Step 12: Verify Company name textbox
+ [2023-03-21 11:36:40,571] My_Account_01- Step 13: Verify DateOfBirth
+ [2023-03-21 11:36:40,679] My_Account_01- Step 14: Verify DateOfMonth
+ [2023-03-21 11:36:40,723] My_Account_01- Step 15: Verify DateOfYear
+ [2023-03-21 11:36:40,773] My_Account_02- Step 01: Click to Address menu
+ [2023-03-21 11:36:41,262] My_Account_02- Step 02: Click to Add new button
+ [2023-03-21 11:36:41,828] My_Account_02- Step 03: Enter to Firstname textbox
+ [2023-03-21 11:36:41,981] My_Account_02- Step 04: Enter to Lastname textbox
+ [2023-03-21 11:36:42,109] My_Account_02- Step 05: Enter to Email textbox
+ [2023-03-21 11:36:42,247] My_Account_02- Step 06: Enter to Company textbox
+ [2023-03-21 11:36:42,338] My_Account_02- Step 07: Select item from Country dropdown
+ [2023-03-21 11:36:42,696] My_Account_02- Step 08: Select item from State / province dropdown
+ [2023-03-21 11:36:42,775] My_Account_02- Step 09: Enter to City textbox
+ [2023-03-21 11:36:42,907] My_Account_02- Step 10: Enter to Address 1 textbox
+ [2023-03-21 11:36:43,035] My_Account_02- Step 11: Enter to Address 2 textbox
+ [2023-03-21 11:36:43,195] My_Account_02- Step 12: Enter to Zip / postal code textbox
+ [2023-03-21 11:36:43,336] My_Account_02- Step 13: Enter to Phone number textbox
+ [2023-03-21 11:36:43,439] My_Account_02- Step 15: Enter to fax number textbox
+ [2023-03-21 11:36:43,524] My_Account_02- Step 16: Click to Save button
+ [2023-03-21 11:36:44,433] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-21 11:36:44,559] My_Account_03 - Step 01: Navigate to Change Password link
+ [2023-03-21 11:36:45,086] My_Account_03 - Step 02: Enter to Old Password textbox
+ [2023-03-21 11:36:45,243] My_Account_03 - Step 03: Enter to New Password textbox
+ [2023-03-21 11:36:45,372] My_Account_03 - Step 04: Enter to Confirm Password textbox
+ [2023-03-21 11:36:45,465] My_Account_03 - Step 05: Click to Change Password button
+ [2023-03-21 11:36:45,995] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-21 11:36:46,113] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-21 11:36:47,429] My_Account_03 - Step 08: Click to Logout link
+ [2023-03-21 11:36:48,261] My_Account_03 - Step 09: Click to Login link
+ [2023-03-21 11:36:48,801] My_Account_03 - Step 10: Enter to Email textbox
+ [2023-03-21 11:36:48,951] My_Account_03 - Step 11: Enter to Password textbox
+ [2023-03-21 11:36:49,092] My_Account_03 - Step 12: Click To Login Button
+ [2023-03-21 11:36:49,623] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-21 11:36:49,735] My_Account_03 - Step 14: Enter to Password textbox
+ [2023-03-21 11:36:49,861] My_Account_03 - Step 15: Click To Login Button
+ [2023-03-21 11:36:50,844] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-21 11:36:50,952] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-21 11:36:51,157] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-21 11:36:52,587] My_Account_04 - Step 3: Click to Product
+ [2023-03-21 11:36:53,821] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-21 11:36:54,370] My_Account_04 - Step 5: Enter to Review title textbox
+ [2023-03-21 11:36:54,515] My_Account_04 - Step 6: Enter to Review text textbox
+ [2023-03-21 11:36:54,684] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-21 11:36:55,054] My_Account_04 - Step 8: Click to Submit button
+ [2023-03-21 11:36:55,559] My_Account_04 - Step 9: Click to My Account link
+ [2023-03-21 11:36:56,115] My_Account_04 - Step 10: Navigate My Product Review link
+ [2023-03-21 11:36:56,595] My_Account_04 - Step 11: Verify Review Title
+ [2023-03-21 11:36:56,683] My_Account_04 - Step 12: Verify Review Text
+ [2023-03-21 11:36:56,745] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-21 11:36:56,843] OS name = windows 11
+ [2023-03-21 11:36:56,843] Driver instance name = firefoxdriver: firefox on windows (c3c69465-5216-4a10-8742-e98bc891f0d4)
+ [2023-03-21 12:55:29,251] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 12:55:34,245] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 12:55:35,651] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 12:55:35,950] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 12:55:36,265] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 12:55:36,480] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 12:55:36,705] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 12:55:36,985] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 12:55:38,004] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 12:55:38,718] Pre-Condition - Step 10: Enter to  Email textbox 
+ [2023-03-21 12:55:38,981] Pre-Condition - Step 11: Enter to  Password textbox 
+ [2023-03-21 12:55:39,268] Pre-Condition - Step 12: Click to login button 
+ [2023-03-21 12:55:40,307] My_Account_01- Step 01: Click to My Account link
+ [2023-03-21 12:55:40,896] My_Account_01- Step 01: Check to Female radio
+ [2023-03-21 12:55:41,058] My_Account_01- Step 02: Enter to Firstname textbox
+ [2023-03-21 12:55:41,313] My_Account_01- Step 03: Check to Lastname textbox
+ [2023-03-21 12:55:41,622] My_Account_01- Step 04: Select day from dropdown
+ [2023-03-21 12:55:41,893] My_Account_01- Step 05: Select month from dropdown
+ [2023-03-21 12:55:42,148] My_Account_01- Step 06: Select year from dropdown
+ [2023-03-21 12:55:42,400] My_Account_01- Step 07: Enter to Company name textbox
+ [2023-03-21 12:55:42,731] My_Account_01- Step 08: Click to save button
+ [2023-03-21 12:55:44,151] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-21 12:55:44,271] My_Account_01- Step 10: Verify Firstname textbox
+ [2023-03-21 12:55:44,390] My_Account_01- Step 11: Verify Lastname textbox
+ [2023-03-21 12:55:44,529] My_Account_01- Step 12: Verify Company name textbox
+ [2023-03-21 12:55:44,669] My_Account_01- Step 13: Verify DateOfBirth
+ [2023-03-21 12:55:44,810] My_Account_01- Step 14: Verify DateOfMonth
+ [2023-03-21 12:55:44,931] My_Account_01- Step 15: Verify DateOfYear
+ [2023-03-21 12:55:45,065] My_Account_02- Step 01: Click to Address menu
+ [2023-03-21 12:55:45,747] My_Account_02- Step 02: Click to Add new button
+ [2023-03-21 12:55:46,399] My_Account_02- Step 03: Enter to Firstname textbox
+ [2023-03-21 12:55:46,690] My_Account_02- Step 04: Enter to Lastname textbox
+ [2023-03-21 12:55:46,985] My_Account_02- Step 05: Enter to Email textbox
+ [2023-03-21 12:55:47,316] My_Account_02- Step 06: Enter to Company textbox
+ [2023-03-21 12:55:47,638] My_Account_02- Step 07: Select item from Country dropdown
+ [2023-03-21 12:55:47,919] My_Account_02- Step 08: Select item from State / province dropdown
+ [2023-03-21 12:55:48,250] My_Account_02- Step 09: Enter to City textbox
+ [2023-03-21 12:55:48,574] My_Account_02- Step 10: Enter to Address 1 textbox
+ [2023-03-21 12:55:48,891] My_Account_02- Step 11: Enter to Address 2 textbox
+ [2023-03-21 12:55:49,197] My_Account_02- Step 12: Enter to Zip / postal code textbox
+ [2023-03-21 12:55:49,473] My_Account_02- Step 13: Enter to Phone number textbox
+ [2023-03-21 12:55:49,800] My_Account_02- Step 15: Enter to fax number textbox
+ [2023-03-21 12:55:50,114] My_Account_02- Step 16: Click to Save button
+ [2023-03-21 12:55:52,011] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-21 12:55:52,135] My_Account_03 - Step 01: Navigate to Change Password link
+ [2023-03-21 12:55:52,748] My_Account_03 - Step 02: Enter to Old Password textbox
+ [2023-03-21 12:55:53,058] My_Account_03 - Step 03: Enter to New Password textbox
+ [2023-03-21 12:55:53,373] My_Account_03 - Step 04: Enter to Confirm Password textbox
+ [2023-03-21 12:55:53,655] My_Account_03 - Step 05: Click to Change Password button
+ [2023-03-21 12:55:54,510] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-21 12:55:54,645] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-21 12:55:55,954] My_Account_03 - Step 08: Click to Logout link
+ [2023-03-21 12:55:56,991] My_Account_03 - Step 09: Click to Login link
+ [2023-03-21 12:55:57,648] My_Account_03 - Step 10: Enter to Email textbox
+ [2023-03-21 12:55:57,927] My_Account_03 - Step 11: Enter to Password textbox
+ [2023-03-21 12:55:58,258] My_Account_03 - Step 12: Click To Login Button
+ [2023-03-21 12:55:58,934] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-21 12:55:59,093] My_Account_03 - Step 14: Enter to Password textbox
+ [2023-03-21 12:55:59,400] My_Account_03 - Step 15: Click To Login Button
+ [2023-03-21 12:56:00,478] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-21 12:56:00,632] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-21 12:56:00,903] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-21 12:56:02,486] My_Account_04 - Step 3: Click to Product
+ [2023-03-21 12:56:03,913] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-21 12:56:04,582] My_Account_04 - Step 5: Enter to Review title textbox
+ [2023-03-21 12:56:04,865] My_Account_04 - Step 6: Enter to Review text textbox
+ [2023-03-21 12:56:05,056] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-21 12:56:05,218] My_Account_04 - Step 8: Click to Submit button
+ [2023-03-21 12:56:06,020] My_Account_04 - Step 9: Click to My Account link
+ [2023-03-21 12:56:06,638] My_Account_04 - Step 10: Navigate My Product Review link
+ [2023-03-21 12:56:07,321] My_Account_04 - Step 11: Verify Review Title
+ [2023-03-21 12:56:07,400] My_Account_04 - Step 12: Verify Review Text
+ [2023-03-21 12:56:07,455] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-21 12:56:07,524] OS name = windows 11
+ [2023-03-21 12:56:07,525] Driver instance name = chromedriver: chrome on windows (bac73b8115dca84439c2091036ae0f70)
+ [2023-03-21 13:03:34,643] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 13:03:41,640] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 13:03:43,026] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 13:03:43,170] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 13:03:43,331] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 13:03:43,507] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 13:03:43,682] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 13:03:43,846] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 13:03:44,790] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 13:03:45,944] Pre-Condition - Step 10: Enter to  Email textbox 
+ [2023-03-21 13:03:46,121] Pre-Condition - Step 11: Enter to  Password textbox 
+ [2023-03-21 13:03:46,284] Pre-Condition - Step 12: Click to login button 
+ [2023-03-21 13:03:47,347] My_Account_01- Step 01: Click to My Account link
+ [2023-03-21 13:03:47,891] My_Account_01- Step 01: Check to Female radio
+ [2023-03-21 13:03:48,259] My_Account_01- Step 02: Enter to Firstname textbox
+ [2023-03-21 13:03:48,427] My_Account_01- Step 03: Check to Lastname textbox
+ [2023-03-21 13:03:48,620] My_Account_01- Step 04: Select day from dropdown
+ [2023-03-21 13:03:49,024] My_Account_01- Step 05: Select month from dropdown
+ [2023-03-21 13:03:49,381] My_Account_01- Step 06: Select year from dropdown
+ [2023-03-21 13:03:49,696] My_Account_01- Step 07: Enter to Company name textbox
+ [2023-03-21 13:03:49,847] My_Account_01- Step 08: Click to save button
+ [2023-03-21 13:03:50,709] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-21 13:03:50,801] My_Account_01- Step 10: Verify Firstname textbox
+ [2023-03-21 13:03:50,927] My_Account_01- Step 11: Verify Lastname textbox
+ [2023-03-21 13:03:51,055] My_Account_01- Step 12: Verify Company name textbox
+ [2023-03-21 13:03:51,162] My_Account_01- Step 13: Verify DateOfBirth
+ [2023-03-21 13:03:51,230] My_Account_01- Step 14: Verify DateOfMonth
+ [2023-03-21 13:03:51,276] My_Account_01- Step 15: Verify DateOfYear
+ [2023-03-21 13:03:51,330] My_Account_02- Step 01: Click to Address menu
+ [2023-03-21 13:03:51,799] My_Account_02- Step 02: Click to Add new button
+ [2023-03-21 13:03:52,325] My_Account_02- Step 03: Enter to Firstname textbox
+ [2023-03-21 13:03:52,461] My_Account_02- Step 04: Enter to Lastname textbox
+ [2023-03-21 13:03:52,620] My_Account_02- Step 05: Enter to Email textbox
+ [2023-03-21 13:03:52,803] My_Account_02- Step 06: Enter to Company textbox
+ [2023-03-21 13:03:52,971] My_Account_02- Step 07: Select item from Country dropdown
+ [2023-03-21 13:03:53,354] My_Account_02- Step 08: Select item from State / province dropdown
+ [2023-03-21 13:03:53,484] My_Account_02- Step 09: Enter to City textbox
+ [2023-03-21 13:03:53,569] My_Account_02- Step 10: Enter to Address 1 textbox
+ [2023-03-21 13:03:53,686] My_Account_02- Step 11: Enter to Address 2 textbox
+ [2023-03-21 13:03:53,840] My_Account_02- Step 12: Enter to Zip / postal code textbox
+ [2023-03-21 13:03:54,096] My_Account_02- Step 13: Enter to Phone number textbox
+ [2023-03-21 13:03:54,248] My_Account_02- Step 15: Enter to fax number textbox
+ [2023-03-21 13:03:54,362] My_Account_02- Step 16: Click to Save button
+ [2023-03-21 13:03:55,465] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-21 13:03:55,655] My_Account_03 - Step 01: Navigate to Change Password link
+ [2023-03-21 13:03:56,197] My_Account_03 - Step 02: Enter to Old Password textbox
+ [2023-03-21 13:03:56,381] My_Account_03 - Step 03: Enter to New Password textbox
+ [2023-03-21 13:03:56,522] My_Account_03 - Step 04: Enter to Confirm Password textbox
+ [2023-03-21 13:03:56,673] My_Account_03 - Step 05: Click to Change Password button
+ [2023-03-21 13:03:57,164] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-21 13:03:57,312] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-21 13:03:58,616] My_Account_03 - Step 08: Click to Logout link
+ [2023-03-21 13:03:59,526] My_Account_03 - Step 09: Click to Login link
+ [2023-03-21 13:04:00,546] My_Account_03 - Step 10: Enter to Email textbox
+ [2023-03-21 13:04:00,698] My_Account_03 - Step 11: Enter to Password textbox
+ [2023-03-21 13:04:00,854] My_Account_03 - Step 12: Click To Login Button
+ [2023-03-21 13:04:01,847] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-21 13:04:01,940] My_Account_03 - Step 14: Enter to Password textbox
+ [2023-03-21 13:04:02,063] My_Account_03 - Step 15: Click To Login Button
+ [2023-03-21 13:04:02,977] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-21 13:04:03,102] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-21 13:04:03,320] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-21 13:04:04,940] My_Account_04 - Step 3: Click to Product
+ [2023-03-21 13:04:06,342] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-21 13:04:06,841] My_Account_04 - Step 5: Enter to Review title textbox
+ [2023-03-21 13:04:07,028] My_Account_04 - Step 6: Enter to Review text textbox
+ [2023-03-21 13:04:07,188] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-21 13:04:07,562] My_Account_04 - Step 8: Click to Submit button
+ [2023-03-21 13:04:08,088] My_Account_04 - Step 9: Click to My Account link
+ [2023-03-21 13:04:08,625] My_Account_04 - Step 10: Navigate My Product Review link
+ [2023-03-21 13:04:09,183] My_Account_04 - Step 11: Verify Review Title
+ [2023-03-21 13:04:09,299] My_Account_04 - Step 12: Verify Review Text
+ [2023-03-21 13:04:09,394] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-21 13:04:09,485] OS name = windows 11
+ [2023-03-21 13:04:09,485] Driver instance name = firefoxdriver: firefox on windows (ec9d1043-f9fd-435f-82d0-54f89058a0f8)
+ [2023-03-21 13:14:26,904] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 13:14:31,639] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 13:14:32,834] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 13:14:32,970] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 13:14:33,146] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 13:14:33,328] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 13:14:33,480] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 13:14:33,623] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 13:14:34,429] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 13:14:34,929] Pre-Condition - Step 10: Enter to  Email textbox 
+ [2023-03-21 13:14:35,070] Pre-Condition - Step 11: Enter to  Password textbox 
+ [2023-03-21 13:14:35,211] Pre-Condition - Step 12: Click to login button 
+ [2023-03-21 13:14:36,091] My_Account_01- Step 01: Click to My Account link
+ [2023-03-21 13:14:36,584] My_Account_01- Step 01: Check to Female radio
+ [2023-03-21 13:14:36,916] My_Account_01- Step 02: Enter to Firstname textbox
+ [2023-03-21 13:14:37,096] My_Account_01- Step 03: Check to Lastname textbox
+ [2023-03-21 13:14:37,258] My_Account_01- Step 04: Select day from dropdown
+ [2023-03-21 13:14:37,631] My_Account_01- Step 05: Select month from dropdown
+ [2023-03-21 13:14:37,976] My_Account_01- Step 06: Select year from dropdown
+ [2023-03-21 13:14:38,332] My_Account_01- Step 07: Enter to Company name textbox
+ [2023-03-21 13:14:38,475] My_Account_01- Step 08: Click to save button
+ [2023-03-21 13:14:39,221] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-21 13:14:39,321] My_Account_01- Step 10: Verify Firstname textbox
+ [2023-03-21 13:14:39,415] My_Account_01- Step 11: Verify Lastname textbox
+ [2023-03-21 13:14:39,513] My_Account_01- Step 12: Verify Company name textbox
+ [2023-03-21 13:14:39,636] My_Account_01- Step 13: Verify DateOfBirth
+ [2023-03-21 13:14:39,736] My_Account_01- Step 14: Verify DateOfMonth
+ [2023-03-21 13:14:39,831] My_Account_01- Step 15: Verify DateOfYear
+ [2023-03-21 13:14:39,925] My_Account_02- Step 01: Click to Address menu
+ [2023-03-21 13:14:40,411] My_Account_02- Step 02: Click to Add new button
+ [2023-03-21 13:14:40,914] My_Account_02- Step 03: Enter to Firstname textbox
+ [2023-03-21 13:14:41,092] My_Account_02- Step 04: Enter to Lastname textbox
+ [2023-03-21 13:14:41,257] My_Account_02- Step 05: Enter to Email textbox
+ [2023-03-21 13:14:41,430] My_Account_02- Step 06: Enter to Company textbox
+ [2023-03-21 13:14:41,578] My_Account_02- Step 07: Select item from Country dropdown
+ [2023-03-21 13:14:41,930] My_Account_02- Step 08: Select item from State / province dropdown
+ [2023-03-21 13:14:42,047] My_Account_02- Step 09: Enter to City textbox
+ [2023-03-21 13:14:42,158] My_Account_02- Step 10: Enter to Address 1 textbox
+ [2023-03-21 13:14:42,303] My_Account_02- Step 11: Enter to Address 2 textbox
+ [2023-03-21 13:14:42,456] My_Account_02- Step 12: Enter to Zip / postal code textbox
+ [2023-03-21 13:14:42,621] My_Account_02- Step 13: Enter to Phone number textbox
+ [2023-03-21 13:14:42,772] My_Account_02- Step 15: Enter to fax number textbox
+ [2023-03-21 13:14:42,911] My_Account_02- Step 16: Click to Save button
+ [2023-03-21 13:14:44,433] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-21 13:14:44,554] My_Account_03 - Step 01: Navigate to Change Password link
+ [2023-03-21 13:14:45,027] My_Account_03 - Step 02: Enter to Old Password textbox
+ [2023-03-21 13:14:45,157] My_Account_03 - Step 03: Enter to New Password textbox
+ [2023-03-21 13:14:45,276] My_Account_03 - Step 04: Enter to Confirm Password textbox
+ [2023-03-21 13:14:45,428] My_Account_03 - Step 05: Click to Change Password button
+ [2023-03-21 13:14:45,972] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-21 13:14:46,102] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-21 13:14:47,423] My_Account_03 - Step 08: Click to Logout link
+ [2023-03-21 13:14:48,206] My_Account_03 - Step 09: Click to Login link
+ [2023-03-21 13:14:48,728] My_Account_03 - Step 10: Enter to Email textbox
+ [2023-03-21 13:14:48,879] My_Account_03 - Step 11: Enter to Password textbox
+ [2023-03-21 13:14:49,023] My_Account_03 - Step 12: Click To Login Button
+ [2023-03-21 13:14:49,544] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-21 13:14:49,655] My_Account_03 - Step 14: Enter to Password textbox
+ [2023-03-21 13:14:49,780] My_Account_03 - Step 15: Click To Login Button
+ [2023-03-21 13:14:50,560] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-21 13:14:50,694] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-21 13:14:50,906] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-21 13:14:52,360] My_Account_04 - Step 3: Click to Product
+ [2023-03-21 13:14:54,252] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-21 13:14:54,698] My_Account_04 - Step 5: Enter to Review title textbox
+ [2023-03-21 13:14:54,799] My_Account_04 - Step 6: Enter to Review text textbox
+ [2023-03-21 13:14:54,953] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-21 13:14:55,326] My_Account_04 - Step 8: Click to Submit button
+ [2023-03-21 13:14:55,763] My_Account_04 - Step 9: Click to My Account link
+ [2023-03-21 13:14:56,211] My_Account_04 - Step 10: Navigate My Product Review link
+ [2023-03-21 13:14:56,687] My_Account_04 - Step 11: Verify Review Title
+ [2023-03-21 13:14:56,772] My_Account_04 - Step 12: Verify Review Text
+ [2023-03-21 13:14:56,853] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-21 13:14:56,937] OS name = windows 11
+ [2023-03-21 13:14:56,938] Driver instance name = firefoxdriver: firefox on windows (fadcd549-49c8-49ee-b861-777e4d65375a)
+ [2023-03-21 13:16:45,269] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 13:16:50,829] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 13:16:52,370] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 13:16:52,509] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 13:16:52,648] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 13:16:52,800] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 13:16:52,958] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 13:16:53,131] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 13:16:54,949] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 13:17:23,213] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 13:17:28,905] Pre-Condition - Step 02: Click to Register link
+ [2023-03-21 13:17:30,294] Pre-Condition - Step 03: Enter to Firstname textbox
+ [2023-03-21 13:17:30,442] Pre-Condition - Step 04: Enter to Lastname textbox
+ [2023-03-21 13:17:30,622] Pre-Condition - Step 05: Enter to Email textbox
+ [2023-03-21 13:17:30,752] Pre-Condition - Step 06: Enter to Password textbox
+ [2023-03-21 13:17:30,884] Pre-Condition - Step 07: Enter to Confirm Password textbox
+ [2023-03-21 13:17:31,042] Pre-Condition - Step 08: Click to Register link
+ [2023-03-21 13:17:31,957] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-21 13:17:32,484] Pre-Condition - Step 10: Enter to  Email textbox 
+ [2023-03-21 13:17:32,688] Pre-Condition - Step 11: Enter to  Password textbox 
+ [2023-03-21 13:17:32,867] Pre-Condition - Step 12: Click to login button 
+ [2023-03-21 13:17:33,817] My_Account_01- Step 01: Click to My Account link
+ [2023-03-21 13:17:34,394] My_Account_01- Step 01: Check to Female radio
+ [2023-03-21 13:17:34,788] My_Account_01- Step 02: Enter to Firstname textbox
+ [2023-03-21 13:17:34,951] My_Account_01- Step 03: Check to Lastname textbox
+ [2023-03-21 13:17:35,099] My_Account_01- Step 04: Select day from dropdown
+ [2023-03-21 13:17:35,480] My_Account_01- Step 05: Select month from dropdown
+ [2023-03-21 13:17:35,816] My_Account_01- Step 06: Select year from dropdown
+ [2023-03-21 13:17:36,150] My_Account_01- Step 07: Enter to Company name textbox
+ [2023-03-21 13:17:36,291] My_Account_01- Step 08: Click to save button
+ [2023-03-21 13:17:37,160] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-21 13:17:37,292] My_Account_01- Step 10: Verify Firstname textbox
+ [2023-03-21 13:17:37,404] My_Account_01- Step 11: Verify Lastname textbox
+ [2023-03-21 13:17:37,514] My_Account_01- Step 12: Verify Company name textbox
+ [2023-03-21 13:17:37,643] My_Account_01- Step 13: Verify DateOfBirth
+ [2023-03-21 13:17:37,742] My_Account_01- Step 14: Verify DateOfMonth
+ [2023-03-21 13:17:37,847] My_Account_01- Step 15: Verify DateOfYear
+ [2023-03-21 13:17:37,937] My_Account_02- Step 01: Click to Address menu
+ [2023-03-21 13:17:38,493] My_Account_02- Step 02: Click to Add new button
+ [2023-03-21 13:17:39,026] My_Account_02- Step 03: Enter to Firstname textbox
+ [2023-03-21 13:17:39,175] My_Account_02- Step 04: Enter to Lastname textbox
+ [2023-03-21 13:17:39,343] My_Account_02- Step 05: Enter to Email textbox
+ [2023-03-21 13:17:39,526] My_Account_02- Step 06: Enter to Company textbox
+ [2023-03-21 13:17:39,667] My_Account_02- Step 07: Select item from Country dropdown
+ [2023-03-21 13:17:40,056] My_Account_02- Step 08: Select item from State / province dropdown
+ [2023-03-21 13:17:40,177] My_Account_02- Step 09: Enter to City textbox
+ [2023-03-21 13:17:40,290] My_Account_02- Step 10: Enter to Address 1 textbox
+ [2023-03-21 13:17:40,424] My_Account_02- Step 11: Enter to Address 2 textbox
+ [2023-03-21 13:17:40,549] My_Account_02- Step 12: Enter to Zip / postal code textbox
+ [2023-03-21 13:17:40,705] My_Account_02- Step 13: Enter to Phone number textbox
+ [2023-03-21 13:17:40,917] My_Account_02- Step 15: Enter to fax number textbox
+ [2023-03-21 13:17:41,070] My_Account_02- Step 16: Click to Save button
+ [2023-03-21 13:17:41,923] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-21 13:17:42,060] My_Account_03 - Step 01: Navigate to Change Password link
+ [2023-03-21 13:17:42,626] My_Account_03 - Step 02: Enter to Old Password textbox
+ [2023-03-21 13:17:42,750] My_Account_03 - Step 03: Enter to New Password textbox
+ [2023-03-21 13:17:42,882] My_Account_03 - Step 04: Enter to Confirm Password textbox
+ [2023-03-21 13:17:43,001] My_Account_03 - Step 05: Click to Change Password button
+ [2023-03-21 13:17:43,526] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-21 13:17:43,638] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-21 13:17:44,962] My_Account_03 - Step 08: Click to Logout link
+ [2023-03-21 13:17:45,782] My_Account_03 - Step 09: Click to Login link
+ [2023-03-21 13:17:46,343] My_Account_03 - Step 10: Enter to Email textbox
+ [2023-03-21 13:17:46,514] My_Account_03 - Step 11: Enter to Password textbox
+ [2023-03-21 13:17:46,693] My_Account_03 - Step 12: Click To Login Button
+ [2023-03-21 13:17:47,254] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-21 13:17:47,377] My_Account_03 - Step 14: Enter to Password textbox
+ [2023-03-21 13:17:47,510] My_Account_03 - Step 15: Click To Login Button
+ [2023-03-21 13:17:48,385] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-21 13:17:48,529] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-21 13:17:48,784] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-21 13:17:49,488] My_Account_04 - Step 3: Click to Product
+ [2023-03-21 13:17:50,756] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-21 13:17:51,255] My_Account_04 - Step 5: Enter to Review title textbox
+ [2023-03-21 13:17:51,404] My_Account_04 - Step 6: Enter to Review text textbox
+ [2023-03-21 13:17:51,561] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-21 13:17:51,942] My_Account_04 - Step 8: Click to Submit button
+ [2023-03-21 13:17:52,484] My_Account_04 - Step 9: Click to My Account link
+ [2023-03-21 13:17:53,029] My_Account_04 - Step 10: Navigate My Product Review link
+ [2023-03-21 13:17:53,627] My_Account_04 - Step 11: Verify Review Title
+ [2023-03-21 13:17:53,737] My_Account_04 - Step 12: Verify Review Text
+ [2023-03-21 13:17:53,814] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-21 13:17:53,921] OS name = windows 11
+ [2023-03-21 13:17:53,922] Driver instance name = firefoxdriver: firefox on windows (61f94142-d9cf-4107-af95-3292fcbca46d)
+ [2023-03-21 23:55:47,904] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 23:55:56,405] Register_01 - Step 01: Click to 'Register' link
+ [2023-03-21 23:55:57,513] Register_01 - Step 02: Click to 'Register' button
+ [2023-03-21 23:55:57,901] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-03-21 23:55:58,018] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-03-21 23:55:58,137] Register_01 - Step 04: Verify Email error message displayed
+ [2023-03-21 23:55:58,266] Register_01 - Step 05: Verify Password error message displayed
+ [2023-03-21 23:55:58,402] Register_01 - Step 06: Verify ConfirmPassword error message displayed
+ [2023-03-21 23:55:58,533] Register_02 - Step 01: Click to Register link
+ [2023-03-21 23:55:59,536] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:55:59,684] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:55:59,830] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-03-21 23:55:59,973] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:56:00,083] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:56:00,187] Register_02 - Step 07: Click to 'Register' button
+ [2023-03-21 23:56:00,513] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-03-21 23:56:00,602] Register_03 - Step 01: Click to 'Register; link
+ [2023-03-21 23:56:01,209] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:56:01,370] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:56:01,500] Register_03 - Step 04: Enter to Email textbox with value 'afc56383@gmail.com'
+ [2023-03-21 23:56:01,647] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:56:01,808] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:56:01,963] Register_03 - Step 07: Click to 'Register' button
+ [2023-03-21 23:56:02,779] Register_03 - Step 09: Verify register success message is displayed
+ [2023-03-21 23:56:02,909] Register_04 - Step 01: Click to 'Register' link
+ [2023-03-21 23:56:03,422] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:56:03,587] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:56:03,699] Register_04 - Step 04: Enter to Email textbox with value 'afc56383@gmail.com'
+ [2023-03-21 23:56:03,832] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:56:04,041] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:56:04,185] Register_04 - Step 07: Click to 'Register' button
+ [2023-03-21 23:56:04,743] Register_04 - Step 09: Verify exsting email message is displayed
+ [2023-03-21 23:56:04,873] Register_05 - Step 01: Click to 'Register' link
+ [2023-03-21 23:56:05,319] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:56:05,436] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:56:05,565] Register_05 - Step 04: Enter to Email textbox with value 'afc56383@gmail.com'
+ [2023-03-21 23:56:05,716] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-03-21 23:56:05,839] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:56:05,968] Register_05 - Step 07: Click to 'Register' button
+ [2023-03-21 23:56:06,314] Register_05 - Step 07: Verify Password error message eror displayed
+ [2023-03-21 23:56:06,426] Register_06 - Step 01: Click to 'Register' link
+ [2023-03-21 23:56:06,938] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:56:07,070] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:56:07,182] Register_06 - Step 04: Enter to Email textbox with value 'afc56383@gmail.com'
+ [2023-03-21 23:56:07,295] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:56:07,430] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-03-21 23:56:07,569] Register_06 - Step 07: Click to 'Register' button
+ [2023-03-21 23:56:08,374] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-03-21 23:56:08,449] OS name = windows 11
+ [2023-03-21 23:56:08,449] Driver instance name = firefoxdriver: firefox on windows (cc262ecc-c0d1-4207-8d60-bd2779cc8694)
+ [2023-03-21 23:59:15,865] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-21 23:59:21,588] Register_01 - Step 01: Click to 'Register' link
+ [2023-03-21 23:59:22,816] Register_01 - Step 02: Click to 'Register' button
+ [2023-03-21 23:59:23,199] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-03-21 23:59:23,274] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-03-21 23:59:23,333] Register_01 - Step 04: Verify Email error message displayed
+ [2023-03-21 23:59:23,429] Register_01 - Step 05: Verify Password error message displayed
+ [2023-03-21 23:59:23,567] Register_01 - Step 06: Verify ConfirmPassword error message displayed
+ [2023-03-21 23:59:23,700] Register_02 - Step 01: Click to Register link
+ [2023-03-21 23:59:24,310] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:59:24,444] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:59:24,577] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-03-21 23:59:24,731] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:59:24,853] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:59:24,983] Register_02 - Step 07: Click to 'Register' button
+ [2023-03-21 23:59:25,298] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-03-21 23:59:25,414] Register_03 - Step 01: Click to 'Register; link
+ [2023-03-21 23:59:25,945] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:59:26,087] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:59:26,262] Register_03 - Step 04: Enter to Email textbox with value 'afc61569@gmail.com'
+ [2023-03-21 23:59:26,456] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:59:26,612] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:59:26,710] Register_03 - Step 07: Click to 'Register' button
+ [2023-03-21 23:59:27,480] Register_03 - Step 09: Verify register success message is displayed
+ [2023-03-21 23:59:27,603] Register_04 - Step 01: Click to 'Register' link
+ [2023-03-21 23:59:33,095] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:59:33,247] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:59:33,403] Register_04 - Step 04: Enter to Email textbox with value 'afc61569@gmail.com'
+ [2023-03-21 23:59:33,545] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:59:33,685] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:59:33,802] Register_04 - Step 07: Click to 'Register' button
+ [2023-03-21 23:59:34,299] Register_04 - Step 09: Verify exsting email message is displayed
+ [2023-03-21 23:59:34,418] Register_05 - Step 01: Click to 'Register' link
+ [2023-03-21 23:59:34,966] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:59:35,088] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:59:35,210] Register_05 - Step 04: Enter to Email textbox with value 'afc61569@gmail.com'
+ [2023-03-21 23:59:35,361] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-03-21 23:59:35,539] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-21 23:59:35,673] Register_05 - Step 07: Click to 'Register' button
+ [2023-03-21 23:59:36,002] Register_05 - Step 07: Verify Password error message eror displayed
+ [2023-03-21 23:59:36,069] Register_06 - Step 01: Click to 'Register' link
+ [2023-03-21 23:59:37,016] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-21 23:59:37,137] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-21 23:59:37,238] Register_06 - Step 04: Enter to Email textbox with value 'afc61569@gmail.com'
+ [2023-03-21 23:59:37,349] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-21 23:59:37,493] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-03-21 23:59:37,638] Register_06 - Step 07: Click to 'Register' button
+ [2023-03-21 23:59:38,434] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-03-21 23:59:38,512] OS name = windows 11
+ [2023-03-21 23:59:38,513] Driver instance name = firefoxdriver: firefox on windows (d32461cf-c96e-4c66-b48b-dbdb1728eab1)
+ [2023-03-22 00:24:55,953] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-22 00:25:02,746] Register_01 - Step 01: Click to 'Register' link
+ [2023-03-22 00:25:03,893] Register_01 - Step 02: Click to 'Register' button
+ [2023-03-22 00:25:04,267] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-03-22 00:25:04,401] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-03-22 00:25:04,525] Register_01 - Step 04: Verify Email error message displayed
+ [2023-03-22 00:25:04,632] Register_01 - Step 05: Verify Password error message displayed
+ [2023-03-22 00:25:04,704] Register_01 - Step 06: Verify ConfirmPassword error message displayed
+ [2023-03-22 00:25:04,834] Register_02 - Step 01: Click to Register link
+ [2023-03-22 00:25:05,346] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:05,505] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:05,636] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-03-22 00:25:05,827] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:05,929] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:06,067] Register_02 - Step 07: Click to 'Register' button
+ [2023-03-22 00:25:06,415] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-03-22 00:25:06,524] Register_03 - Step 01: Click to 'Register; link
+ [2023-03-22 00:25:07,047] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:07,189] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:07,309] Register_03 - Step 04: Enter to Email textbox with value 'afc2733@gmail.com'
+ [2023-03-22 00:25:07,438] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:07,572] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:07,729] Register_03 - Step 07: Click to 'Register' button
+ [2023-03-22 00:25:08,508] Register_03 - Step 09: Verify register success message is displayed
+ [2023-03-22 00:25:08,619] Register_04 - Step 01: Click to 'Register' link
+ [2023-03-22 00:25:09,095] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:09,267] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:09,396] Register_04 - Step 04: Enter to Email textbox with value 'afc2733@gmail.com'
+ [2023-03-22 00:25:09,517] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:09,660] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:09,779] Register_04 - Step 07: Click to 'Register' button
+ [2023-03-22 00:25:10,265] Register_04 - Step 09: Verify exsting email message is displayed
+ [2023-03-22 00:25:10,415] Register_05 - Step 01: Click to 'Register' link
+ [2023-03-22 00:25:10,968] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:11,108] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:11,239] Register_05 - Step 04: Enter to Email textbox with value 'afc2733@gmail.com'
+ [2023-03-22 00:25:11,401] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-03-22 00:25:11,553] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:11,707] Register_05 - Step 07: Click to 'Register' button
+ [2023-03-22 00:25:12,057] Register_05 - Step 07: Verify Password error message eror displayed
+ [2023-03-22 00:25:12,130] Register_06 - Step 01: Click to 'Register' link
+ [2023-03-22 00:25:12,583] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:12,773] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:12,894] Register_06 - Step 04: Enter to Email textbox with value 'afc2733@gmail.com'
+ [2023-03-22 00:25:13,037] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:13,159] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-03-22 00:25:13,267] Register_06 - Step 07: Click to 'Register' button
+ [2023-03-22 00:25:14,049] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-03-22 00:25:14,147] OS name = windows 11
+ [2023-03-22 00:25:14,148] Driver instance name = firefoxdriver: firefox on windows (871ed78a-3e86-4228-aefc-359d43f91e7e)
+ [2023-03-22 00:25:16,300] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-22 00:25:21,466] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-22 00:25:22,563] Pre-Condition - Step 03: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:22,693] Pre-Condition - Step 04: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:22,831] Pre-Condition - Step 05: Enter to Email textbox with value 'afc16300@gmail.com'
+ [2023-03-22 00:25:22,984] Pre-Condition - Step 06: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:23,100] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:23,223] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-22 00:25:24,021] Pre-Condition- Step 09: Navigate to Login page
+ [2023-03-22 00:25:24,615] Login_01 - Step 01: Click to 'Login' button
+ [2023-03-22 00:25:24,947] Login_01 - Step 02: Verify error message is displayed
+ [2023-03-22 00:25:25,036] Login_02 - Step 01: Enter to  Email textbox with value 'afc@@gmail.com'
+ [2023-03-22 00:25:25,187] Login_02 - Step 02: Click to 'Login' button
+ [2023-03-22 00:25:25,514] Login_02 - Step 03: Verify error message is displayed
+ [2023-03-22 00:25:25,632] Login_03 - Step 01: Enter to  Email textbox with value 'afc9999@gmail.com'
+ [2023-03-22 00:25:25,812] Login_03 - Step 02: Enter to  Password textbox with value '123456'
+ [2023-03-22 00:25:25,924] Login_03 - Step 03: Click to 'Login' button 
+ [2023-03-22 00:25:26,423] Login_03 - Step 04: Verify error message is displayed
+ [2023-03-22 00:25:26,532] Login_04 - Step 01: Enter to  Email textbox  with value 'afc16300@gmail.com'
+ [2023-03-22 00:25:26,661] Login_04 - Step 02: Click to 'Login' button 
+ [2023-03-22 00:25:27,104] Login_03 - Step 03: Verify error message is displayed
+ [2023-03-22 00:25:27,218] Login_05 - Step 01: Enter to  Email textbox with value 'afc16300@gmail.com'
+ [2023-03-22 00:25:27,364] Login_05 - Step 02: Enter to  Password textbox with wrong password 
+ [2023-03-22 00:25:27,477] Login_05 - Step 03: Click to 'Login' button 
+ [2023-03-22 00:25:27,907] Login_05 - Step 04: Verify error message is displayed
+ [2023-03-22 00:25:28,029] Login_05 - Step 01: Enter to  Email textbox with value 'afc16300@gmail.com'
+ [2023-03-22 00:25:28,162] Login_05 - Step 02: Enter to  Password textbox with value '123456'
+ [2023-03-22 00:25:28,278] Login_05 - Step 03: Click to login button 
+ [2023-03-22 00:25:29,061] Login_05 - Step 04: Verify My Account link is displayed
+ [2023-03-22 00:25:29,199] OS name = windows 11
+ [2023-03-22 00:25:29,199] Driver instance name = firefoxdriver: firefox on windows (02e96e6a-5542-46f5-9ef9-29ecf7f450f2)
+ [2023-03-22 00:25:31,342] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-22 00:25:36,532] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-22 00:25:37,798] Pre-Condition - Step 03: Enter to Firstname textbox with value 'A'
+ [2023-03-22 00:25:37,924] Pre-Condition - Step 04: Enter to Lastname textbox with value 'B'
+ [2023-03-22 00:25:38,044] Pre-Condition - Step 05: Enter to Email textbox with value 'afc31342@gmail.com'
+ [2023-03-22 00:25:38,189] Pre-Condition - Step 06: Enter to Password textbox with value '123456'
+ [2023-03-22 00:25:38,319] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '123456'
+ [2023-03-22 00:25:38,428] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-22 00:25:39,255] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-22 00:25:39,802] Pre-Condition - Step 10: Enter to  Email textbox with value 'afc31342@gmail.com' 
+ [2023-03-22 00:25:39,960] Pre-Condition - Step 11: Enter to  Password textbox with value '123456'
+ [2023-03-22 00:25:40,078] Pre-Condition - Step 12: Click to 'Login' button 
+ [2023-03-22 00:25:40,853] My_Account_01- Step 01: Click to 'My Account' link
+ [2023-03-22 00:25:41,419] My_Account_01- Step 01: Check to 'Female' radio
+ [2023-03-22 00:25:41,718] My_Account_01- Step 02: Enter to Firstname textbox with value 'Automation'
+ [2023-03-22 00:25:41,864] My_Account_01- Step 03: Check to Lastname textbox with value 'FC'
+ [2023-03-22 00:25:42,012] My_Account_01- Step 04: Select day from 'DateOfBirthDay' dropdown with value '1'
+ [2023-03-22 00:25:42,354] My_Account_01- Step 05: Select month from 'DateOfBirthMonth' dropdown with value 'January'
+ [2023-03-22 00:25:42,683] My_Account_01- Step 06: Select year from 'DateOfBirthYear' dropdown with value '1999'
+ [2023-03-22 00:25:42,993] My_Account_01- Step 07: Enter to Company name textbox with value 'Automation FC'
+ [2023-03-22 00:25:43,117] My_Account_01- Step 08: Click to 'Save' button
+ [2023-03-22 00:25:43,847] My_Account_01- Step 09: Verify Female radio is checked
+ [2023-03-22 00:25:43,951] My_Account_01- Step 10: Verify Firstname textbox is equals 'Automation'
+ [2023-03-22 00:25:44,043] My_Account_01- Step 11: Verify Lastname textbox is equals 'FC'
+ [2023-03-22 00:25:44,124] My_Account_01- Step 12: Verify Company name textbox is equals 'Automation FC'
+ [2023-03-22 00:25:44,216] My_Account_01- Step 13: Verify '1' is selected
+ [2023-03-22 00:25:44,283] My_Account_01- Step 14: Verify 'January' is selected
+ [2023-03-22 00:25:44,364] My_Account_01- Step 15: Verify '1999' is selected
+ [2023-03-22 00:25:44,476] My_Account_02- Step 01: Click to 'Address' menu
+ [2023-03-22 00:25:44,937] My_Account_02- Step 02: Click to 'Add new' button
+ [2023-03-22 00:25:45,477] My_Account_02- Step 03: Enter to Firstname textbox with value 'Automation'
+ [2023-03-22 00:25:45,614] My_Account_02- Step 04: Enter to Lastname textbox with value 'FC'
+ [2023-03-22 00:25:45,707] My_Account_02- Step 05: Enter to Email textbox with value 'automationfc.vn@gmail.com'
+ [2023-03-22 00:25:45,858] My_Account_02- Step 06: Enter to Company textbox with value 'Automation FC'
+ [2023-03-22 00:25:45,954] My_Account_02- Step 07: Select 'Viet Nam' from Country dropdown
+ [2023-03-22 00:25:46,302] My_Account_02- Step 08: Select 'Viet Nam' from State / province dropdown
+ [2023-03-22 00:25:46,420] My_Account_02- Step 09: Enter to City textbox with value 'Da Nang'
+ [2023-03-22 00:25:46,560] My_Account_02- Step 10: Enter to Address 1 textbox with value '123/04 Le Lai'
+ [2023-03-22 00:25:46,697] My_Account_02- Step 11: Enter to Address 2 textbox with value '234/05 Hai Phong'
+ [2023-03-22 00:25:46,816] My_Account_02- Step 12: Enter to Zip / postal code textbox with value '550000'
+ [2023-03-22 00:25:46,900] My_Account_02- Step 13: Enter to Phone number textbox with value '0123456789'
+ [2023-03-22 00:25:47,042] My_Account_02- Step 15: Enter to fax number textbox with value '0987654321'
+ [2023-03-22 00:25:47,134] My_Account_02- Step 16: Click to 'Save' button
+ [2023-03-22 00:25:48,534] My_Account_02- Step 17: Verify address added successfully
+ [2023-03-22 00:25:48,627] My_Account_03 - Step 01: Navigate to 'Change Password' link
+ [2023-03-22 00:25:49,052] My_Account_03 - Step 02: Enter to Old Password textbox with value '123456'
+ [2023-03-22 00:25:49,175] My_Account_03 - Step 03: Enter to New Password textbox with value '654321'
+ [2023-03-22 00:25:49,313] My_Account_03 - Step 04: Enter to Confirm Password textbox with value '654321'
+ [2023-03-22 00:25:49,447] My_Account_03 - Step 05: Click to 'Change Password' button
+ [2023-03-22 00:25:49,928] My_Account_03 - Step 06: Verify changed password successfully
+ [2023-03-22 00:25:50,081] My_Account_03 - Step 07: Close changed password successfully message
+ [2023-03-22 00:25:51,389] My_Account_03 - Step 08: Click to 'Logout' link
+ [2023-03-22 00:25:52,109] My_Account_03 - Step 09: Click to 'Login' link
+ [2023-03-22 00:25:52,637] My_Account_03 - Step 10: Enter to Email textbox with value 'afc31342@gmail.com'
+ [2023-03-22 00:25:52,795] My_Account_03 - Step 11: Enter to Password textbox with value '000000'
+ [2023-03-22 00:25:52,941] My_Account_03 - Step 12: Click To 'Login' Button
+ [2023-03-22 00:25:53,465] My_Account_03 - Step 13: Verify login failed message is displayed
+ [2023-03-22 00:25:53,561] My_Account_03 - Step 14: Enter to Password textbox with value '654321'
+ [2023-03-22 00:25:53,684] My_Account_03 - Step 15: Click To 'Login' Button
+ [2023-03-22 00:25:54,440] My_Account_03 - Step 16: Verify login successfully
+ [2023-03-22 00:25:54,575] My_Account_04 - Step 1: Hover To Computers
+ [2023-03-22 00:25:54,864] My_Account_04 - Step 2: Click to Desktops in Computers menu
+ [2023-03-22 00:25:55,528] My_Account_04 - Step 3: Click to Product
+ [2023-03-22 00:25:57,426] My_Account_04 - Step 4: Click Add your review link
+ [2023-03-22 00:25:57,936] My_Account_04 - Step 5: Enter to Review title textbox with value 'This is my review31342'
+ [2023-03-22 00:25:58,107] My_Account_04 - Step 6: Enter to Review text textbox with value 'This product is great !!!'
+ [2023-03-22 00:25:58,324] My_Account_04 - Step 7: Click to Rating radio
+ [2023-03-22 00:25:58,677] My_Account_04 - Step 8: Click to 'Submit' button
+ [2023-03-22 00:25:59,268] My_Account_04 - Step 9: Click to 'My Account' link
+ [2023-03-22 00:25:59,769] My_Account_04 - Step 10: Navigate 'My Product Review' link
+ [2023-03-22 00:26:00,300] My_Account_04 - Step 11: Verify Review Title is equals 'This is my review31342'
+ [2023-03-22 00:26:00,391] My_Account_04 - Step 12: Verify Review Text is equals 'This product is great !!!'
+ [2023-03-22 00:26:00,449] My_Account_04 - Step 13: Verify Rating value
+ [2023-03-22 00:26:00,534] OS name = windows 11
+ [2023-03-22 00:26:00,534] Driver instance name = firefoxdriver: firefox on windows (fe1d50be-5f57-47ec-b847-cfa5cb94eca4)
