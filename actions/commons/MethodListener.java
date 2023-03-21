@@ -54,4 +54,3 @@ public class MethodListener implements IInvokedMethodListener {
 
 	private static final Log log = LogFactory.getLog(MethodListener.class);
 }
-

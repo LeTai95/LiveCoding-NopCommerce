@@ -17,7 +17,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
-
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
@@ -42,10 +41,6 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
-			// Setting to Disable Browser Driver log in Console
-			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,
-					GlobalConstants.PROJECT_PATH + "\\browserLogs\\FirefoxLog.log");
 			driver = new FirefoxDriver();
 		} else if (browserList == BrowserList.SAFARI) {
 			driver = new SafariDriver();
@@ -64,9 +59,6 @@ public class BaseTest {
 			driver = new ChromeDriver(option);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			// Setting to Disable Browser Driver log in Console
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver = new ChromeDriver();
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
@@ -93,14 +85,10 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+	protected WebDriver getBrowserDriver(String browserName, String enviromentName) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
-			// Setting to Disable Browser Driver log in Console
-			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,
-					GlobalConstants.PROJECT_PATH + "\\browserLogs\\FirefoxLog.log");
 			driver = new FirefoxDriver();
 		}else if (browserList == BrowserList.SAFARI) {
 			driver = new SafariDriver();
@@ -118,9 +106,6 @@ public class BaseTest {
 			driver = new ChromeDriver(option);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			// Setting to Disable Browser Driver log in Console
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver = new ChromeDriver();
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
@@ -144,15 +129,45 @@ public class BaseTest {
 			throw new RuntimeException("Browser name invalid");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.get(appUrl);
+		driver.manage().window().maximize();
+		driver.get(getEnvironmentUrl(enviromentName));
 		return driver;
 
 	}
 
 	public WebDriver getDriverInstance() {
+
 		return this.driver;
 	}
 
+	protected String getEnvironmentUrl(String serverName) {
+		String envUrl = null;
+		EnviromentList enviroment = EnviromentList.valueOf(serverName.toUpperCase());
+		
+		switch (enviroment) {
+		case DEV:
+			envUrl = "";
+			break;
+		case TESTING:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		case PROD:
+			envUrl = "";
+			break;
+		case RE_PROD:
+			envUrl = "";
+			break;
+		case STAGING:
+			envUrl = "";
+			break;
+		default:
+			envUrl = null;
+			break;
+		}
+		return envUrl;
+	}
+	
+	
 	public int generateFakeNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
