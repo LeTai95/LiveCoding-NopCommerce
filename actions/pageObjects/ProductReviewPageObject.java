@@ -10,32 +10,33 @@ public class ProductReviewPageObject extends BasePage {
 	WebDriver driver;
 
 	public ProductReviewPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
 	public void enterToReviewTitleTextbox(String textValue) {
-		waitForElementVisiable(driver, UserProductReviewPageUIs.REVIEWTITLE_TEXTBOX);
-		sendkeyToElement(driver, UserProductReviewPageUIs.REVIEWTITLE_TEXTBOX, textValue);
+		waitForElementVisiable(UserProductReviewPageUIs.REVIEWTITLE_TEXTBOX);
+		sendkeyToElement(UserProductReviewPageUIs.REVIEWTITLE_TEXTBOX, textValue);
 	}
 
 	public void enterToReviewtextTextarea(String textValue) {
-		waitForElementVisiable(driver, UserProductReviewPageUIs.REVIEWTEXT_TEXTAREA);
-		sendkeyToElement(driver, UserProductReviewPageUIs.REVIEWTEXT_TEXTAREA, textValue);
+		waitForElementVisiable(UserProductReviewPageUIs.REVIEWTEXT_TEXTAREA);
+		sendkeyToElement(UserProductReviewPageUIs.REVIEWTEXT_TEXTAREA, textValue);
 	}
 
 	public void clickToRadioByNumber(String radioNumber) {
-		waitForElementClickable(driver, UserProductReviewPageUIs.DYNAMIC_RADIO_BY_NUMBER, radioNumber);
-		clickToElement(driver, UserProductReviewPageUIs.DYNAMIC_RADIO_BY_NUMBER, radioNumber);
+		waitForElementClickable(UserProductReviewPageUIs.DYNAMIC_RADIO_BY_NUMBER, radioNumber);
+		clickToElement(UserProductReviewPageUIs.DYNAMIC_RADIO_BY_NUMBER, radioNumber);
 	}
 
 	public void clickToSubmitReviewButton() {
-		waitForElementClickable(driver, UserProductReviewPageUIs.SUBMIT_REVIEW_BUTTON);
-		clickToElement(driver, UserProductReviewPageUIs.SUBMIT_REVIEW_BUTTON);
+		waitForElementClickable(UserProductReviewPageUIs.SUBMIT_REVIEW_BUTTON);
+		clickToElement(UserProductReviewPageUIs.SUBMIT_REVIEW_BUTTON);
 	}
 
 	public MyAccountPageObject clickToMyAccountLink() {
-		waitForElementVisiable(driver, UserProductReviewPageUIs.MY_ACCOUNT_LINK);
-		clickToElement(driver, UserProductReviewPageUIs.MY_ACCOUNT_LINK);
+		waitForElementVisiable(UserProductReviewPageUIs.MY_ACCOUNT_LINK);
+		clickToElement(UserProductReviewPageUIs.MY_ACCOUNT_LINK);
 		return PageGeneraterManager.getMyAccountPage(driver);
 	}
 

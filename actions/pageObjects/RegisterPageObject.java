@@ -8,63 +8,64 @@ import pageUI.nopcommerce.user.UserRegisterPageUIs;
 public class RegisterPageObject extends BasePage {
 	WebDriver driver;
 	public RegisterPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 	public void clickToRegisterButton() {
-		waitForElementClickable(driver, UserRegisterPageUIs.REGISTER_BUTTON);
-		clickToElement(driver, UserRegisterPageUIs.REGISTER_BUTTON);
+		waitForElementClickable(UserRegisterPageUIs.REGISTER_BUTTON);
+		clickToElement(UserRegisterPageUIs.REGISTER_BUTTON);
 	}
 	public boolean isFirstnameErrorMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.FIRSTNAME_ERROR_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.FIRSTNAME_ERROR_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.FIRSTNAME_ERROR_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.FIRSTNAME_ERROR_MESSAGE);
 	}
 	public boolean isLastnameErrorMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.LASTNAME_ERROR_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.LASTNAME_ERROR_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.LASTNAME_ERROR_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.LASTNAME_ERROR_MESSAGE);
 	}
 	public boolean isPasswordErrorMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.PASSWORD_ERROR_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.PASSWORD_ERROR_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.PASSWORD_ERROR_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.PASSWORD_ERROR_MESSAGE);
 	}
 	public boolean isConfirmPasswordErrorMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.CONFIRM_PASSWORD_ERROR_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.CONFIRM_PASSWORD_ERROR_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.CONFIRM_PASSWORD_ERROR_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.CONFIRM_PASSWORD_ERROR_MESSAGE);
 	}
 	public boolean isEmailErrorMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.EMAIL_ERROR_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.EMAIL_ERROR_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.EMAIL_ERROR_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.EMAIL_ERROR_MESSAGE);
 	}
 	public void enterToFirstnameTextbox(String firstName) {
-		waitForElementVisiable(driver, UserRegisterPageUIs.FIRSTNAME_TEXTBOX);
-		sendkeyToElement(driver, UserRegisterPageUIs.FIRSTNAME_TEXTBOX, firstName);
+		waitForElementVisiable(UserRegisterPageUIs.FIRSTNAME_TEXTBOX);
+		sendkeyToElement(UserRegisterPageUIs.FIRSTNAME_TEXTBOX, firstName);
 	}
 	public void enterToLastnameTextbox(String lastName) {
-		waitForElementVisiable(driver, UserRegisterPageUIs.LATNAME_TEXTBOX);
-		sendkeyToElement(driver, UserRegisterPageUIs.LATNAME_TEXTBOX, lastName);
+		waitForElementVisiable(UserRegisterPageUIs.LATNAME_TEXTBOX);
+		sendkeyToElement(UserRegisterPageUIs.LATNAME_TEXTBOX, lastName);
 	}
 	public void enterToEmailTextbox(String invalidEmail) {
-		waitForElementVisiable(driver, UserRegisterPageUIs.EMAIL_TEXTBOX);
-		sendkeyToElement(driver, UserRegisterPageUIs.EMAIL_TEXTBOX, invalidEmail);
+		waitForElementVisiable(UserRegisterPageUIs.EMAIL_TEXTBOX);
+		sendkeyToElement(UserRegisterPageUIs.EMAIL_TEXTBOX, invalidEmail);
 	}
 	public void enterToPasswordTextbox(String password) {
-		waitForElementVisiable(driver, UserRegisterPageUIs.PASSWORD_TEXTBOX);
-		sendkeyToElement(driver, UserRegisterPageUIs.PASSWORD_TEXTBOX, password);
+		waitForElementVisiable(UserRegisterPageUIs.PASSWORD_TEXTBOX);
+		sendkeyToElement(UserRegisterPageUIs.PASSWORD_TEXTBOX, password);
 	}
 	public void enterToConfirmPasswordTextbox(String password) {
-		waitForElementVisiable(driver, UserRegisterPageUIs.CONFIRM_PASSWORD_TEXTBOX);
-		sendkeyToElement(driver, UserRegisterPageUIs.CONFIRM_PASSWORD_TEXTBOX, password);
+		waitForElementVisiable(UserRegisterPageUIs.CONFIRM_PASSWORD_TEXTBOX);
+		sendkeyToElement(UserRegisterPageUIs.CONFIRM_PASSWORD_TEXTBOX, password);
 	}
 	public boolean isWrongEmailMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.WRONG_EMAIL_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.WRONG_EMAIL_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.WRONG_EMAIL_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.WRONG_EMAIL_MESSAGE);
 	}
 	public boolean isRegisterSuccessMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.REGISTER_SUCCESS_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.REGISTER_SUCCESS_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.REGISTER_SUCCESS_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.REGISTER_SUCCESS_MESSAGE);
 	}
 	public boolean isExstingEmailMessageDisplayed() {
-		waitForElementVisiable(driver, UserRegisterPageUIs.EXSTING_EMAIL_MESSAGE);
-		return isElementDisplayed(driver, UserRegisterPageUIs.EXSTING_EMAIL_MESSAGE);
+		waitForElementVisiable(UserRegisterPageUIs.EXSTING_EMAIL_MESSAGE);
+		return isElementDisplayed(UserRegisterPageUIs.EXSTING_EMAIL_MESSAGE);
 	}
 	
 }

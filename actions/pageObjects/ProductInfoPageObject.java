@@ -10,12 +10,13 @@ public class ProductInfoPageObject extends BasePage {
 	WebDriver driver;
 
 	public ProductInfoPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
 	public ProductReviewPageObject clickToAddYourReviewLink() {
-		waitForElementVisiable(driver, UserProductInfoPageUIs.ADD_YOUR_REVIEW_LINK);
-		clickToElement(driver, UserProductInfoPageUIs.ADD_YOUR_REVIEW_LINK);
+		waitForElementVisiable(UserProductInfoPageUIs.ADD_YOUR_REVIEW_LINK);
+		clickToElement(UserProductInfoPageUIs.ADD_YOUR_REVIEW_LINK);
 		return PageGeneraterManager.getProductReviewPage(driver);
 	}
 

@@ -10,22 +10,23 @@ public class MyProductReviewsPageObject extends BasePage {
 	WebDriver driver;
 
 	public MyProductReviewsPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
 	public String getReviewTitleText() {
-		waitForElementVisiable(driver, UserMyProductReviewsUIs.REVIEW_TITLE);
-		return getElementText(driver, UserMyProductReviewsUIs.REVIEW_TITLE);
+		waitForElementVisiable(UserMyProductReviewsUIs.REVIEW_TITLE);
+		return getElementText(UserMyProductReviewsUIs.REVIEW_TITLE);
 	}
 
 	public String getReviewText() {
-		waitForElementVisiable(driver, UserMyProductReviewsUIs.REVIEW_TEXT);
-		return getElementText(driver, UserMyProductReviewsUIs.REVIEW_TEXT);
+		waitForElementVisiable(UserMyProductReviewsUIs.REVIEW_TEXT);
+		return getElementText(UserMyProductReviewsUIs.REVIEW_TEXT);
 	}
 
 	public String getRatingValue() {
-		waitForElementVisiable(driver, UserMyProductReviewsUIs.RATING_VALUE);
-		return getElementAttribute(driver, UserMyProductReviewsUIs.RATING_VALUE, "style");
+		waitForElementVisiable(UserMyProductReviewsUIs.RATING_VALUE);
+		return getElementAttribute(UserMyProductReviewsUIs.RATING_VALUE, "style");
 	}
 	
 
