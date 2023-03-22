@@ -44,4 +44,15 @@ public class UserData {
 		public static final String REVIEW_TEXT = "This product is great !!!";
 		public static final String RATING_NUMBER = "4";
 	}
+	
+	public static class Search{
+
+		public static final String FIRST_NAME = "ABC";
+		public static final String LAST_NAME = "XYZ";
+		public static final String PASSWORD = "0000000000";
+		public static final String VALID_EMAIL = "automationvn";
+		public static final String ERROR_MESSAGE = "Search term minimum length is 3 characters";
+		public static final String PRODUCT_NOT_FOUND_ERROR_MESSAGE = "No products were found that matched your criteria.";
+	}
+	
 }

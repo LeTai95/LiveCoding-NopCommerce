@@ -11,6 +11,7 @@ import pageObjects.MyProductReviewsPageObject;
 import pageObjects.ProductInfoPageObject;
 import pageObjects.ProductReviewPageObject;
 import pageObjects.RegisterPageObject;
+import pageObjects.SearchPageObject;
 
 public class PageGeneraterManager {
 	public static RegisterPageObject getRegisterPage(WebDriver driver) {
@@ -47,5 +48,9 @@ public class PageGeneraterManager {
 	
 	public static MyProductReviewsPageObject getMyProductReviewsPage(WebDriver driver) {
 		return new MyProductReviewsPageObject(driver);
+	}
+	
+	public static SearchPageObject getSearchPage(WebDriver driver) {
+		return new SearchPageObject(driver);
 	}
 }

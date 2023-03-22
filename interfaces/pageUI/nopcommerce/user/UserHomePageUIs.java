@@ -7,4 +7,8 @@ public class UserHomePageUIs {
 	public static final String DYNAMIC_MENU_BY_TEXT = "xpath=//div[@class='header-menu']//ul[contains(@class,'notmobile')]//a[text()='%s']";
 	public static final String DYNAMIC_ITEM_BY_TEXT = "xpath=//div[@class='header-menu']//ul[contains(@class,'notmobile')]//a[text()='%s']";
 	public static final String DYNAMIC_PRODUCT_BY_TEXT = "xpath=//a[text()='%s']";
+	public static final String SEARCH_LINK = "xpath=//div[@class='footer']//a[text()='Search']";
+	public static final String SORTBY_DROPDOWN = "xpath=//select[@id='products-orderby']";
+	public static final String PRODUCT_TEXT_NAME = "xpath=//h2[@class='product-title']/a";
+	public static final String PRODUCT_PRICE_TEXT = "xpath=//span[@class='price actual-price']";
 }

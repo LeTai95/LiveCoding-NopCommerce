@@ -13,13 +13,13 @@
 		<parameter name="browser" value="firefox" />
 		
 		<!-- Run class -->
-		<!-- <classes>
-			<class name="com.nopcommerce.user.User_01_Register" />
-		</classes>-->
+		<classes>
+			<class name="com.nopcommerce.user.User_05_Sort_Display_Paging" />
+		</classes>
 		
 		<!--Run package-->
-		<packages>
+		<!-- <packages>
 			<package name="com.nopcommerce.user" />
-		</packages>
+		</packages>-->
 	</test>
 </suite>

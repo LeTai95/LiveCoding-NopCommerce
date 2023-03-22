@@ -178,6 +178,7 @@ public class BasePage {
 	public void clickToElement(String locatorType, String... dynamicValues) {
  		
  		getWebElement(getDynamicXpath(locatorType,dynamicValues)).click();
+ 		sleepInSecond(1);
  	}
 	
 	public void clearText(String locatorType) {
