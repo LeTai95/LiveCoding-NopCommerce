@@ -138,7 +138,7 @@ public class User_02_Login extends BaseTest {
 	}
 	
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		closeBrowserDriver();
 	}

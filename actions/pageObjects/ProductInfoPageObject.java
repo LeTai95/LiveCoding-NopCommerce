@@ -20,6 +20,36 @@ public class ProductInfoPageObject extends BasePage {
 		return PageGeneraterManager.getProductReviewPage(driver);
 	}
 
+	public void selectItemInDropdownByTextItem(String textItem) {
+		waitForElementPresence(UserProductInfoPageUIs.DYNAMIC_DROPDOWN_BY_TEXT_ITEM, textItem);
+		selectItemInDefaultDropdown(UserProductInfoPageUIs.DYNAMIC_DROPDOWN_BY_TEXT_ITEM, textItem, textItem);
+	}
+
+	public void checkToCheckboxByName(String checkboxName) {
+		waitForElementClickable(UserProductInfoPageUIs.DYNAMIC_CHECKBOX_BY_CHECKBOX_NAME, checkboxName);
+		checkToDefautCheckboxRadio(UserProductInfoPageUIs.DYNAMIC_CHECKBOX_BY_CHECKBOX_NAME, checkboxName);
+	}
+
+	public void clickToAddToCartButton() {
+		waitForElementClickable(UserProductInfoPageUIs.ADD_TO_CART_BUTTON);
+		clickToElement(UserProductInfoPageUIs.ADD_TO_CART_BUTTON);
+	}
+
+	public boolean isProductAddedToShoppingCartMessageDisplayed() {
+		waitForElementVisiable(UserProductInfoPageUIs.ADDED_TO_CART_SUCCESS_MESSAGE);
+		return isElementDisplayed(UserProductInfoPageUIs.ADDED_TO_CART_SUCCESS_MESSAGE);
+	}
+
+	public void closeProductAddedToShoppingCartMessage() {
+		waitForElementClickable(UserProductInfoPageUIs.CLOSE_MESSAGE_ICON);
+		clickToElement(UserProductInfoPageUIs.CLOSE_MESSAGE_ICON);
+	}
+
+	public ShoppingCartPageObject clickToShoppingCartLink() {
+		
+		return null;
+	}
+
 	
 
 }

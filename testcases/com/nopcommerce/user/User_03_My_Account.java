@@ -296,7 +296,7 @@ public class User_03_My_Account extends BaseTest {
 
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		closeBrowserDriver();
 	}

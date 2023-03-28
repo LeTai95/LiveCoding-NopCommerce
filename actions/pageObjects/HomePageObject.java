@@ -41,8 +41,8 @@ public class HomePageObject extends BasePage {
 		hoverMouseToElement(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, value);
 	}
 	public void clickToItemByText(String value) {
-		waitForElementVisiable(UserHomePageUIs.DYNAMIC_ITEM_BY_TEXT, value);
-		clickToElement(UserHomePageUIs.DYNAMIC_ITEM_BY_TEXT, value);
+		waitForElementPresence(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, value);
+		clickToElement(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, value);
 	}
 	public ProductInfoPageObject clickToProductByText(String textValue) {
 		waitForElementClickable(UserHomePageUIs.DYNAMIC_PRODUCT_BY_TEXT, textValue);
@@ -55,7 +55,7 @@ public class HomePageObject extends BasePage {
 		return PageGeneraterManager.getSearchPage(driver);
 	}
 	public void selectItemFromSortbyDropdown(String textItem) {
-		waitForElementVisiable(UserHomePageUIs.SORTBY_DROPDOWN);
+		waitForElementClickable(UserHomePageUIs.SORTBY_DROPDOWN);
 		selectItemInDefaultDropdown(UserHomePageUIs.SORTBY_DROPDOWN, textItem);
 		sleepInSecond(2);
 	}
@@ -112,6 +112,78 @@ public class HomePageObject extends BasePage {
 		Collections.sort(productSortPrice);
 		Collections.reverse(productSortPrice);
 		return productSortPrice.equals(productUIList);
+	}
+	public void selectItemFromDisplayDropdown(String textItem) {
+		waitForElementClickable(UserHomePageUIs.DISPLAY_DROPDOWN);
+		selectItemInDefaultDropdown(UserHomePageUIs.DISPLAY_DROPDOWN, textItem);
+		sleepInSecond(2);
+	}
+	public boolean isProductNumberDisplayedTrue(String productNumber) {
+		waitForAllElementVisiable(UserHomePageUIs.PRODUCT_NAME_LIST);
+		return getElementSize(UserHomePageUIs.PRODUCT_NAME_LIST) <= Integer.valueOf(productNumber);
+	}
+	public boolean isNextIconDisplayed() {
+		waitForElementVisiable(UserHomePageUIs.NEXT_ICON);
+		return isElementDisplayed(UserHomePageUIs.NEXT_ICON);
+	}
+	public void clickToPageByNumber(String pageNumber) {
+		waitForElementClickable(UserHomePageUIs.DYNAMIC_PAGING_BY_PAGE_NUMBER, pageNumber);
+		clickToElement(UserHomePageUIs.DYNAMIC_PAGING_BY_PAGE_NUMBER, pageNumber);
+	}
+	public boolean isPreviousIconDisplayed() {
+		waitForElementVisiable(UserHomePageUIs.PREVIOUS_ICON);
+		return isElementDisplayed(UserHomePageUIs.PREVIOUS_ICON);
+	}
+	public boolean isPagingNotDisplayed() {
+		waitForElementInvisiable(UserHomePageUIs.PAGING);
+		return isElementUndisplayed(UserHomePageUIs.PAGING);
+	}
+	public void clickToProductByName(String productName) {
+		waitForElementClickable(UserHomePageUIs.DYNAMIC_PRODUCT_NAME_BY_NAME, productName);
+		clickToElement(UserHomePageUIs.DYNAMIC_PRODUCT_NAME_BY_NAME, productName);
+	}
+	public void clickToAddToWishlistButton() {
+		waitForElementClickable(UserHomePageUIs.WISHLIST_BUTTON);
+		clickToElement(UserHomePageUIs.WISHLIST_BUTTON);
+	}
+	public boolean isAddedToWishlistSuccessMessageDisplayed() {
+		waitForElementVisiable(UserHomePageUIs.ADDED_TO_WISHLIST_SUCCESS_MESSAGE);
+		return isElementDisplayed(UserHomePageUIs.ADDED_TO_WISHLIST_SUCCESS_MESSAGE);
+	}
+	public WishlistPageObject clickToWishlistLink() {
+		waitForElementClickable(UserHomePageUIs.WISHLIST_LINK);
+		clickToElement(UserHomePageUIs.WISHLIST_LINK);
+		return PageGeneraterManager.getWishlistPage(driver);
+	}
+	public ProductInfoPageObject selectProductByProductName(String menu, String submenu, String productName) {
+		waitForElementVisiable(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, menu);
+		hoverMouseToElement(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, menu);
+		
+		waitForElementPresence(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, submenu);
+		clickToElement(UserHomePageUIs.DYNAMIC_MENU_BY_TEXT, submenu);
+		
+		waitForElementVisiable(UserHomePageUIs.DYNAMIC_PRODUCT_BY_TEXT, productName);
+		clickToElement(UserHomePageUIs.DYNAMIC_PRODUCT_BY_TEXT, productName);
+		
+		return PageGeneraterManager.getProductInfoPage(driver);
+	}
+	public void clickToCompareButtonByProductName(String productName) {
+		waitForElementClickable(UserHomePageUIs.DYNAMIC_ADD_TO_COMPARE_LIST_BY_PRODUCT_NAME, productName);
+		clickToElement(UserHomePageUIs.DYNAMIC_ADD_TO_COMPARE_LIST_BY_PRODUCT_NAME, productName);
+	}
+	public boolean isAddToCompareListSuccessDisplayed() {
+		waitForElementVisiable(UserHomePageUIs.ADD_TO_COMPARE_LIST_SUCCESS_MESSAGE);
+		return isElementDisplayed(UserHomePageUIs.ADD_TO_COMPARE_LIST_SUCCESS_MESSAGE);
+	}
+	public CompareProductListPageObject clickToCompareProductsListLink() {
+		waitForElementClickable(UserHomePageUIs.COMPARE_PRODUCTS_LIST_LINK);
+		clickToElement(UserHomePageUIs.COMPARE_PRODUCTS_LIST_LINK);
+		return PageGeneraterManager.getCompareProductListPage(driver);
+	}
+	public RecentlyViewedProductsPageObject clickTohomeRecentlyViewedProductsLink() {
+		waitForElementClickable(UserHomePageUIs.RECENTLY_VIEWED_PRODUCTS_LINK);
+		clickToElement(UserHomePageUIs.RECENTLY_VIEWED_PRODUCTS_LINK);
+		return PageGeneraterManager.getRecentlyViewedProductPage(driver);
 	}
 
 }

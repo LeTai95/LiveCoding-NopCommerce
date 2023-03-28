@@ -4,14 +4,18 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.AddressesPageObject;
 import pageObjects.ChangePasswordPageObject;
+import pageObjects.CompareProductListPageObject;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.MyAccountPageObject;
 import pageObjects.MyProductReviewsPageObject;
 import pageObjects.ProductInfoPageObject;
 import pageObjects.ProductReviewPageObject;
+import pageObjects.RecentlyViewedProductsPageObject;
 import pageObjects.RegisterPageObject;
 import pageObjects.SearchPageObject;
+import pageObjects.ShoppingCartPageObject;
+import pageObjects.WishlistPageObject;
 
 public class PageGeneraterManager {
 	public static RegisterPageObject getRegisterPage(WebDriver driver) {
@@ -53,4 +57,21 @@ public class PageGeneraterManager {
 	public static SearchPageObject getSearchPage(WebDriver driver) {
 		return new SearchPageObject(driver);
 	}
+	
+	public static WishlistPageObject getWishlistPage(WebDriver driver) {
+		return new WishlistPageObject(driver);
+	}
+	
+	public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver) {
+		return new ShoppingCartPageObject(driver);
+	}
+	
+	public static CompareProductListPageObject getCompareProductListPage(WebDriver driver) {
+		return new CompareProductListPageObject(driver);
+	}
+	
+	public static RecentlyViewedProductsPageObject getRecentlyViewedProductPage(WebDriver driver) {
+		return new RecentlyViewedProductsPageObject(driver);
+	}
+	
 }

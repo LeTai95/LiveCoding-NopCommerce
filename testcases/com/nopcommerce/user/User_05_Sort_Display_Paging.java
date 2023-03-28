@@ -74,7 +74,7 @@ public class User_05_Sort_Display_Paging extends BaseTest {
 	}
 	
 	@Test
-	public void User_05_Sort_01_Sort_With_Name_Ascending_A_To_Z() {
+	public void TC_01_User_05_Sort_01_Sort_With_Name_Ascending_A_To_Z() {
 		log.info("User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown");
 		homePage.selectItemFromSortbyDropdown("Name: A to Z");
 		
@@ -83,7 +83,7 @@ public class User_05_Sort_Display_Paging extends BaseTest {
 	}
 	
 	@Test
-	public void User_05_Sort_02_Sort_With_Name_Descending_Z_to_A() {
+	public void TC_02_User_05_Sort_02_Sort_With_Name_Descending_Z_to_A() {
 		log.info("User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown");
 		homePage.selectItemFromSortbyDropdown("Name: Z to A");
 		
@@ -92,39 +92,66 @@ public class User_05_Sort_Display_Paging extends BaseTest {
 	}
 	
 	@Test
-	public void User_05_Sort_03_Sort_With_Price_Ascending_Low_to_High() {
+	public void TC_03_User_05_Sort_03_Sort_With_Price_Ascending_Low_to_High() {
 		log.info("User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown");
 		homePage.selectItemFromSortbyDropdown("Price: Low to High");
 		
-		log.info("User_05_Sort_03 - Step 02: Verify Products Name sort by ascending");
+		log.info("User_05_Sort_03 - Step 02: Verify Products Price sort by ascending");
 		Assert.assertTrue(homePage.isProductPriceSortByAscending());
 	}
 	
 	@Test
-	public void User_05_Sort_04_Sort_With_Price_Descending_High_to_Low() {
+	public void TC_04_User_05_Sort_04_Sort_With_Price_Descending_High_to_Low() {
 		log.info("User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown");
 		homePage.selectItemFromSortbyDropdown("Price: High to Low");
 		
-		log.info("User_05_Sort_04 - Step 02: Verify Products Name sort by descending");
+		log.info("User_05_Sort_04 - Step 02: Verify Products Price sort by descending");
 		Assert.assertTrue(homePage.isProductPriceSortByDescending());
 	}
 	
 	@Test
-	public void User_05_Display_01_Verify_With_3_Products_Per_Page() {
+	public void TC_05_User_05_Display_01_Verify_With_3_Products_Per_Page() {
+		log.info("User_05_Display_01 - Step 01: Select item '3' in dropdown");
+		homePage.selectItemFromDisplayDropdown("3");
 		
+		log.info("User_05_Display_01 - Step 02: Verify have at least 3 products displayed");
+		Assert.assertTrue(homePage.isProductNumberDisplayedTrue("3"));
+		
+		log.info("User_05_Display_01 - Step 03: Verify Next icon is displayed");
+		Assert.assertTrue(homePage.isNextIconDisplayed());
+		
+		log.info("User_05_Display_01 - Step 04: Click to page 2");
+		homePage.clickToPageByNumber("2");
+		
+		log.info("User_05_Display_01 - Step 05: Verify Previous	 icon is displayed");
+		Assert.assertTrue(homePage.isPreviousIconDisplayed());
 	}
 	
 	@Test
-	public void User_05_Display_02_Verify_With_6_Products_Per_Page() {
+	public void TC_06_User_05_Display_02_Verify_With_6_Products_Per_Page() {
+		log.info("User_05_Display_02 - Step 01: Select item '6' in dropdown");
+		homePage.selectItemFromDisplayDropdown("6");
 		
+		log.info("User_05_Display_02 - Step 02: Verify have at least 6 products displayed");
+		Assert.assertTrue(homePage.isProductNumberDisplayedTrue("6"));
+		
+		log.info("User_05_Display_03 - Step 03: Verify paging is not displayed");
+		verifyTrue(homePage.isPagingNotDisplayed());
 	}
 	
 	@Test
-	public void User_05_Display_03_Verify_With_9_Products_Per_Page() {
+	public void TC_07_User_05_Display_03_Verify_With_9_Products_Per_Page() {
+		log.info("User_05_Display_02 - Step 01: Select item '9' in dropdown");
+		homePage.selectItemFromDisplayDropdown("9");
 		
+		log.info("User_05_Display_02 - Step 02: Verify have at least 9 products displayed");
+		Assert.assertTrue(homePage.isProductNumberDisplayedTrue("9"));
+		
+		log.info("User_05_Display_03 - Step 03: Verify paging is not displayed");
+		verifyTrue(homePage.isPagingNotDisplayed());
 	}
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		closeBrowserDriver();
 	}

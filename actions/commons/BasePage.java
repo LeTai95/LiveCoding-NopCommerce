@@ -404,7 +404,6 @@ public class BasePage {
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(locatorType)).perform();
-		sleepInSecond(2);
 	}	
 	
 	public void hoverMouseToElement(String locatorType, String... dynamicValues) {
@@ -597,6 +596,18 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicXpath(locatorType,dynamicValues))));
 	}
 
+	public void waitForElementPresence(String locatorType) {
+		
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locatorType)));
+	}
+	
+	public void waitForElementPresence(String locatorType, String... dynamicValues) {
+		
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(getDynamicXpath(locatorType,dynamicValues))));
+	}
+	
 	public void uploatMultipleFiles(String...fileNames) {
 		
 		String filePath = GlobalConstants.UPLOAD_FILE;

@@ -299,7 +299,7 @@ public class BaseTest {
 			}
 		}
 	}
-
+ 
 	// Lấy ngày tháng năm hiện tại bằng Joda
 //	protected String getCurrentDate() {
 //		DateTime nowUTC = new DateTime();

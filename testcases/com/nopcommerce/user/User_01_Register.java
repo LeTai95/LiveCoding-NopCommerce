@@ -188,7 +188,7 @@ public class User_01_Register extends BaseTest {
 		Assert.assertTrue(registerPage.isConfirmPasswordErrorMessageDisplayed());
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		closeBrowserDriver();
 	}

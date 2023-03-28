@@ -220,7 +220,7 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Apple MacBook Pro 13-inch"));
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		closeBrowserDriver();
 	}

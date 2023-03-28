@@ -2172,3 +2172,1742 @@ Session ID: 835c8515-81eb-45d3-80f4-31aaa24f1282
  [2023-03-23 00:46:14,684] User_05_Sort_04 - Step 02: Verify Products Name sort by descending
  [2023-03-23 00:46:14,775] OS name = windows 11
  [2023-03-23 00:46:14,776] Driver instance name = firefoxdriver: firefox on windows (f01b47d4-d9c7-4a4b-b293-b39b5a6f41e4)
+ [2023-03-23 19:00:53,020] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 19:01:00,821] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 19:01:02,105] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 19:01:02,248] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 19:01:02,376] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn53019@gmail.com'
+ [2023-03-23 19:01:02,488] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 19:01:02,604] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 19:01:02,740] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 19:01:03,672] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 19:01:04,273] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn53019@gmail.com' 
+ [2023-03-23 19:01:04,447] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 19:01:04,583] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 19:01:05,448] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 19:01:05,677] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 19:01:07,816] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 19:01:08,182] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 19:01:08,296] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 19:01:08,685] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 19:01:08,769] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 19:01:09,149] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 19:01:09,237] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 19:01:11,597] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:01:11,693] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 19:01:14,042] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:01:14,126] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 19:01:16,452] User_05_Sort_03 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:01:16,536] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 19:01:18,858] User_05_Sort_04 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:01:18,934] OS name = windows 11
+ [2023-03-23 19:01:18,934] Driver instance name = firefoxdriver: firefox on windows (321b45d7-00a5-4735-9d31-d0e41c690f5f)
+ [2023-03-23 19:03:30,413] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 19:03:36,962] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 19:03:38,316] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 19:03:38,458] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 19:03:38,584] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn10412@gmail.com'
+ [2023-03-23 19:03:38,752] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 19:03:38,900] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 19:03:39,058] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 19:03:40,003] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 19:03:40,581] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn10412@gmail.com' 
+ [2023-03-23 19:03:40,741] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 19:03:40,870] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 19:03:41,778] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 19:03:42,017] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 19:03:44,519] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 19:03:44,891] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 19:03:44,987] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 19:03:45,347] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 19:03:45,431] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 19:03:45,829] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 19:03:45,917] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 19:03:48,271] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:03:48,349] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 19:03:50,702] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:03:50,780] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 19:03:53,136] User_05_Sort_03 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:03:53,215] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 19:03:55,553] User_05_Sort_04 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:03:55,632] OS name = windows 11
+ [2023-03-23 19:03:55,632] Driver instance name = firefoxdriver: firefox on windows (40b3cd71-bda4-4b98-9cdc-9a77106fdb9f)
+ [2023-03-23 19:05:29,508] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 19:05:35,104] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 19:05:36,207] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 19:05:36,346] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 19:05:36,506] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn29507@gmail.com'
+ [2023-03-23 19:05:36,678] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 19:05:36,835] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 19:05:36,961] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 19:05:37,788] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 19:05:38,276] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn29507@gmail.com' 
+ [2023-03-23 19:05:38,456] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 19:05:38,596] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 19:05:39,336] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 19:05:39,603] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 19:05:41,312] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 19:05:41,667] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 19:05:41,747] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 19:05:42,067] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 19:05:42,139] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 19:05:42,492] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 19:05:42,569] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 19:05:44,906] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:05:44,974] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 19:05:47,321] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:05:47,365] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 19:05:49,724] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-23 19:05:49,804] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 19:05:52,182] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-23 19:05:52,255] OS name = windows 11
+ [2023-03-23 19:05:52,255] Driver instance name = firefoxdriver: firefox on windows (c854cf63-60d2-4889-87ee-e21f722a8d92)
+ [2023-03-23 19:07:09,250] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 19:07:17,065] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 19:07:18,524] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 19:07:18,666] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 19:07:18,854] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn29250@gmail.com'
+ [2023-03-23 19:07:19,001] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 19:07:19,138] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 19:07:19,321] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 19:07:21,031] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 19:07:21,608] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn29250@gmail.com' 
+ [2023-03-23 19:07:21,749] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 19:07:21,844] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 19:07:22,742] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 19:07:22,966] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 19:07:27,343] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 19:07:27,723] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 19:07:27,815] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 19:07:28,175] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 19:07:28,294] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 19:07:28,635] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 19:07:28,732] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 19:07:31,086] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:07:31,174] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 19:07:33,547] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:07:33,636] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 19:07:35,981] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-23 19:07:36,132] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 19:07:38,554] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-23 19:07:38,635] OS name = windows 11
+ [2023-03-23 19:07:38,636] Driver instance name = firefoxdriver: firefox on windows (4bb9807e-c2d7-48bc-a897-58c3932b0658)
+ [2023-03-23 19:08:54,540] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 19:08:59,786] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 19:09:01,492] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 19:09:01,634] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 19:09:01,775] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn34539@gmail.com'
+ [2023-03-23 19:09:01,916] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 19:09:02,077] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 19:09:02,235] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 19:09:03,242] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 19:09:03,774] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn34539@gmail.com' 
+ [2023-03-23 19:09:03,930] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 19:09:04,058] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 19:09:05,001] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 19:09:05,225] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 19:09:08,748] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 19:09:09,133] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 19:09:09,257] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 19:09:09,648] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 19:09:09,816] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 19:09:10,183] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 19:09:10,358] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 19:09:12,793] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 19:09:12,857] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 19:09:15,216] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 19:09:15,276] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 19:09:17,609] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-23 19:09:17,701] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 19:09:20,043] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-23 19:09:20,104] OS name = windows 11
+ [2023-03-23 19:09:20,104] Driver instance name = firefoxdriver: firefox on windows (18de32c0-d9ed-49e0-8f4d-45eaf2e2d39f)
+ [2023-03-23 23:48:54,692] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 23:49:02,334] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 23:49:03,614] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 23:49:03,761] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 23:49:03,890] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn34691@gmail.com'
+ [2023-03-23 23:49:04,026] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 23:49:04,200] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 23:49:04,379] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 23:49:05,301] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 23:49:05,846] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn34691@gmail.com' 
+ [2023-03-23 23:49:06,046] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 23:49:06,199] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 23:49:07,024] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 23:49:07,278] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 23:49:09,057] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 23:49:09,402] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 23:49:09,546] OS name = windows 11
+ [2023-03-23 23:49:09,547] Driver instance name = firefoxdriver: firefox on windows (054213a1-cc65-4848-9941-dcf7eab5d8e2)
+ [2023-03-23 23:50:53,053] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 23:50:59,909] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 23:51:01,406] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 23:51:01,581] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 23:51:01,736] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn53052@gmail.com'
+ [2023-03-23 23:51:01,909] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 23:51:02,075] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 23:51:02,261] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 23:51:03,254] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 23:51:03,864] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn53052@gmail.com' 
+ [2023-03-23 23:51:04,034] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 23:51:04,166] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 23:51:05,106] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 23:51:05,360] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 23:51:07,684] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 23:51:10,071] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 23:51:10,188] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-23 23:51:10,296] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-23 23:51:20,407] OS name = windows 11
+ [2023-03-23 23:51:20,407] Driver instance name = firefoxdriver: firefox on windows (39223521-c686-49a3-87c7-61e1ca482e0b)
+ [2023-03-23 23:52:12,364] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 23:52:21,941] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 23:52:24,830] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 23:52:24,955] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 23:52:25,091] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn32364@gmail.com'
+ [2023-03-23 23:52:25,226] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 23:52:25,381] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 23:52:25,544] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 23:52:26,597] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 23:52:27,875] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn32364@gmail.com' 
+ [2023-03-23 23:52:28,094] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 23:52:28,320] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 23:52:30,789] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 23:52:31,199] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 23:52:34,907] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 23:52:37,269] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 23:52:37,404] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-23 23:52:37,492] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-23 23:52:38,804] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-23 23:52:38,899] OS name = windows 11
+ [2023-03-23 23:52:38,899] Driver instance name = firefoxdriver: firefox on windows (aa1ca76b-f070-4ad6-8761-7b60a975aafe)
+ [2023-03-23 23:53:45,152] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-23 23:53:50,501] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-23 23:53:51,666] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-23 23:53:51,826] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-23 23:53:51,975] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn25152@gmail.com'
+ [2023-03-23 23:53:52,133] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-23 23:53:52,275] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-23 23:53:52,478] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-23 23:53:53,530] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-23 23:53:54,106] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn25152@gmail.com' 
+ [2023-03-23 23:53:54,249] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-23 23:53:54,408] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-23 23:53:55,257] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-23 23:53:55,522] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-23 23:53:57,382] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-23 23:53:59,749] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-23 23:53:59,913] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-23 23:54:00,013] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-23 23:54:01,329] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-23 23:54:01,443] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-23 23:54:03,793] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-23 23:54:04,030] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-23 23:54:14,079] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-23 23:54:16,432] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-23 23:54:16,643] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-23 23:54:18,970] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-23 23:54:19,040] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-23 23:54:21,386] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-23 23:54:21,462] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-23 23:54:23,826] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-23 23:54:23,907] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-23 23:54:26,432] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-23 23:54:26,508] OS name = windows 11
+ [2023-03-23 23:54:26,508] Driver instance name = firefoxdriver: firefox on windows (cff71768-966b-4fa8-8120-280d0b55c00d)
+ [2023-03-24 00:03:58,799] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 00:04:04,698] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 00:04:06,251] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 00:04:06,387] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 00:04:06,542] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn38798@gmail.com'
+ [2023-03-24 00:04:06,687] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 00:04:06,826] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 00:04:06,975] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 00:04:08,500] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 00:04:09,724] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn38798@gmail.com' 
+ [2023-03-24 00:04:09,862] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 00:04:09,996] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 00:04:11,181] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 00:04:11,418] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 00:04:13,818] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 00:04:16,184] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 00:04:16,284] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 00:04:16,373] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 00:04:17,693] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 00:04:17,814] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 00:04:20,197] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 00:04:20,408] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:04:40,462] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 00:04:42,816] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 00:04:43,024] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 00:04:45,372] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 00:04:45,451] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 00:04:47,796] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 00:04:47,870] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 00:04:50,212] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 00:04:50,280] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 00:04:52,615] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 00:04:52,688] OS name = windows 11
+ [2023-03-24 00:04:52,689] Driver instance name = firefoxdriver: firefox on windows (4b252739-6950-453c-9480-3e2786c3321e)
+ [2023-03-24 00:08:01,635] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 00:08:08,106] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 00:08:09,262] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 00:08:09,416] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 00:08:09,572] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn81635@gmail.com'
+ [2023-03-24 00:08:09,744] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 00:08:09,901] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 00:08:10,064] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 00:08:11,375] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 00:08:12,403] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn81635@gmail.com' 
+ [2023-03-24 00:08:12,567] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 00:08:12,699] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 00:08:13,707] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 00:08:13,953] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 00:08:17,226] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 00:08:19,588] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 00:08:19,750] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 00:08:19,856] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 00:08:21,155] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 00:08:21,254] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 00:08:23,623] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 00:08:23,865] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:08:43,936] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 00:08:46,290] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 00:08:46,499] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:09:06,557] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 00:09:09,082] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 00:09:09,155] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 00:09:11,476] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 00:09:11,547] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 00:09:13,880] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 00:09:13,944] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 00:09:16,293] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 00:09:16,546] OS name = windows 11
+ [2023-03-24 00:09:16,546] Driver instance name = firefoxdriver: firefox on windows (3c894f90-25be-4864-b609-c32b2d727060)
+ [2023-03-24 00:14:14,466] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 00:14:21,804] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 00:14:23,009] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 00:14:23,166] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 00:14:23,327] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn54465@gmail.com'
+ [2023-03-24 00:14:23,486] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 00:14:23,643] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 00:14:23,793] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 00:14:24,710] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 00:14:25,293] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn54465@gmail.com' 
+ [2023-03-24 00:14:25,446] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 00:14:25,645] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 00:14:26,430] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 00:14:26,681] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 00:14:28,384] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 00:14:30,738] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 00:14:30,857] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 00:14:30,944] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 00:14:32,259] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 00:14:32,360] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 00:14:34,703] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 00:14:34,927] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:14:44,967]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 00:14:44,972] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 00:14:47,367] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 00:14:47,593] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:14:57,609]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 00:14:57,612] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 00:14:59,956] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 00:15:00,034] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 00:15:02,387] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 00:15:02,461] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 00:15:04,824] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 00:15:04,890] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 00:15:07,224] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 00:15:07,294] OS name = windows 11
+ [2023-03-24 00:15:07,294] Driver instance name = firefoxdriver: firefox on windows (f5b0dcef-0ebe-47a3-8eef-993fcc2791cd)
+ [2023-03-24 00:17:13,006] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 00:17:21,259] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 00:17:22,554] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 00:17:22,724] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 00:17:22,880] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn33005@gmail.com'
+ [2023-03-24 00:17:23,043] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 00:17:23,217] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 00:17:23,390] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 00:17:24,770] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 00:17:25,452] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn33005@gmail.com' 
+ [2023-03-24 00:17:25,642] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 00:17:25,772] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 00:17:26,562] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 00:17:26,813] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 00:17:28,704] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 00:17:31,112] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 00:17:31,225] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 00:17:31,305] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 00:17:32,610] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 00:17:32,708] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 00:17:35,064] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 00:17:35,290] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:17:55,369] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 00:17:57,712] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 00:17:57,981] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:18:18,051] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 00:18:20,445] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 00:18:20,514] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 00:18:22,881] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 00:18:22,948] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 00:18:25,293] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 00:18:25,454] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 00:18:27,847] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 00:18:27,915] OS name = windows 11
+ [2023-03-24 00:18:27,915] Driver instance name = firefoxdriver: firefox on windows (c9ed52e8-a13d-4286-8e9c-08e1bd30fc7a)
+ [2023-03-24 00:20:36,991] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 00:20:43,490] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 00:20:44,767] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 00:20:44,914] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 00:20:45,069] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn36990@gmail.com'
+ [2023-03-24 00:20:45,237] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 00:20:45,400] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 00:20:45,543] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 00:20:46,437] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 00:20:47,023] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn36990@gmail.com' 
+ [2023-03-24 00:20:47,187] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 00:20:47,326] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 00:20:48,186] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 00:20:48,424] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 00:20:50,758] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 00:20:53,161] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 00:20:53,292] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 00:20:53,382] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 00:20:54,703] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 00:20:54,816] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 00:20:57,187] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 00:20:57,410] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:21:12,503]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 00:21:12,507] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 00:21:14,957] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 00:21:15,183] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 00:21:30,252]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 00:21:30,255] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 00:21:32,601] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 00:21:32,677] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 00:21:35,026] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 00:21:35,101] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 00:21:37,433] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 00:21:37,506] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 00:21:39,864] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 00:21:39,929] OS name = windows 11
+ [2023-03-24 00:21:39,929] Driver instance name = firefoxdriver: firefox on windows (ae1d3a38-94b6-4d64-9322-8e24496601b0)
+ [2023-03-24 01:11:14,533] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 01:11:21,411] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 01:11:22,508] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 01:11:22,636] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 01:11:22,814] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn74532@gmail.com'
+ [2023-03-24 01:11:22,971] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 01:11:23,112] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 01:11:23,253] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 01:11:24,037] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 01:11:24,515] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn74532@gmail.com' 
+ [2023-03-24 01:11:24,649] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 01:11:24,795] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 01:11:25,526] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 01:11:25,755] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 01:11:27,358] User_05_Display_01 - Step 01: Select item '3' in dropdown
+ [2023-03-24 01:11:29,747] User_05_Display_01 - Step 02: Verify have at least 3 products displayed
+ [2023-03-24 01:11:29,920] User_05_Display_01 - Step 03: Verify Next icon is displayed
+ [2023-03-24 01:11:30,015] User_05_Display_01 - Step 04: Click to page 2
+ [2023-03-24 01:11:31,308] User_05_Display_01 - Step 05: Verify Previous	 icon is displayed
+ [2023-03-24 01:11:31,407] User_05_Display_02 - Step 01: Select item '6' in dropdown
+ [2023-03-24 01:11:33,765] User_05_Display_02 - Step 02: Verify have at least 6 products displayed
+ [2023-03-24 01:11:34,019] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 01:11:49,116]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 01:11:49,120] User_05_Display_02 - Step 01: Select item '9' in dropdown
+ [2023-03-24 01:11:51,475] User_05_Display_02 - Step 02: Verify have at least 9 products displayed
+ [2023-03-24 01:11:51,758] User_05_Display_03 - Step 03: Verify paging is not displayed
+ [2023-03-24 01:12:06,823]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 01:12:06,827] User_05_Sort_01 - Step 01: Select item 'Name (A to Z)' in dropdown
+ [2023-03-24 01:12:09,199] User_05_Sort_01 - Step 02: Verify Products Name sort by ascending
+ [2023-03-24 01:12:09,283] User_05_Sort_02 - Step 01: Select item 'Name (Z to A)' in dropdown
+ [2023-03-24 01:12:11,614] User_05_Sort_02 - Step 02: Verify Products Name sort by descending
+ [2023-03-24 01:12:11,697] User_05_Sort_03 - Step 01: Select item 'Price: Low to High' in dropdown
+ [2023-03-24 01:12:14,035] User_05_Sort_03 - Step 02: Verify Products Price sort by ascending
+ [2023-03-24 01:12:14,109] User_05_Sort_04 - Step 01: Select item 'Price: High to Low' in dropdown
+ [2023-03-24 01:12:16,458] User_05_Sort_04 - Step 02: Verify Products Price sort by descending
+ [2023-03-24 01:12:16,534] OS name = windows 11
+ [2023-03-24 01:12:16,534] Driver instance name = firefoxdriver: firefox on windows (8384bc28-90ac-43f2-8fde-c4c44bff6f21)
+ [2023-03-24 01:28:07,341] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 01:28:12,308] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 01:28:13,416] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 01:28:13,539] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 01:28:13,716] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn87340@gmail.com'
+ [2023-03-24 01:28:13,863] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 01:28:14,004] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 01:28:14,127] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 01:28:14,892] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 01:28:15,381] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn87340@gmail.com' 
+ [2023-03-24 01:28:15,540] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 01:28:15,667] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 01:28:16,393] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 01:28:16,609] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 01:28:18,231] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 01:28:20,928] OS name = windows 11
+ [2023-03-24 01:28:20,928] Driver instance name = firefoxdriver: firefox on windows (b687a1ba-a175-48d2-ad1f-34f77e36bce2)
+ [2023-03-24 13:52:50,066] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 13:52:56,832] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 13:52:58,054] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 13:52:58,227] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 13:52:58,411] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn70065@gmail.com'
+ [2023-03-24 13:52:58,603] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 13:52:58,784] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 13:52:58,944] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 13:52:59,774] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 13:53:00,310] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn70065@gmail.com' 
+ [2023-03-24 13:53:00,476] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 13:53:00,622] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 13:53:01,379] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 13:53:01,656] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 13:53:04,000] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:53:07,012] Wishlist_01 - Step 01: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:53:07,348] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 13:53:07,507] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 13:53:08,801] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 13:53:08,923] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 13:53:08,943] OS name = windows 11
+ [2023-03-24 13:53:08,943] Driver instance name = firefoxdriver: firefox on windows (5461b760-895a-43a3-ad6a-afaad6311894)
+ [2023-03-24 13:53:40,220] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 13:53:46,018] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 13:53:47,255] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 13:53:47,382] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 13:53:47,561] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn20219@gmail.com'
+ [2023-03-24 13:53:47,727] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 13:53:47,904] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 13:53:48,098] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 13:53:48,956] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 13:53:49,551] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn20219@gmail.com' 
+ [2023-03-24 13:53:49,753] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 13:53:49,947] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 13:53:50,789] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 13:53:51,016] Pre-Condition - Step 14: Click to 'Notebooks' ; in Computers menu
+ [2023-03-24 13:53:51,159] OS name = windows 11
+ [2023-03-24 13:53:51,160] Driver instance name = firefoxdriver: firefox on windows (0cef4583-7b85-4d16-89ef-c43add25e6c1)
+ [2023-03-24 13:54:33,730] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 13:54:39,045] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 13:54:40,405] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 13:54:40,553] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 13:54:40,730] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn73730@gmail.com'
+ [2023-03-24 13:54:40,917] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 13:54:41,084] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 13:54:41,253] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 13:54:42,143] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 13:54:42,705] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn73730@gmail.com' 
+ [2023-03-24 13:54:42,861] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 13:54:43,011] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 13:54:43,857] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 13:54:44,088] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 13:54:45,741] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:54:48,372] Wishlist_01 - Step 01: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:54:48,668] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 13:54:48,848] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 13:54:50,120] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 13:54:50,210] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 13:54:50,230] OS name = windows 11
+ [2023-03-24 13:54:50,230] Driver instance name = firefoxdriver: firefox on windows (6a4b40c7-f460-46df-952c-1b4eaeb897ff)
+ [2023-03-24 13:55:17,166] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 13:55:22,377] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 13:55:23,640] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 13:55:23,776] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 13:55:23,949] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn17166@gmail.com'
+ [2023-03-24 13:55:24,136] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 13:55:24,294] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 13:55:24,404] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 13:55:25,260] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 13:55:25,829] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn17166@gmail.com' 
+ [2023-03-24 13:55:25,970] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 13:55:26,114] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 13:55:26,933] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 13:55:27,170] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 13:55:29,511] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:55:31,889] Wishlist_01 - Step 01: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 13:55:32,225] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 13:55:32,414] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 13:55:33,781] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 13:55:33,872] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 13:55:34,162] Wishlist_01 - Step 06: Verify wishlist title equals ' Wishlist of ABC XYZ'
+ [2023-03-24 13:55:34,253] OS name = windows 11
+ [2023-03-24 13:55:34,253] Driver instance name = firefoxdriver: firefox on windows (6ee26701-968a-4734-8fc7-4823b11fc876)
+ [2023-03-24 13:59:49,705] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 13:59:54,869] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 13:59:56,098] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 13:59:56,243] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 13:59:56,437] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn89704@gmail.com'
+ [2023-03-24 13:59:56,631] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 13:59:56,840] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 13:59:57,004] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 13:59:57,817] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 13:59:58,322] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn89704@gmail.com' 
+ [2023-03-24 13:59:58,502] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 13:59:58,682] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 13:59:59,502] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 13:59:59,762] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 14:00:02,242] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 14:00:04,612] Wishlist_01 - Step 01: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 14:00:04,952] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 14:00:05,122] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 14:00:05,702] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 14:00:05,858] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 14:00:06,166] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 14:00:06,283] OS name = windows 11
+ [2023-03-24 14:00:06,283] Driver instance name = firefoxdriver: firefox on windows (e439eff0-8c10-43d4-a5d5-d2f6712e7746)
+ [2023-03-24 15:16:25,582] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:16:31,850] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:16:33,156] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:16:33,313] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:16:33,483] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn85582@gmail.com'
+ [2023-03-24 15:16:33,655] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:16:33,806] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:16:33,974] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:16:34,792] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:16:35,342] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn85582@gmail.com' 
+ [2023-03-24 15:16:35,475] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:16:35,602] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:16:36,416] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:16:36,673] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:16:38,371] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:16:40,842] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:16:41,178] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:16:41,348] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:16:41,891] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:16:42,047] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:16:42,344] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:16:42,448] OS name = windows 11
+ [2023-03-24 15:16:42,448] Driver instance name = firefoxdriver: firefox on windows (fa7182a9-2a41-4f5b-8680-258da0b1d406)
+ [2023-03-24 15:17:31,200] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:17:36,268] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:17:37,004] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:17:37,146] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:17:37,333] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn51200@gmail.com'
+ [2023-03-24 15:17:37,503] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:17:37,672] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:17:37,841] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:17:38,719] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:17:39,263] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn51200@gmail.com' 
+ [2023-03-24 15:17:39,427] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:17:39,616] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:17:40,487] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:17:40,720] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:17:42,372] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:17:44,524] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:17:44,871] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:17:45,041] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:17:45,585] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:17:45,792] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:17:46,122] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:17:46,250]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 15:17:46,266] OS name = windows 11
+ [2023-03-24 15:17:46,266] Driver instance name = firefoxdriver: firefox on windows (11cd391d-504f-4df4-bfbf-1759199a7fd2)
+ [2023-03-24 15:24:45,232] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:24:50,327] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:24:51,614] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:24:51,755] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:24:51,915] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn85231@gmail.com'
+ [2023-03-24 15:24:52,099] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:24:52,274] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:24:52,434] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:24:53,285] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:24:53,855] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn85231@gmail.com' 
+ [2023-03-24 15:24:54,035] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:24:54,194] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:24:55,015] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:24:55,250] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:24:58,245] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:25:01,024] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:25:01,344] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:25:01,525] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:25:02,790] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:25:02,938] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:25:03,256] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:25:03,377] OS name = windows 11
+ [2023-03-24 15:25:03,377] Driver instance name = firefoxdriver: firefox on windows (45555ee2-e093-4acb-8068-03834567f05b)
+ [2023-03-24 15:25:21,427] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:25:25,948] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:25:27,245] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:25:27,378] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:25:27,552] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn21427@gmail.com'
+ [2023-03-24 15:25:27,739] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:25:27,905] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:25:28,069] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:25:29,505] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:25:30,115] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn21427@gmail.com' 
+ [2023-03-24 15:25:30,255] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:25:30,405] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:25:31,245] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:25:31,535] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:25:33,175] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:25:35,341] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:25:35,685] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:25:35,865] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:25:36,419] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:25:36,540] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:25:36,822] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:25:36,945] Wishlist_03 - Step 01: Navigate to Home Page
+ [2023-03-24 15:25:37,516] Wishlist_03 - Step 02: Hover To 'Computers'
+ [2023-03-24 15:25:37,738] Wishlist_03 - Step 03: Click to 'Desktops' in Computers menu
+ [2023-03-24 15:25:40,201] Wishlist_03 - Step 04: Click to 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-03-24 15:25:42,735] Wishlist_01 - Step 05: Click to 'Add to wishlist' link
+ [2023-03-24 15:25:52,820] OS name = windows 11
+ [2023-03-24 15:25:52,820] Driver instance name = firefoxdriver: firefox on windows (acf859ab-a329-4298-86d2-ac09ee4597f1)
+ [2023-03-24 15:28:15,356] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:28:20,608] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:28:21,342] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:28:21,495] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:28:21,694] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn95355@gmail.com'
+ [2023-03-24 15:28:21,826] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:28:21,975] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:28:22,153] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:28:23,034] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:28:23,544] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn95355@gmail.com' 
+ [2023-03-24 15:28:23,684] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:28:23,835] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:28:24,565] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:28:24,784] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:28:26,345] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:28:28,410] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:28:28,742] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:28:28,909] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:28:29,430] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:28:29,526] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:28:29,825] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:28:29,965] Wishlist_03 - Step 01: Navigate to Home Page
+ [2023-03-24 15:28:30,428] Wishlist_03 - Step 02: Hover To 'Computers'
+ [2023-03-24 15:28:30,639] Wishlist_03 - Step 03: Click to 'Desktops' in Computers menu
+ [2023-03-24 15:28:32,189] Wishlist_03 - Step 04: Click to 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-03-24 15:28:34,160] Wishlist_01 - Step 05: Click to 'Add to wishlist' link
+ [2023-03-24 15:28:34,499] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:28:35,743] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:28:55,828] OS name = windows 11
+ [2023-03-24 15:28:55,828] Driver instance name = firefoxdriver: firefox on windows (0f4b3a2f-5150-4f71-b6e0-4405a35940b3)
+ [2023-03-24 15:29:38,085] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:29:42,799] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:29:43,956] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:29:44,098] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:29:44,261] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn78084@gmail.com'
+ [2023-03-24 15:29:44,442] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:29:44,603] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:29:44,768] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:29:45,601] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:29:46,086] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn78084@gmail.com' 
+ [2023-03-24 15:29:46,233] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:29:46,376] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:29:47,182] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:29:47,432] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:29:49,034] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:29:51,092] Wishlist_01 - Step 01: Click to 'Add to wishlist' link
+ [2023-03-24 15:29:51,436] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:29:51,595] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:29:52,148] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:29:52,289] Wishlist_01 - Step 05: Click to Wishlist sharing link
+ [2023-03-24 15:29:52,628] Wishlist_01 - Step 06: Verify wishlist title is displayed
+ [2023-03-24 15:29:52,764] Wishlist_03 - Step 01: Navigate to Home Page
+ [2023-03-24 15:29:53,246] Wishlist_03 - Step 02: Hover To 'Computers'
+ [2023-03-24 15:29:53,454] Wishlist_03 - Step 03: Click to 'Desktops' in Computers menu
+ [2023-03-24 15:29:55,739] Wishlist_03 - Step 04: Click to 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-03-24 15:29:58,287] Wishlist_01 - Step 05: Click to 'Add to wishlist' link
+ [2023-03-24 15:29:58,630] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:29:59,335] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:30:19,429] OS name = windows 11
+ [2023-03-24 15:30:19,429] Driver instance name = firefoxdriver: firefox on windows (f1d9ba4a-e46a-44b6-95af-c3a3762322e1)
+ [2023-03-24 15:38:46,103] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:38:51,113] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:38:52,345] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:38:52,503] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:38:52,680] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn26103@gmail.com'
+ [2023-03-24 15:38:52,866] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:38:53,034] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:38:53,192] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:38:53,985] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:38:54,527] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn26103@gmail.com' 
+ [2023-03-24 15:38:54,682] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:38:54,803] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:38:55,565] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:38:55,792] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:38:58,078] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:39:00,386] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:39:00,731] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:39:00,899] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:39:02,193] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:39:02,299] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:39:02,420] OS name = windows 11
+ [2023-03-24 15:39:02,423] Driver instance name = firefoxdriver: firefox on windows (355971f9-fc73-45c2-b69e-60f45ed12e32)
+ [2023-03-24 15:45:28,074] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:45:33,214] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:45:34,512] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:45:34,646] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:45:34,823] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn28073@gmail.com'
+ [2023-03-24 15:45:35,003] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:45:35,170] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:45:35,348] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:45:36,133] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:45:36,650] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn28073@gmail.com' 
+ [2023-03-24 15:45:36,787] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:45:36,910] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:45:37,675] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:45:37,934] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:45:39,827] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:45:41,985] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:45:42,315] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:45:42,473] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:45:43,004] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:45:43,165] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:45:43,271] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:45:43,763] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:46:03,860] OS name = windows 11
+ [2023-03-24 15:46:03,860] Driver instance name = firefoxdriver: firefox on windows (d3d828c9-804f-49cb-ad25-02afdd332c92)
+ [2023-03-24 15:49:45,678] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:49:50,714] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:49:51,927] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:49:52,078] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:49:52,269] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn85677@gmail.com'
+ [2023-03-24 15:49:52,448] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:49:52,604] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:49:52,748] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:49:53,566] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:49:54,094] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn85677@gmail.com' 
+ [2023-03-24 15:49:54,245] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:49:54,381] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:49:55,208] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:49:55,437] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:49:57,083] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:49:59,310] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:49:59,653] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:49:59,830] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:50:00,395] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:50:00,541] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:50:00,645] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:50:01,136] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:50:20,405] OS name = windows 11
+ [2023-03-24 15:50:20,405] Driver instance name = firefoxdriver: firefox on windows (7c719426-fc6d-4a82-a4ac-3ebeee5561c5)
+ [2023-03-24 15:50:20,545] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8544, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7c719426-fc6d-4a82-a4ac-3ebeee5561c5
+ [2023-03-24 15:50:33,840] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:50:38,976] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:50:40,530] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:50:40,799] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:50:41,053] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn33840@gmail.com'
+ [2023-03-24 15:50:41,248] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:50:41,615] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:50:41,773] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:50:42,746] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:50:43,634] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn33840@gmail.com' 
+ [2023-03-24 15:50:43,893] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:50:44,213] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:50:45,239] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:50:45,594] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:50:47,533] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:50:49,693] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:50:50,034] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:50:50,190] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:50:50,722] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:50:50,919] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:50:51,086] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:50:51,655] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:51:11,754] OS name = windows 11
+ [2023-03-24 15:51:11,755] Driver instance name = firefoxdriver: firefox on windows (6f91e431-4f5f-4b63-9518-771e4bfab815)
+ [2023-03-24 15:53:00,466] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:53:05,453] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:53:06,704] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:53:06,869] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:53:07,035] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn80464@gmail.com'
+ [2023-03-24 15:53:07,211] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:53:07,372] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:53:07,565] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:53:08,465] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:53:09,035] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn80464@gmail.com' 
+ [2023-03-24 15:53:09,176] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:53:09,296] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:53:10,075] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:53:10,340] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:53:11,996] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:53:14,086] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:53:14,436] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:53:14,586] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:53:15,155] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:53:15,335] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:53:15,465] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:53:15,945] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:53:27,376] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 15:53:28,975] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 15:53:39,064] OS name = windows 11
+ [2023-03-24 15:53:39,064] Driver instance name = firefoxdriver: firefox on windows (ae0e58a7-8592-4bd0-9cfe-8c716cba5a52)
+ [2023-03-24 15:54:43,002] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:54:47,629] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:54:48,929] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:54:49,068] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:54:49,222] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn83002@gmail.com'
+ [2023-03-24 15:54:49,409] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:54:49,567] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:54:49,717] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:54:50,566] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:54:51,105] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn83002@gmail.com' 
+ [2023-03-24 15:54:51,266] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:54:51,435] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:54:52,206] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:54:52,427] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:54:54,046] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:54:56,041] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:54:56,406] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:54:56,565] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:54:57,146] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:54:57,306] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:54:57,435] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:54:57,945] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:55:09,386] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 15:55:10,907] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 15:55:11,036] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 15:55:11,542] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 15:55:11,558] OS name = windows 11
+ [2023-03-24 15:55:11,558] Driver instance name = firefoxdriver: firefox on windows (7ac58615-2e3b-4419-a847-5715ff173414)
+ [2023-03-24 15:56:33,762] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 15:56:38,827] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 15:56:40,078] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 15:56:40,223] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 15:56:40,379] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn93762@gmail.com'
+ [2023-03-24 15:56:40,556] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 15:56:40,734] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 15:56:40,900] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 15:56:41,770] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 15:56:42,316] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn93762@gmail.com' 
+ [2023-03-24 15:56:42,449] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 15:56:42,605] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 15:56:43,426] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 15:56:43,696] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 15:56:45,446] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 15:56:47,607] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 15:56:47,958] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 15:56:48,135] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 15:56:48,687] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 15:56:48,850] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 15:56:48,974] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 15:56:49,464] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 15:57:00,850] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 15:57:02,497] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 15:57:02,636] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 15:57:03,175] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 15:57:23,270] OS name = windows 11
+ [2023-03-24 15:57:23,271] Driver instance name = firefoxdriver: firefox on windows (eec9c693-eb90-4e1e-827f-91a1b232b8a3)
+ [2023-03-24 16:00:20,518] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:00:26,806] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:00:29,731] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:00:29,876] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:00:30,025] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn20517@gmail.com'
+ [2023-03-24 16:00:30,196] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:00:30,329] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:00:30,458] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:00:31,395] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:00:32,017] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn20517@gmail.com' 
+ [2023-03-24 16:00:32,166] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:00:32,294] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:00:33,138] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:00:33,354] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:00:35,004] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 16:00:37,259] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:00:37,583] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:00:37,760] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:00:38,313] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:00:38,434] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:00:38,549] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:00:39,079] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:00:50,439] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:00:52,087] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:00:52,192] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:00:52,750] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:01:12,862] OS name = windows 11
+ [2023-03-24 16:01:12,862] Driver instance name = firefoxdriver: firefox on windows (5f21dfe8-4676-43bb-8827-5367c34d28e2)
+ [2023-03-24 16:02:35,629] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:02:40,832] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:02:42,103] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:02:42,280] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:02:42,464] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn55628@gmail.com'
+ [2023-03-24 16:02:42,643] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:02:42,813] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:02:42,958] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:02:43,841] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:02:44,447] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn55628@gmail.com' 
+ [2023-03-24 16:02:44,570] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:02:44,716] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:02:45,606] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:02:45,878] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:02:47,587] Pre-Condition - Step 14: Click to 'Apple MacBook Pro 13-inch'
+ [2023-03-24 16:02:49,828] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:02:50,177] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:02:50,382] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:02:50,919] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:02:51,130] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:02:51,260] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:02:51,807] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:03:03,193] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:03:04,128] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:03:04,244] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:03:04,757] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:03:29,907]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:03:29,920] OS name = windows 11
+ [2023-03-24 16:03:29,920] Driver instance name = firefoxdriver: firefox on windows (462f8618-4dd7-4265-8f66-e8c98425a8d3)
+ [2023-03-24 16:09:28,884] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:09:34,388] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:09:35,671] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:09:35,816] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:09:35,963] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn68884@gmail.com'
+ [2023-03-24 16:09:36,135] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:09:36,291] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:09:36,463] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:09:37,370] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:09:37,947] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn68884@gmail.com' 
+ [2023-03-24 16:09:38,099] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:09:38,224] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:09:39,056] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:09:39,293] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:09:41,054] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:09:43,120] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:09:43,468] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:09:43,630] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:09:44,166] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:09:44,324] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:09:44,446] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:09:45,087] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:09:49,164] OS name = windows 11
+ [2023-03-24 16:09:49,165] Driver instance name = firefoxdriver: firefox on windows (cfd6916d-9ebb-49d8-92a5-8862417bd59f)
+ [2023-03-24 16:09:49,174] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5748, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cfd6916d-9ebb-49d8-92a5-8862417bd59f
+ [2023-03-24 16:10:41,263] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:10:46,451] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:10:47,705] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:10:47,841] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:10:48,032] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn41262@gmail.com'
+ [2023-03-24 16:10:48,198] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:10:48,378] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:10:48,544] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:10:49,959] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:10:50,480] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn41262@gmail.com' 
+ [2023-03-24 16:10:50,632] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:10:50,763] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:10:51,615] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:10:51,863] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:10:53,551] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:10:55,625] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:10:55,970] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:10:56,162] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:10:56,746] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:11:06,842] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:11:07,346] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:11:15,774] OS name = windows 11
+ [2023-03-24 16:11:15,774] Driver instance name = firefoxdriver: firefox on windows (d72ee0b5-8eb9-4d70-a952-7a8306530297)
+ [2023-03-24 16:11:15,780] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9700, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d72ee0b5-8eb9-4d70-a952-7a8306530297
+ [2023-03-24 16:11:30,928] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:11:36,001] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:11:37,282] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:11:37,444] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:11:37,626] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn90927@gmail.com'
+ [2023-03-24 16:11:37,781] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:11:37,935] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:11:38,094] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:11:38,996] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:11:39,578] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn90927@gmail.com' 
+ [2023-03-24 16:11:39,703] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:11:39,802] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:11:40,614] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:11:40,881] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:11:43,198] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:11:45,725] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:11:46,065] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:11:46,244] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:11:48,091] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:11:48,218] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:11:48,313] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:11:48,813] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:12:00,187] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:12:01,893] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:12:02,019] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:12:02,578] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:12:27,718]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:12:27,724] OS name = windows 11
+ [2023-03-24 16:12:27,725] Driver instance name = firefoxdriver: firefox on windows (a63a20cb-e14a-481d-829f-ba37ffdfe0ad)
+ [2023-03-24 16:35:30,683] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:35:36,772] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:35:38,017] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:35:38,232] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:35:38,483] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn30683@gmail.com'
+ [2023-03-24 16:35:38,677] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:35:38,823] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:35:38,989] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:35:39,886] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:35:40,427] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn30683@gmail.com' 
+ [2023-03-24 16:35:40,602] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:35:40,777] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:35:41,607] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:35:43,856] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:35:45,488] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:35:48,121] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:35:48,464] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:35:48,638] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:35:49,897] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:35:50,040] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:35:50,142] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:35:50,641] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:36:02,028] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:36:02,904] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:36:03,065] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:36:03,565] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:36:28,719]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:36:28,725] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:36:29,494] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:36:42,252] OS name = windows 11
+ [2023-03-24 16:36:42,252] Driver instance name = firefoxdriver: firefox on windows (9a9ed437-ef3c-48bb-872d-ff10290833d6)
+ [2023-03-24 16:37:32,443] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:37:37,638] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:37:39,006] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:37:39,211] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:37:39,399] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn52443@gmail.com'
+ [2023-03-24 16:37:39,558] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:37:39,673] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:37:39,756] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:37:40,752] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:37:41,392] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn52443@gmail.com' 
+ [2023-03-24 16:37:41,558] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:37:41,736] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:37:42,890] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:37:53,019] OS name = windows 11
+ [2023-03-24 16:37:53,020] Driver instance name = firefoxdriver: firefox on windows (03a01cb6-2624-4882-9c1a-0cc2eb442308)
+ [2023-03-24 16:38:15,387] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:38:20,668] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:38:21,945] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:38:22,113] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:38:22,293] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn95386@gmail.com'
+ [2023-03-24 16:38:22,466] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:38:22,621] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:38:22,763] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:38:23,654] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:38:24,211] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn95386@gmail.com' 
+ [2023-03-24 16:38:24,387] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:38:24,543] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:38:25,412] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:38:27,722] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:38:29,387] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:38:32,264] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:38:32,604] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:38:32,786] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:38:34,139] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:38:34,262] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:38:34,363] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:38:34,833] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:38:46,220] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:38:47,824] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:38:47,962] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:38:48,478] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:39:13,629]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:39:13,635] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:39:14,268] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:39:26,984] OS name = windows 11
+ [2023-03-24 16:39:26,984] Driver instance name = firefoxdriver: firefox on windows (fb8d611c-148e-44b4-96c4-f040bb97b3c3)
+ [2023-03-24 16:42:38,705] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:42:44,010] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:42:45,289] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:42:45,450] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:42:45,638] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn58705@gmail.com'
+ [2023-03-24 16:42:45,813] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:42:45,942] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:42:46,086] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:42:47,465] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:42:48,034] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn58705@gmail.com' 
+ [2023-03-24 16:42:48,163] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:42:48,303] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:42:49,154] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:42:54,391] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:42:56,103] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:42:58,316] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:42:58,620] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:42:58,786] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:42:59,319] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:42:59,518] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:42:59,655] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:43:00,142] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:43:11,506] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:43:12,376] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:43:12,506] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:43:13,001] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:43:38,147]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:43:38,153] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:43:38,729] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:43:46,306] OS name = windows 11
+ [2023-03-24 16:43:46,306] Driver instance name = firefoxdriver: firefox on windows (deea2299-31eb-496b-a954-5dd6c2a386a9)
+ [2023-03-24 16:44:28,751] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:44:33,916] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:44:35,220] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:44:35,359] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:44:35,531] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn68751@gmail.com'
+ [2023-03-24 16:44:35,729] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:44:35,903] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:44:36,077] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:44:36,945] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:44:37,502] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn68751@gmail.com' 
+ [2023-03-24 16:44:37,646] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:44:37,780] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:44:38,598] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:44:41,827] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:44:43,508] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:44:45,806] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:44:46,155] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:44:46,337] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:44:46,892] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:44:47,090] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:44:47,201] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:44:47,704] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:44:59,073] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:44:59,966] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:45:00,084] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:45:01,141] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:45:26,285]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:45:26,291] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:45:26,882] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:45:31,798] OS name = windows 11
+ [2023-03-24 16:45:31,799] Driver instance name = firefoxdriver: firefox on windows (777ef51d-a31f-4418-a0bf-fc51faeac4b6)
+ [2023-03-24 16:50:54,230] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:50:59,750] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:51:01,115] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:51:01,256] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:51:01,436] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn54229@gmail.com'
+ [2023-03-24 16:51:01,585] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:51:01,728] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:51:01,852] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:51:02,677] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:51:03,210] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn54229@gmail.com' 
+ [2023-03-24 16:51:03,348] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:51:03,483] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:51:04,364] Pre-Condition - Step 13: Hover To 'Computers'
+ [2023-03-24 16:51:04,599] Pre-Condition - Step 14: Click to 'Notebooks' in Computers menu
+ [2023-03-24 16:51:06,291] Pre-Condition - Step 14: Click to 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:51:08,511] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:51:08,826] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:51:08,985] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:51:09,543] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:51:09,678] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:51:09,812] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:51:10,333] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:51:21,723] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:51:22,613] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:51:22,763] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:51:23,277] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:51:48,418]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:51:48,423] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:51:49,014] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:51:51,746] OS name = windows 11
+ [2023-03-24 16:51:51,746] Driver instance name = firefoxdriver: firefox on windows (20b61d44-5102-42ca-8835-40f1d491bd44)
+ [2023-03-24 16:54:23,501] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:54:28,962] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:54:30,282] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:54:30,470] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:54:30,651] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn63500@gmail.com'
+ [2023-03-24 16:54:30,837] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:54:30,990] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:54:31,129] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:54:31,968] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:54:32,515] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn63500@gmail.com' 
+ [2023-03-24 16:54:32,678] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:54:32,811] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:54:33,681] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:54:35,643] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:54:45,695] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:54:46,223] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:55:06,301] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:55:06,831] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:55:09,679] OS name = windows 11
+ [2023-03-24 16:55:09,679] Driver instance name = firefoxdriver: firefox on windows (411cbc31-6182-41f2-9397-f0226220b092)
+ [2023-03-24 16:56:12,181] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:56:17,298] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:56:18,549] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:56:18,674] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:56:18,828] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn72180@gmail.com'
+ [2023-03-24 16:56:19,005] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:56:19,140] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:56:19,279] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:56:20,106] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:56:20,620] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn72180@gmail.com' 
+ [2023-03-24 16:56:20,771] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:56:20,908] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:56:21,690] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:56:23,648] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:56:34,081] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:56:34,156] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:56:35,416] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:56:35,543] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:56:35,645] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:56:36,131] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:56:40,359] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:56:40,481] OS name = windows 11
+ [2023-03-24 16:56:40,481] Driver instance name = firefoxdriver: firefox on windows (3061c859-eaa8-4b0f-b222-7674bdaf9ed8)
+ [2023-03-24 16:56:40,497] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21516, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3061c859-eaa8-4b0f-b222-7674bdaf9ed8
+ [2023-03-24 16:57:35,456] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:57:40,485] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:57:41,697] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:57:41,804] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:57:41,975] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn55456@gmail.com'
+ [2023-03-24 16:57:42,161] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:57:42,321] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:57:42,497] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:57:43,319] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:57:48,856] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn55456@gmail.com' 
+ [2023-03-24 16:57:49,004] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:57:49,132] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:57:49,898] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:57:53,268] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:57:53,380] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:57:53,397] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:57:53,403] OS name = windows 11
+ [2023-03-24 16:57:53,403] Driver instance name = firefoxdriver: firefox on windows (070fd5f8-e7de-4efb-a0a5-a2f03f4a6e51)
+ [2023-03-24 16:57:53,407] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 070fd5f8-e7de-4efb-a0a5-a2f03f4a6e51
+ [2023-03-24 16:58:01,081] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 16:58:06,124] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 16:58:06,867] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 16:58:07,001] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 16:58:07,144] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn81081@gmail.com'
+ [2023-03-24 16:58:07,349] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 16:58:07,539] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 16:58:07,689] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 16:58:08,543] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 16:58:09,148] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn81081@gmail.com' 
+ [2023-03-24 16:58:09,296] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 16:58:09,429] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 16:58:10,238] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 16:58:14,809] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 16:58:15,148] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 16:58:15,348] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 16:58:16,696] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 16:58:16,808] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 16:58:16,873] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 16:58:17,368] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 16:58:28,748] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 16:58:30,407] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 16:58:30,531] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 16:58:31,028] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 16:58:56,177]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 16:58:56,185] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 16:58:56,780] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 16:59:01,656] OS name = windows 11
+ [2023-03-24 16:59:01,656] Driver instance name = firefoxdriver: firefox on windows (c52bd61e-3272-4cf4-b954-e8173d2d531c)
+ [2023-03-24 17:10:22,475] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 17:10:27,682] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 17:10:28,899] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 17:10:29,059] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 17:10:29,222] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn22474@gmail.com'
+ [2023-03-24 17:10:29,371] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 17:10:29,457] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 17:10:29,560] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 17:10:30,375] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 17:10:30,902] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn22474@gmail.com' 
+ [2023-03-24 17:10:31,033] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 17:10:31,163] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 17:10:31,966] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 17:10:35,935] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 17:10:36,280] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 17:10:36,469] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 17:10:37,017] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 17:10:37,227] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 17:10:37,372] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 17:10:37,888] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 17:10:49,277] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 17:10:50,148] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 17:10:50,301] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 17:10:50,808] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 17:11:15,971]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 17:11:15,978] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 17:11:16,556] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 17:11:20,299] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-24 17:11:20,645] Wishlist_03 - Step 04: Click to 'Add to wishlist' button
+ [2023-03-24 17:11:20,974] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-24 17:11:41,039] OS name = windows 11
+ [2023-03-24 17:11:41,040] Driver instance name = firefoxdriver: firefox on windows (b912001c-9b11-4d74-a9b7-9e06cd8856aa)
+ [2023-03-24 17:12:25,535] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-24 17:12:31,390] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-24 17:12:32,725] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-24 17:12:32,903] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-24 17:12:33,044] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn45534@gmail.com'
+ [2023-03-24 17:12:33,156] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-24 17:12:33,301] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-24 17:12:33,448] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-24 17:12:34,258] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-24 17:12:34,807] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn45534@gmail.com' 
+ [2023-03-24 17:12:34,961] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-24 17:12:35,100] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-24 17:12:35,947] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-24 17:12:40,351] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-24 17:12:40,692] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-24 17:12:40,837] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-24 17:12:42,133] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-24 17:12:42,245] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-24 17:12:42,308] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-24 17:12:42,771] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-24 17:12:54,153] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-24 17:12:55,002] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-24 17:12:55,136] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-24 17:12:55,663] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 17:13:20,810]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 17:13:20,815] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-24 17:13:21,363] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-24 17:13:26,242] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-24 17:13:26,565] Wishlist_03 - Step 04: Click to 'Add to wishlist' link
+ [2023-03-24 17:13:27,784] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-24 17:13:27,889] Wishlist_03 - Step 06: Click to 'Remove' button
+ [2023-03-24 17:13:29,392] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-24 17:13:54,517]  -------------------------- PASSED -------------------------- 
+ [2023-03-24 17:13:54,527] OS name = windows 11
+ [2023-03-24 17:13:54,527] Driver instance name = firefoxdriver: firefox on windows (e58914db-c088-47db-987d-6c6bce71ea7c)
+ [2023-03-25 01:00:23,560] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:00:32,529] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:00:33,716] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:00:33,866] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:00:34,006] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn23560@gmail.com'
+ [2023-03-25 01:00:34,163] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:00:34,273] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:00:34,413] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:00:35,339] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:00:35,856] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn23560@gmail.com' 
+ [2023-03-25 01:00:35,998] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-25 01:00:36,139] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-25 01:00:36,970] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-25 01:00:42,838] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-25 01:00:43,152] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-25 01:00:43,387] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-25 01:00:44,656] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-25 01:00:44,797] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-25 01:00:44,923] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-25 01:00:45,446] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-25 01:00:56,839] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-25 01:00:59,702] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-25 01:00:59,828] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-25 01:01:00,477] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:01:25,629]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:01:25,633] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-25 01:01:26,417] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:01:26,832] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-25 01:01:27,272] Wishlist_04 - Step 02: Hover to 'Computers' menu
+ [2023-03-25 01:01:27,489] Wishlist_04 - Step 03: Click to 'Desktops' menu
+ [2023-03-25 01:01:29,714] Wishlist_04 - Step 04: Click to 'Add to compare list' button in 'Build your own computer' product
+ [2023-03-25 01:01:31,020] Wishlist_04 - Step 05: Verify add to compare list success message is displayed
+ [2023-03-25 01:01:31,151] Wishlist_04 - Step 06: Click to 'Add to compare list' button in 'Lenovo IdeaCentre 600 All-in-One PC' product
+ [2023-03-25 01:01:32,464] Wishlist_04 - Step 07: Verify add to compare list success message is displayed
+ [2023-03-25 01:01:32,595] Wishlist_04 - Step 08: Click to 'Compare products list' link
+ [2023-03-25 01:01:33,072] Wishlist_04 - Step 09: Verify 'Remove' button in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:01:33,193] Wishlist_04 - Step 10: Verify 'Remove' button in 'Build your own computer' product details is displayed
+ [2023-03-25 01:01:33,304] Wishlist_04 - Step 11: Verify 'Name' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:01:33,372] Wishlist_04 - Step 12: Verify 'Name' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:01:33,450] Wishlist_04 - Step 13: Verify 'Price' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:01:43,482] OS name = windows 11
+ [2023-03-25 01:01:43,482] Driver instance name = firefoxdriver: firefox on windows (e87801f7-401a-4a7c-8c1e-8a402247ee44)
+ [2023-03-25 01:02:55,765] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:03:00,727] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:03:01,850] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:03:01,998] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:03:02,110] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn75765@gmail.com'
+ [2023-03-25 01:03:02,248] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:03:02,386] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:03:02,541] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:03:03,360] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:03:03,827] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn75765@gmail.com' 
+ [2023-03-25 01:03:03,992] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-25 01:03:04,113] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-25 01:03:04,910] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-25 01:03:09,247] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-25 01:03:09,546] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-25 01:03:09,734] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-25 01:03:11,029] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-25 01:03:11,146] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-25 01:03:11,250] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-25 01:03:11,711] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-25 01:03:23,070] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-25 01:03:24,561] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-25 01:03:24,693] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-25 01:03:25,165] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:03:50,308]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:03:50,315] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-25 01:03:50,863] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:03:56,095] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-25 01:03:56,440] Wishlist_03 - Step 04: Click to 'Add to wishlist' link
+ [2023-03-25 01:03:57,667] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-25 01:03:57,925] Wishlist_03 - Step 06: Click to 'Remove' button
+ [2023-03-25 01:03:59,526] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:04:24,645]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:04:24,649] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-25 01:04:25,185] Wishlist_04 - Step 02: Hover to 'Computers' menu
+ [2023-03-25 01:04:25,398] Wishlist_04 - Step 03: Click to 'Desktops' menu
+ [2023-03-25 01:04:27,521] Wishlist_04 - Step 04: Click to 'Add to compare list' button in 'Build your own computer' product
+ [2023-03-25 01:04:28,861] Wishlist_04 - Step 05: Verify add to compare list success message is displayed
+ [2023-03-25 01:04:28,974] Wishlist_04 - Step 06: Click to 'Add to compare list' button in 'Lenovo IdeaCentre 600 All-in-One PC' product
+ [2023-03-25 01:04:30,274] Wishlist_04 - Step 07: Verify add to compare list success message is displayed
+ [2023-03-25 01:04:30,376] Wishlist_04 - Step 08: Click to 'Compare products list' link
+ [2023-03-25 01:04:30,786] Wishlist_04 - Step 09: Verify 'Remove' button in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:04:30,886] Wishlist_04 - Step 10: Verify 'Remove' button in 'Build your own computer' product details is displayed
+ [2023-03-25 01:04:30,977] Wishlist_04 - Step 11: Verify 'Name' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:04:31,087] Wishlist_04 - Step 12: Verify 'Name' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:04:31,172] Wishlist_04 - Step 13: Verify 'Price' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:04:41,210] OS name = windows 11
+ [2023-03-25 01:04:41,211] Driver instance name = firefoxdriver: firefox on windows (00f8782d-173d-4b98-8704-74a8e51bb10f)
+ [2023-03-25 01:06:05,899] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:06:11,213] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:06:12,094] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:06:12,217] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:06:12,357] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn65898@gmail.com'
+ [2023-03-25 01:06:12,488] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:06:12,639] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:06:12,739] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:06:13,541] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:06:21,866] OS name = windows 11
+ [2023-03-25 01:06:21,866] Driver instance name = firefoxdriver: firefox on windows (939ad5db-2d70-4868-83dc-dca739ab034a)
+ [2023-03-25 01:06:21,897] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21364, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 939ad5db-2d70-4868-83dc-dca739ab034a
+ [2023-03-25 01:06:28,833] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:06:35,047] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:06:35,750] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:06:35,875] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:06:36,032] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn88832@gmail.com'
+ [2023-03-25 01:06:36,174] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:06:36,268] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:06:36,393] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:06:37,256] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:06:37,773] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn88832@gmail.com' 
+ [2023-03-25 01:06:37,925] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-25 01:06:38,049] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-25 01:06:38,834] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-25 01:06:43,350] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-25 01:06:43,664] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-25 01:06:43,793] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-25 01:06:44,283] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-25 01:06:44,403] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-25 01:06:44,487] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-25 01:06:44,905] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-25 01:06:56,272] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-25 01:06:57,159] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-25 01:06:57,281] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-25 01:06:58,200] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:07:23,338]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:07:23,342] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-25 01:07:23,865] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:07:28,556] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-25 01:07:28,871] Wishlist_03 - Step 04: Click to 'Add to wishlist' link
+ [2023-03-25 01:07:29,568] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-25 01:07:29,656] Wishlist_03 - Step 06: Click to 'Remove' button
+ [2023-03-25 01:07:31,222] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:07:56,341]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:07:56,345] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-25 01:07:56,851] Wishlist_04 - Step 02: Hover to 'Computers' menu
+ [2023-03-25 01:07:57,069] Wishlist_04 - Step 03: Click to 'Desktops' menu
+ [2023-03-25 01:07:59,224] Wishlist_04 - Step 04: Click to 'Add to compare list' button in 'Build your own computer' product
+ [2023-03-25 01:08:00,553] Wishlist_04 - Step 05: Verify add to compare list success message is displayed
+ [2023-03-25 01:08:00,629] Wishlist_04 - Step 06: Click to 'Add to compare list' button in 'Lenovo IdeaCentre 600 All-in-One PC' product
+ [2023-03-25 01:08:01,929] Wishlist_04 - Step 07: Verify add to compare list success message is displayed
+ [2023-03-25 01:08:02,039] Wishlist_04 - Step 08: Click to 'Compare products list' link
+ [2023-03-25 01:08:02,508] Wishlist_04 - Step 09: Verify 'Remove' button in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:08:02,625] Wishlist_04 - Step 10: Verify 'Remove' button in 'Build your own computer' product details is displayed
+ [2023-03-25 01:08:02,708] Wishlist_04 - Step 11: Verify 'Name' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:08:02,803] Wishlist_04 - Step 12: Verify 'Name' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:08:02,899] Wishlist_04 - Step 13: Verify 'Price' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:08:12,923] OS name = windows 11
+ [2023-03-25 01:08:12,924] Driver instance name = firefoxdriver: firefox on windows (95178a6c-2f34-42e2-b594-beb239eecf8c)
+ [2023-03-25 01:08:48,554] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:08:53,687] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:08:54,924] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:08:55,061] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:08:55,199] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn28554@gmail.com'
+ [2023-03-25 01:08:55,335] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:08:55,492] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:08:55,619] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:08:56,443] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:08:56,939] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn28554@gmail.com' 
+ [2023-03-25 01:08:57,068] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-25 01:08:57,212] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-25 01:08:57,971] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-25 01:09:02,890] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-25 01:09:03,240] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-25 01:09:03,396] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-25 01:09:03,914] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-25 01:09:04,070] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-25 01:09:04,170] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-25 01:09:04,656] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-25 01:09:15,984] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-25 01:09:16,789] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-25 01:09:16,907] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-25 01:09:17,386] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:09:42,528]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:09:42,532] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-25 01:09:43,077] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:09:47,382] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-25 01:09:47,698] Wishlist_03 - Step 04: Click to 'Add to wishlist' link
+ [2023-03-25 01:09:48,188] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-25 01:09:48,292] Wishlist_03 - Step 06: Click to 'Remove' button
+ [2023-03-25 01:09:49,760] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:10:14,871]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:10:14,871] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-25 01:10:15,393] Wishlist_04 - Step 02: Hover to 'Computers' menu
+ [2023-03-25 01:10:15,657] Wishlist_04 - Step 03: Click to 'Desktops' menu
+ [2023-03-25 01:10:17,781] Wishlist_04 - Step 04: Click to 'Add to compare list' button in 'Build your own computer' product
+ [2023-03-25 01:10:19,106] Wishlist_04 - Step 05: Verify add to compare list success message is displayed
+ [2023-03-25 01:10:19,233] Wishlist_04 - Step 06: Click to 'Add to compare list' button in 'Lenovo IdeaCentre 600 All-in-One PC' product
+ [2023-03-25 01:10:20,542] Wishlist_04 - Step 07: Verify add to compare list success message is displayed
+ [2023-03-25 01:10:20,656] Wishlist_04 - Step 08: Click to 'Compare products list' link
+ [2023-03-25 01:10:21,131] Wishlist_04 - Step 09: Verify 'Remove' button in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:10:21,233] Wishlist_04 - Step 10: Verify 'Remove' button in 'Build your own computer' product details is displayed
+ [2023-03-25 01:10:21,314] Wishlist_04 - Step 11: Verify 'Name' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:10:21,403] Wishlist_04 - Step 12: Verify 'Name' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:10:21,488] Wishlist_04 - Step 13: Verify 'Price' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:10:21,566] Wishlist_04 - Step 14: Verify 'Price' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:10:21,653] Wishlist_04 - Step 15: Verify 'Clear List' button is displayed
+ [2023-03-25 01:10:21,739] Wishlist_04 - Step 16: Click to 'Clear List' button
+ [2023-03-25 01:10:21,852] Wishlist_04 - Step 17: Verify clear message is displayed
+ [2023-03-25 01:10:22,509] Wishlist_04 - Step 18: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+ [2023-03-25 01:10:37,582] Wishlist_04 - Step 19: Verify 'Build your own computer' is not displayed
+ [2023-03-25 01:10:52,679] OS name = windows 11
+ [2023-03-25 01:10:52,680] Driver instance name = firefoxdriver: firefox on windows (a2b23b77-9924-448a-939a-48106004ac91)
+ [2023-03-25 01:34:07,181] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-25 01:34:12,568] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-25 01:34:13,777] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-25 01:34:13,910] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-25 01:34:14,048] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn47180@gmail.com'
+ [2023-03-25 01:34:14,181] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-25 01:34:14,324] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-25 01:34:14,492] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-25 01:34:15,261] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-25 01:34:15,757] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn47180@gmail.com' 
+ [2023-03-25 01:34:15,889] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-25 01:34:16,017] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-25 01:34:16,760] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-25 01:34:21,343] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-25 01:34:21,654] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-25 01:34:21,810] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-25 01:34:22,331] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-25 01:34:22,453] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-25 01:34:22,557] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-25 01:34:23,011] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-25 01:34:34,352] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-25 01:34:35,114] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-25 01:34:35,250] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-25 01:34:35,727] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:35:00,886]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:35:00,890] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-25 01:35:01,417] Wishlist_03 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:35:05,039] Wishlist_03 - Step 03: Click to 'Add to wishlist' button
+ [2023-03-25 01:35:05,365] Wishlist_03 - Step 04: Click to 'Add to wishlist' link
+ [2023-03-25 01:35:05,826] Wishlist_03 - Step 05: Verify product is displayed
+ [2023-03-25 01:35:05,930] Wishlist_03 - Step 06: Click to 'Remove' button
+ [2023-03-25 01:35:07,422] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-25 01:35:32,537]  -------------------------- PASSED -------------------------- 
+ [2023-03-25 01:35:32,541] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-25 01:35:33,076] Wishlist_04 - Step 02: Hover to 'Computers' menu
+ [2023-03-25 01:35:33,314] Wishlist_04 - Step 03: Click to 'Desktops' menu
+ [2023-03-25 01:35:34,899] Wishlist_04 - Step 04: Click to 'Add to compare list' button in 'Build your own computer' product
+ [2023-03-25 01:35:36,208] Wishlist_04 - Step 05: Verify add to compare list success message is displayed
+ [2023-03-25 01:35:36,311] Wishlist_04 - Step 06: Click to 'Add to compare list' button in 'Lenovo IdeaCentre 600 All-in-One PC' product
+ [2023-03-25 01:35:37,620] Wishlist_04 - Step 07: Verify add to compare list success message is displayed
+ [2023-03-25 01:35:37,694] Wishlist_04 - Step 08: Click to 'Compare products list' link
+ [2023-03-25 01:35:38,180] Wishlist_04 - Step 09: Verify 'Remove' button in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:35:38,294] Wishlist_04 - Step 10: Verify 'Remove' button in 'Build your own computer' product details is displayed
+ [2023-03-25 01:35:38,371] Wishlist_04 - Step 11: Verify 'Name' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:35:38,459] Wishlist_04 - Step 12: Verify 'Name' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:35:38,552] Wishlist_04 - Step 13: Verify 'Price' in 'Lenovo IdeaCentre 600 All-in-One PC' product details is displayed
+ [2023-03-25 01:35:38,648] Wishlist_04 - Step 14: Verify 'Price' in 'Build your own computer' product details is displayed
+ [2023-03-25 01:35:38,742] Wishlist_04 - Step 15: Verify 'Clear List' button is displayed
+ [2023-03-25 01:35:38,837] Wishlist_04 - Step 16: Click to 'Clear List' button
+ [2023-03-25 01:35:38,945] Wishlist_04 - Step 17: Verify clear message is displayed
+ [2023-03-25 01:35:39,566] Wishlist_04 - Step 18: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+ [2023-03-25 01:35:54,664] Wishlist_04 - Step 19: Verify 'Build your own computer' is not displayed
+ [2023-03-25 01:36:09,746] Wishlist_05 - Step 01: Navigate to Home page
+ [2023-03-25 01:36:10,769] Wishlist_05 - Step 02: Select 'Nokia Lumia 1020'
+ [2023-03-25 01:36:14,305] Wishlist_05 - Step 03: Select 'Build your own computer'
+ [2023-03-25 01:36:18,317] Wishlist_05 - Step 04: Select 'HTC One Mini Blue'
+ [2023-03-25 01:36:22,207] Wishlist_05 - Step 05: Select 'Custom T-Shirt'
+ [2023-03-25 01:36:27,706] Wishlist_05 - Step 06: Click to 'Recently viewed products' link
+ [2023-03-25 01:36:28,907] Wishlist_05 - Step 07: Verify at least 3 products displayed
+ [2023-03-25 01:36:29,019] OS name = windows 11
+ [2023-03-25 01:36:29,023] Driver instance name = firefoxdriver: firefox on windows (e09e8ac7-fa69-4081-9390-ae857da25bf7)
+ [2023-03-27 17:27:54,228] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-27 17:28:02,665] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-27 17:28:04,060] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-27 17:28:04,192] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-27 17:28:04,370] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn74227@gmail.com'
+ [2023-03-27 17:28:04,514] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-27 17:28:04,682] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-27 17:28:04,881] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-27 17:28:05,875] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-27 17:28:06,526] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn74227@gmail.com' 
+ [2023-03-27 17:28:06,668] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-27 17:28:06,836] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-27 17:28:07,747] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-27 17:28:12,671] Wishlist_01 - Step 01: Click to 'Add to wishlist' button
+ [2023-03-27 17:28:12,965] Wishlist_01 - Step 02: Verify product added to Wishlist success message is displayed
+ [2023-03-27 17:28:13,174] Wishlist_01 - Step 03: Click to 'Wishlist' link
+ [2023-03-27 17:28:14,579] Wishlist_01 - Step 04: Verify product is displayed
+ [2023-03-27 17:28:14,714] Wishlist_01 - Step 05: Verify Wishlist sharing link is displayed
+ [2023-03-27 17:28:14,834] Wishlist_02 - Step 06: Click to 'Wishlist' link
+ [2023-03-27 17:28:15,434] Wishlist_02 - Step 07: Check to checkbox 'Add to cart'
+ [2023-03-27 17:28:26,782] Wishlist_02 - Step 08: Click to 'Add To Cart' button
+ [2023-03-27 17:28:27,864] Wishlist_02 - Step 09: Verify product added to Cart success
+ [2023-03-27 17:28:28,031] Wishlist_02 - Step 10: Navigate to Wishlist page
+ [2023-03-27 17:28:28,503] Wishlist_02 - Step 10: Verify product is not displayed
+ [2023-03-27 17:28:43,277] Wishlist_03 - Step 01: Navigate to Home page
+ [2023-03-27 17:28:43,470] Wishlist_04 - Step 01: Navigate to Home page
+ [2023-03-27 17:28:43,482] Wishlist_05 - Step 01: Navigate to Home page
+ [2023-03-27 17:28:43,487] OS name = windows 11
+ [2023-03-27 17:28:43,487] Driver instance name = firefoxdriver: firefox on windows (d9384a88-3535-489f-a859-1a8a56775b3e)
+ [2023-03-27 17:28:43,495] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24116, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9384a88-3535-489f-a859-1a8a56775b3e
+ [2023-03-27 17:29:30,017] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-27 17:29:36,399] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-27 17:29:37,694] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-27 17:29:37,871] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-27 17:29:38,054] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn70016@gmail.com'
+ [2023-03-27 17:29:38,237] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-27 17:29:38,397] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-27 17:29:38,553] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-27 17:29:39,514] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-27 17:29:40,211] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn70016@gmail.com' 
+ [2023-03-27 17:29:40,396] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-27 17:29:40,575] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-27 17:29:41,579] Pre-Condition - Step 13: Select 'HP Spectre XT Pro UltraBook'
+ [2023-03-27 17:29:45,945] OS name = windows 11
+ [2023-03-27 17:29:45,945] Driver instance name = firefoxdriver: firefox on windows (c68d9fb7-2278-43b0-8e20-18e21ade2ca4)
+ [2023-03-28 00:25:36,201] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 00:25:41,973] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 00:26:42,713] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 00:26:46,550] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 00:28:59,236] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 00:29:03,547] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 00:30:16,707] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 00:30:20,555] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 18:14:32,186] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 18:14:38,861] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 23:19:36,263] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 23:19:44,118] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-28 23:32:05,523] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-28 23:32:11,869] Pre-Condition - Step 02: Click to 'Register' link
