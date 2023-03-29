@@ -1,7 +1,7 @@
 package com.nopcommerce.data;
 
 public class UserData {
-	
+
 	public static class Register {
 		public static final String FIRST_NAME = "A";
 		public static final String LAST_NAME = "B";
@@ -9,7 +9,7 @@ public class UserData {
 		public static final String VALID_EMAIL = "afc";
 		public static final String INVALID_EMAIL = "afc@@gmail.com";
 	}
-	
+
 	public static class Login {
 		public static final String FIRST_NAME = "A";
 		public static final String LAST_NAME = "B";
@@ -18,7 +18,7 @@ public class UserData {
 		public static final String INVALID_EMAIL = "afc@@gmail.com";
 		public static final String UNREGISTED_EMAIL = "afc9999@gmail.com";
 	}
-	
+
 	public static class MyAccount {
 		public static final String FIRST_NAME_REGISTER_PAGE = "A";
 		public static final String LAST_NAME_REGISTER_PAGE = "B";
@@ -44,8 +44,8 @@ public class UserData {
 		public static final String REVIEW_TEXT = "This product is great !!!";
 		public static final String RATING_NUMBER = "4";
 	}
-	
-	public static class Search{
+
+	public static class Search {
 
 		public static final String FIRST_NAME = "ABC";
 		public static final String LAST_NAME = "XYZ";
@@ -54,5 +54,19 @@ public class UserData {
 		public static final String ERROR_MESSAGE = "Search term minimum length is 3 characters";
 		public static final String PRODUCT_NOT_FOUND_ERROR_MESSAGE = "No products were found that matched your criteria.";
 	}
-	
+
+	public static class Order {
+		public static final String PRODUCT_INFO_BEFORE = "Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\n"
+				+ "RAM: 8GB [+$60.00]\n"
+				+ "HDD: 400 GB [+$100.00]\n"
+				+ "OS: Vista Premium [+$60.00]\n"
+				+ "Software: Microsoft Office [+$50.00]\n"
+				+ "Software: Acrobat Reader [+$10.00]\n"
+				+ "Software: Total Commander [+$5.00]";
+		public static final String PRODUCT_INFO_AFTER = "Processor: 2.2 GHz Intel Pentium Dual-Core E2200\n"
+				+ "RAM: 4GB [+$20.00]\n"
+				+ "HDD: 320 GB\n"
+				+ "OS: Vista Home [+$50.00]\n"
+				+ "Software: Microsoft Office [+$50.00]";
+	}
 }

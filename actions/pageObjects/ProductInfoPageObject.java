@@ -43,11 +43,28 @@ public class ProductInfoPageObject extends BasePage {
 	public void closeProductAddedToShoppingCartMessage() {
 		waitForElementClickable(UserProductInfoPageUIs.CLOSE_MESSAGE_ICON);
 		clickToElement(UserProductInfoPageUIs.CLOSE_MESSAGE_ICON);
+	
 	}
 
 	public ShoppingCartPageObject clickToShoppingCartLink() {
-		
-		return null;
+		waitForElementInvisiable(UserProductInfoPageUIs.CLOSE_MESSAGE_ICON);
+		clickToElement(UserProductInfoPageUIs.SHOPPING_CART_LINK);
+		return PageGeneraterManager.getShoppingCartPage(driver);
+	}
+
+	public void uncheckToCheckboxByName(String checkboxName) {
+		waitForElementClickable(UserProductInfoPageUIs.DYNAMIC_CHECKBOX_BY_CHECKBOX_NAME, checkboxName);
+		unheckToDefautCheckbox(UserProductInfoPageUIs.DYNAMIC_CHECKBOX_BY_CHECKBOX_NAME, checkboxName);
+	}
+
+	public void enterToProductNumber(String productNumber) {
+		waitForElementVisiable(UserProductInfoPageUIs.PRODUCT_NUMBER);
+		sendkeyToElement(UserProductInfoPageUIs.PRODUCT_NUMBER, productNumber);
+	}
+
+	public boolean isPriceDisplayTrue(String price) {
+		waitForElementVisiable(UserProductInfoPageUIs.PRODUCT_PRICE, price);
+		return isElementDisplayed(UserProductInfoPageUIs.PRODUCT_PRICE, price);
 	}
 
 	

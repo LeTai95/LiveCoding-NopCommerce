@@ -1,12 +1,14 @@
-1680021126424	geckodriver	INFO	Listening on 127.0.0.1:6059
-1680021127115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofilehdTUqP"
+1680082851417	geckodriver	INFO	Listening on 127.0.0.1:56709
+1680082852056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileI4E8qI"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1680021127779	Marionette	INFO	Marionette enabled
+1680082852351	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1680021127789	Marionette	INFO	Listening on port 65054
-Read port: 65054
-1680021127982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofilehdTUqP\\search.json.mozlz4", (void 0)))
-JavaScript warning: https://demo.nopcommerce.com/cdn-cgi/challenge-platform/h/b/orchestrate/managed/v1?ray=7af14487499704ba line 1 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=7af144959ff31073 line 1 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680082852356	Marionette	INFO	Listening on port 64566
+Read port: 64566
+1680082852465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileI4E8qI\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1680082942159	Marionette	INFO	Stopped listening on port 64566
+Dynamically enable window occlusion 1

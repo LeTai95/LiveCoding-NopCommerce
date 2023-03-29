@@ -1,2 +1,53 @@
- [2023-03-28 23:32:05,523] Pre-Condition- Step 01: Open browser and navigate to website
- [2023-03-28 23:32:11,869] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-29 16:40:51,024] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-03-29 16:40:56,085] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-03-29 16:40:57,341] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-03-29 16:40:57,481] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-03-29 16:40:57,622] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn51023@gmail.com'
+ [2023-03-29 16:40:57,761] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-03-29 16:40:57,906] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-03-29 16:40:58,025] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-03-29 16:40:58,891] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-03-29 16:40:59,431] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn51023@gmail.com' 
+ [2023-03-29 16:40:59,579] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-03-29 16:40:59,732] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-03-29 16:41:00,524] Pre-Condition - Step 13: Select 'Build your own computer'
+ [2023-03-29 16:41:04,546] Order_01 - Step 01: Select '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' in 'Processor' dropdown
+ [2023-03-29 16:41:04,621] Order_01 - Step 02: Select '8GB [+$60.00]' in 'RAM' dropdown
+ [2023-03-29 16:41:04,966] Order_01 - Step 03: Check to '400 GB [+$100.00]'
+ [2023-03-29 16:41:05,280] Order_01 - Step 04: Check to 'Vista Premium [+$60.00]'
+ [2023-03-29 16:41:05,567] Order_01 - Step 05: Check all 'Software ' checkbox
+ [2023-03-29 16:41:06,260] Order_01 - Step 06: Click to 'Add to cart' button
+ [2023-03-29 16:41:06,568] Order_01 - Step 07: Verify product added to shopping cart message is displayed
+ [2023-03-29 16:41:06,734] Order_01 - Step 08: Close product added to shopping cart message
+ [2023-03-29 16:41:07,024] Order_01 - Step 09: Click to 'Shopping cart' link
+ [2023-03-29 16:41:18,794] Order_01 - Step 10: Verify product is displayed in shopping cart
+ [2023-03-29 16:41:18,921] Order_01 - Step 11: Verify product Info is displayed in shopping cart
+ [2023-03-29 16:41:19,020] Order_01 - Step 12: Verify product Price is displayed in shopping cart
+ [2023-03-29 16:41:19,120] Order_02 - Step 01: Click to 'Edit'
+ [2023-03-29 16:41:21,141] Order_01 - Step 02: Select '2.2 GHz Intel Pentium Dual-Core E2200' in 'Processor' dropdown
+ [2023-03-29 16:41:21,472] Order_02 - Step 03: Select '4GB [+$20.00]' in 'RAM' dropdown
+ [2023-03-29 16:41:21,794] Order_02 - Step 04: Check to '320 GB'
+ [2023-03-29 16:41:22,133] Order_02 - Step 05: Check to 'Vista Home [+$50.00]'
+ [2023-03-29 16:41:22,455] Order_02 - Step 06: Uncheck 'Acrobat Reader [+$10.00]' and 'Total Commander [+$5.00]' checkbox
+ [2023-03-29 16:41:23,084] Order_02 - Step 07: Enter product number is '2'
+ [2023-03-29 16:41:23,235] Order_02 - Step 08: Verify price is '$1,320.00'
+ [2023-03-29 16:41:23,315] Order_02 - Step 09: Click to 'Add to cart' button
+ [2023-03-29 16:41:23,625] Order_02 - Step 10: Verify product added to shopping cart message is displayed
+ [2023-03-29 16:41:23,823] Order_02 - Step 11: Close product added to shopping cart message
+ [2023-03-29 16:41:24,121] Order_02 - Step 12: Click to 'Shopping cart' link
+ [2023-03-29 16:41:35,821] Order_02 - Step 13: Verify product is displayed in shopping cart
+ [2023-03-29 16:41:35,957] Order_02 - Step 14: Verify product Info is displayed in shopping cart
+ [2023-03-29 16:41:36,041] Order_02 - Step 14: Verify 'Total' is '$2,640.00'
+ [2023-03-29 16:41:36,134] Order_03 - Step 01: Click to 'Remove' button
+ [2023-03-29 16:41:37,686] Order_03 - Step 02: Verify message is displayed
+ [2023-03-29 16:41:37,791] Order_03 - Step 03: Verify product is not displayed
+ [2023-03-29 16:42:02,906] Order_04 - Step 01: Navigate to Home page
+ [2023-03-29 16:42:03,417] Order_04 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-03-29 16:42:08,915] Order_04 - Step 03: Click to 'Add to cart' button
+ [2023-03-29 16:42:09,231] Order_04 - Step 04: Close product added to shopping cart message
+ [2023-03-29 16:42:09,607] Order_04 - Step 05: Click to 'Shopping cart' link
+ [2023-03-29 16:42:21,325] Order_04 - Step 06: Enter to 'Qty.'
+ [2023-03-29 16:42:21,509] Order_04 - Step 07: Click to 'Update shopping cart'
+ [2023-03-29 16:42:22,040] Order_02 - Step 14: Verify 'Total' is '$2,500.00'
+ [2023-03-29 16:42:22,125] OS name = windows 11
+ [2023-03-29 16:42:22,125] Driver instance name = firefoxdriver: firefox on windows (473dbff5-b5fd-40c7-9e42-ef813cc1697a)
