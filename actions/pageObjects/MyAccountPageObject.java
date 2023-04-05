@@ -70,4 +70,10 @@ public class MyAccountPageObject extends BasePage {
 		clickToElement(UserMyAccountPageUIs.MY_PRODUCT_REVIEWS_LINK);
 		return PageGeneraterManager.getMyProductReviewsPage(driver);
 	}
+
+	public OrdersPageObject clickToOrdersLink() {
+		waitForElementClickable(UserMyAccountPageUIs.ORDERS_LINK);
+		clickToElement(UserMyAccountPageUIs.ORDERS_LINK);
+		return PageGeneraterManager.getOrdersPage(driver);
+	}
 }

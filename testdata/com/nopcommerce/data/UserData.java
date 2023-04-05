@@ -68,5 +68,14 @@ public class UserData {
 				+ "HDD: 320 GB\n"
 				+ "OS: Vista Home [+$50.00]\n"
 				+ "Software: Microsoft Office [+$50.00]";
+		public static final String FIRST_NAME = "Auto";
+		public static final String LAST_NAME = "Test";
+		public static final String EMAIL_ADDRESS = "johnwick111222@gmail.com";
+		public static final String COUNTRY_NAME = "Viet Nam";
+		public static final String CITY_NAME = "Ho Chi Minh";
+		public static final String ADDRESS_1 = "Go Vap District";
+		public static final String ZIP_POSTAL_CODE = "000000000";
+		public static final String PHONE_NUMBER = "0987654321";
+		
 	}
 }

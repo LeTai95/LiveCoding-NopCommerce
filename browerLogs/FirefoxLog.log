@@ -1,14 +1,14 @@
-1680082851417	geckodriver	INFO	Listening on 127.0.0.1:56709
-1680082852056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileI4E8qI"
+1680666131599	geckodriver	INFO	Listening on 127.0.0.1:37708
+1680666132247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletEUZVf"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1680082852351	Marionette	INFO	Marionette enabled
+1680666132805	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1680082852356	Marionette	INFO	Listening on port 64566
-Read port: 64566
-1680082852465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileI4E8qI\\search.json.mozlz4", (void 0)))
+1680666132812	Marionette	INFO	Listening on port 64543
+Read port: 64543
+1680666133103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletEUZVf\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1680082942159	Marionette	INFO	Stopped listening on port 64566
+1680666296332	Marionette	INFO	Stopped listening on port 64543
 Dynamically enable window occlusion 1

@@ -12,6 +12,15 @@ public class UserShoppingCartPageUIs {
 	public static final String HEADER_LOGO = "xpath=//div[@class='header-logo']";
 	public static final String QTY_BY_ROW_NUMBER_AND_COLUMN_NAME = "xpath=//tbody//tr[%s]//td[%s]/input";
 	public static final String UPDATE_SHOPPING_CART = "xpath=//button[@id='updatecart']";
+	public static final String ESTIMATE_SHIPPING_BUTTON = "xpath=//a[@id='open-estimate-shipping-popup']";
+	public static final String ESTIMATE_SHIPPING_POPUP = "xpath=//div[@id='estimate-shipping-popup']";
+	public static final String COUNTRY_DROPDOWN_IN_POPUP = "xpath=//select[@id='CountryId']";
+	public static final String ZIP_POSTAL_CODE_TEXTBOX = "xpath=//input[@id='ZipPostalCode']";
+	public static final String DYNAMIC_RADIO_BY_NAME = "xpath=//div[text()='%s']";
+	public static final String APPLY_BUTTON = "xpath=//button[text()='Apply']";
+	public static final String TERM_OF_SERVICE_CHECKBOX = "xpath=//input[@id='termsofservice']";
+	public static final String CHECKOUT_BUTTON = "xpath=//button[@id='checkout']";
+	
 	
 	
 }

@@ -3,12 +3,19 @@ package commons;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AddressesPageObject;
+import pageObjects.BillingAddressPageObject;
 import pageObjects.ChangePasswordPageObject;
+import pageObjects.CheckoutPageObject;
 import pageObjects.CompareProductListPageObject;
+import pageObjects.ConfirmOrderPageObject;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.MyAccountPageObject;
 import pageObjects.MyProductReviewsPageObject;
+import pageObjects.OrderInfomationPageObject;
+import pageObjects.OrdersPageObject;
+import pageObjects.PaymentInformationPageObject;
+import pageObjects.PaymentMethodPageObject;
 import pageObjects.ProductInfoPageObject;
 import pageObjects.ProductReviewPageObject;
 import pageObjects.RecentlyViewedProductsPageObject;
@@ -72,6 +79,34 @@ public class PageGeneraterManager {
 	
 	public static RecentlyViewedProductsPageObject getRecentlyViewedProductPage(WebDriver driver) {
 		return new RecentlyViewedProductsPageObject(driver);
+	}
+	
+	public static BillingAddressPageObject getBillingAddressPage(WebDriver driver) {
+		return new BillingAddressPageObject(driver);
+	}
+	
+	public static CheckoutPageObject getCheckoutPage(WebDriver driver) {
+		return new CheckoutPageObject(driver);
+	}
+	
+	public static PaymentMethodPageObject getPaymentMethodPage(WebDriver driver) {
+		return new PaymentMethodPageObject(driver);
+	}
+	
+	public static PaymentInformationPageObject getPaymentInformationPage(WebDriver driver) {
+		return new PaymentInformationPageObject(driver);
+	}
+	
+	public static ConfirmOrderPageObject getConfirmOrderPage(WebDriver driver) {
+		return new ConfirmOrderPageObject(driver);
+	}
+	
+	public static OrdersPageObject getOrdersPage(WebDriver driver) {
+		return new OrdersPageObject(driver);
+	}
+	
+	public static OrderInfomationPageObject getOrderInfomationPage(WebDriver driver) {
+		return new OrderInfomationPageObject(driver);
 	}
 	
 }

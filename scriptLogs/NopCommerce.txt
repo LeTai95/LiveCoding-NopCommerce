@@ -1,53 +1,141 @@
- [2023-03-29 16:40:51,024] Pre-Condition- Step 01: Open browser and navigate to website
- [2023-03-29 16:40:56,085] Pre-Condition - Step 02: Click to 'Register' link
- [2023-03-29 16:40:57,341] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
- [2023-03-29 16:40:57,481] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
- [2023-03-29 16:40:57,622] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn51023@gmail.com'
- [2023-03-29 16:40:57,761] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
- [2023-03-29 16:40:57,906] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
- [2023-03-29 16:40:58,025] Pre-Condition - Step 08: Click to 'Register' button
- [2023-03-29 16:40:58,891] Pre-Condition- Step 09: Navigate to 'Login' page
- [2023-03-29 16:40:59,431] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn51023@gmail.com' 
- [2023-03-29 16:40:59,579] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
- [2023-03-29 16:40:59,732] Pre-Condition - Step 12: Click to 'Login' button
- [2023-03-29 16:41:00,524] Pre-Condition - Step 13: Select 'Build your own computer'
- [2023-03-29 16:41:04,546] Order_01 - Step 01: Select '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' in 'Processor' dropdown
- [2023-03-29 16:41:04,621] Order_01 - Step 02: Select '8GB [+$60.00]' in 'RAM' dropdown
- [2023-03-29 16:41:04,966] Order_01 - Step 03: Check to '400 GB [+$100.00]'
- [2023-03-29 16:41:05,280] Order_01 - Step 04: Check to 'Vista Premium [+$60.00]'
- [2023-03-29 16:41:05,567] Order_01 - Step 05: Check all 'Software ' checkbox
- [2023-03-29 16:41:06,260] Order_01 - Step 06: Click to 'Add to cart' button
- [2023-03-29 16:41:06,568] Order_01 - Step 07: Verify product added to shopping cart message is displayed
- [2023-03-29 16:41:06,734] Order_01 - Step 08: Close product added to shopping cart message
- [2023-03-29 16:41:07,024] Order_01 - Step 09: Click to 'Shopping cart' link
- [2023-03-29 16:41:18,794] Order_01 - Step 10: Verify product is displayed in shopping cart
- [2023-03-29 16:41:18,921] Order_01 - Step 11: Verify product Info is displayed in shopping cart
- [2023-03-29 16:41:19,020] Order_01 - Step 12: Verify product Price is displayed in shopping cart
- [2023-03-29 16:41:19,120] Order_02 - Step 01: Click to 'Edit'
- [2023-03-29 16:41:21,141] Order_01 - Step 02: Select '2.2 GHz Intel Pentium Dual-Core E2200' in 'Processor' dropdown
- [2023-03-29 16:41:21,472] Order_02 - Step 03: Select '4GB [+$20.00]' in 'RAM' dropdown
- [2023-03-29 16:41:21,794] Order_02 - Step 04: Check to '320 GB'
- [2023-03-29 16:41:22,133] Order_02 - Step 05: Check to 'Vista Home [+$50.00]'
- [2023-03-29 16:41:22,455] Order_02 - Step 06: Uncheck 'Acrobat Reader [+$10.00]' and 'Total Commander [+$5.00]' checkbox
- [2023-03-29 16:41:23,084] Order_02 - Step 07: Enter product number is '2'
- [2023-03-29 16:41:23,235] Order_02 - Step 08: Verify price is '$1,320.00'
- [2023-03-29 16:41:23,315] Order_02 - Step 09: Click to 'Add to cart' button
- [2023-03-29 16:41:23,625] Order_02 - Step 10: Verify product added to shopping cart message is displayed
- [2023-03-29 16:41:23,823] Order_02 - Step 11: Close product added to shopping cart message
- [2023-03-29 16:41:24,121] Order_02 - Step 12: Click to 'Shopping cart' link
- [2023-03-29 16:41:35,821] Order_02 - Step 13: Verify product is displayed in shopping cart
- [2023-03-29 16:41:35,957] Order_02 - Step 14: Verify product Info is displayed in shopping cart
- [2023-03-29 16:41:36,041] Order_02 - Step 14: Verify 'Total' is '$2,640.00'
- [2023-03-29 16:41:36,134] Order_03 - Step 01: Click to 'Remove' button
- [2023-03-29 16:41:37,686] Order_03 - Step 02: Verify message is displayed
- [2023-03-29 16:41:37,791] Order_03 - Step 03: Verify product is not displayed
- [2023-03-29 16:42:02,906] Order_04 - Step 01: Navigate to Home page
- [2023-03-29 16:42:03,417] Order_04 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
- [2023-03-29 16:42:08,915] Order_04 - Step 03: Click to 'Add to cart' button
- [2023-03-29 16:42:09,231] Order_04 - Step 04: Close product added to shopping cart message
- [2023-03-29 16:42:09,607] Order_04 - Step 05: Click to 'Shopping cart' link
- [2023-03-29 16:42:21,325] Order_04 - Step 06: Enter to 'Qty.'
- [2023-03-29 16:42:21,509] Order_04 - Step 07: Click to 'Update shopping cart'
- [2023-03-29 16:42:22,040] Order_02 - Step 14: Verify 'Total' is '$2,500.00'
- [2023-03-29 16:42:22,125] OS name = windows 11
- [2023-03-29 16:42:22,125] Driver instance name = firefoxdriver: firefox on windows (473dbff5-b5fd-40c7-9e42-ef813cc1697a)
+ [2023-04-05 10:42:09,281] Pre-Condition- Step 01: Open browser and navigate to website
+ [2023-04-05 10:42:16,835] Pre-Condition - Step 02: Click to 'Register' link
+ [2023-04-05 10:42:17,999] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
+ [2023-04-05 10:42:18,151] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
+ [2023-04-05 10:42:18,303] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn29281@gmail.com'
+ [2023-04-05 10:42:18,413] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
+ [2023-04-05 10:42:18,540] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
+ [2023-04-05 10:42:18,661] Pre-Condition - Step 08: Click to 'Register' button
+ [2023-04-05 10:42:19,448] Pre-Condition- Step 09: Navigate to 'Login' page
+ [2023-04-05 10:42:19,932] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn29281@gmail.com' 
+ [2023-04-05 10:42:20,043] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
+ [2023-04-05 10:42:20,160] Pre-Condition - Step 12: Click to 'Login' button
+ [2023-04-05 10:42:20,981] Pre-Condition - Step 13: Select 'Build your own computer'
+ [2023-04-05 10:42:25,080] Order_01 - Step 01: Select '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' in 'Processor' dropdown
+ [2023-04-05 10:42:25,142] Order_01 - Step 02: Select '8GB [+$60.00]' in 'RAM' dropdown
+ [2023-04-05 10:42:25,436] Order_01 - Step 03: Check to '400 GB [+$100.00]'
+ [2023-04-05 10:42:25,742] Order_01 - Step 04: Check to 'Vista Premium [+$60.00]'
+ [2023-04-05 10:42:26,049] Order_01 - Step 05: Check all 'Software ' checkbox
+ [2023-04-05 10:42:26,684] Order_01 - Step 06: Click to 'Add to cart' button
+ [2023-04-05 10:42:26,971] Order_01 - Step 07: Verify product added to shopping cart message is displayed
+ [2023-04-05 10:42:27,147] Order_01 - Step 08: Close product added to shopping cart message
+ [2023-04-05 10:42:27,456] Order_01 - Step 09: Click to 'Shopping cart' link
+ [2023-04-05 10:42:39,105] Order_01 - Step 10: Verify product is displayed in shopping cart
+ [2023-04-05 10:42:39,242] Order_01 - Step 11: Verify product Info is displayed in shopping cart
+ [2023-04-05 10:42:39,338] Order_01 - Step 12: Verify product Price is displayed in shopping cart
+ [2023-04-05 10:42:39,437] Order_02 - Step 01: Click to 'Edit'
+ [2023-04-05 10:42:41,662] Order_01 - Step 02: Select '2.2 GHz Intel Pentium Dual-Core E2200' in 'Processor' dropdown
+ [2023-04-05 10:42:41,964] Order_02 - Step 03: Select '4GB [+$20.00]' in 'RAM' dropdown
+ [2023-04-05 10:42:42,259] Order_02 - Step 04: Check to '320 GB'
+ [2023-04-05 10:42:42,552] Order_02 - Step 05: Check to 'Vista Home [+$50.00]'
+ [2023-04-05 10:42:42,845] Order_02 - Step 06: Uncheck 'Acrobat Reader [+$10.00]' and 'Total Commander [+$5.00]' checkbox
+ [2023-04-05 10:42:43,439] Order_02 - Step 07: Enter product number is '2'
+ [2023-04-05 10:42:43,612] Order_02 - Step 08: Verify price is '$1,320.00'
+ [2023-04-05 10:42:43,687] Order_02 - Step 09: Click to 'Add to cart' button
+ [2023-04-05 10:42:43,964] Order_02 - Step 10: Verify product added to shopping cart message is displayed
+ [2023-04-05 10:42:44,142] Order_02 - Step 11: Close product added to shopping cart message
+ [2023-04-05 10:42:44,435] Order_02 - Step 12: Click to 'Shopping cart' link
+ [2023-04-05 10:42:56,058] Order_02 - Step 13: Verify product is displayed in shopping cart
+ [2023-04-05 10:42:56,199] Order_02 - Step 14: Verify product Info is displayed in shopping cart
+ [2023-04-05 10:42:56,292] Order_02 - Step 14: Verify 'Total' is '$2,640.00'
+ [2023-04-05 10:42:56,404] Order_03 - Step 01: Click to 'Remove' button
+ [2023-04-05 10:42:57,948] Order_03 - Step 02: Verify message is displayed
+ [2023-04-05 10:42:58,048] Order_03 - Step 03: Verify product is not displayed
+ [2023-04-05 10:43:23,170] Order_04 - Step 01: Navigate to Home page
+ [2023-04-05 10:43:23,675] Order_04 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-05 10:43:27,476] Order_04 - Step 03: Click to 'Add to cart' button
+ [2023-04-05 10:43:27,792] Order_04 - Step 04: Close product added to shopping cart message
+ [2023-04-05 10:43:28,183] Order_04 - Step 05: Click to 'Shopping cart' link
+ [2023-04-05 10:43:39,915] Order_04 - Step 06: Enter to 'Qty.'
+ [2023-04-05 10:43:40,135] Order_04 - Step 07: Click to 'Update shopping cart'
+ [2023-04-05 10:43:40,767] Order_02 - Step 08: Verify 'Total' is '$2,500.00'
+ [2023-04-05 10:43:40,900] Order_03 - Step 09: Click to 'Remove' button
+ [2023-04-05 10:43:42,496] Order_05 - Step 01: Navigate to Home page
+ [2023-04-05 10:43:42,998] Order_05 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-05 10:43:46,647] Order_05 - Step 03: Click to 'Add to cart' button
+ [2023-04-05 10:43:46,948] Order_05 - Step 04: Close product added to shopping cart message
+ [2023-04-05 10:43:47,352] Order_05 - Step 05: Click to 'Shopping cart' link
+ [2023-04-05 10:43:59,033] Order_05 - Step 06: Click to 'Estimate shipping'
+ [2023-04-05 10:43:59,412] Order_05 - Step 07: Verify Shipping Popup is displayed
+ [2023-04-05 10:43:59,537] Order_05 - Step 08: Select 'Viet Nam' in Shipping Popup dropdown
+ [2023-04-05 10:43:59,860] Order_05 - Step 09: Enter to 'Zip/ postal code' textbox
+ [2023-04-05 10:43:59,986] Order_05 - Step 10: Check to 'Next Day Air' radio
+ [2023-04-05 10:44:01,878] Order_05 - Step 11: Check to 'Next Day Air' radio
+ [2023-04-05 10:44:02,212] Order_05 - Step 12: Verify Shipping Popup is not displayed
+ [2023-04-05 10:44:02,357] Order_05 - Step 13: Check to 'Term of service' checkbox
+ [2023-04-05 10:44:03,227] Order_05 - Step 14: Click to 'Checkout' button
+ [2023-04-05 10:44:04,352] Order_05 - Step 15: Enter to 'Firstname' textbox with value : 'Auto'
+ [2023-04-05 10:44:04,513] Order_05 - Step 16: Enter to 'Lastname' textbox with value : 'Test'
+ [2023-04-05 10:44:04,716] Order_05 - Step 17: Enter to 'Email' textbox with value : 'johnwick111222@gmail.com'
+ [2023-04-05 10:44:04,927] Order_05 - Step 18: Select 'Viet Nam' in Country dropdown
+ [2023-04-05 10:44:05,294] Order_05 - Step 19: Enter to 'City' textbox with value : 'Ho Chi Minh'
+ [2023-04-05 10:44:05,423] Order_05 - Step 20: Enter to 'Address 1' textbox with value : 'Go Vap District'
+ [2023-04-05 10:44:05,564] Order_05 - Step 21: Enter to 'Zip / postal code' textbox with value : '000000000'
+ [2023-04-05 10:44:05,722] Order_05 - Step 22: Enter to 'Phone number' textbox with value : '0987654321'
+ [2023-04-05 10:44:05,874] Order_05 - Step 23: Click to 'Continue' button
+ [2023-04-05 10:44:06,193] Order_05 - Step 24: Check to '2nd Day Air ($0.00)' radio button
+ [2023-04-05 10:44:06,621] Order_05 - Step 25: Click to 'Continue' button
+ [2023-04-05 10:44:06,925] Order_05 - Step 26: Check to 'Check / Money Order' radio button
+ [2023-04-05 10:44:07,064] Order_05 - Step 27: Click to 'Continue' button
+ [2023-04-05 10:44:07,363] Order_05 - Step 28: Verify payment information is displayed
+ [2023-04-05 10:44:08,013] Order_05 - Step 29: Click to 'Continue' button
+ [2023-04-05 10:44:08,316] Order_05 - Step 30: Verify 'Name' in 'Billing Address' is 'Auto Test'
+ [2023-04-05 10:44:08,477] Order_05 - Step 31: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
+ [2023-04-05 10:44:08,540] Order_05 - Step 32: Verify 'Phone' in 'Billing Address' is '0987654321'
+ [2023-04-05 10:44:08,610] Order_05 - Step 33: Verify 'Address' in 'Billing Address' is 'Go Vap District'
+ [2023-04-05 10:44:08,725] Order_05 - Step 34: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
+ [2023-04-05 10:44:08,818] Order_05 - Step 35: Verify 'Country' in 'Billing Address' is 'Viet Nam'
+ [2023-04-05 10:44:08,912] Order_05 - Step 36: Verify 'Payment' in 'Billing Address' is 'Check / Money Order'
+ [2023-04-05 10:44:09,007] Order_05 - Step 37: Verify 'Name' in 'Shipping Address' is 'Auto Test'
+ [2023-04-05 10:44:09,091] Order_05 - Step 38: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
+ [2023-04-05 10:44:09,182] Order_05 - Step 39: Verify 'Phone' in 'Shipping Address' is '0987654321'
+ [2023-04-05 10:44:09,244] Order_05 - Step 40: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
+ [2023-04-05 10:44:09,306] Order_05 - Step 41: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
+ [2023-04-05 10:44:09,372] Order_05 - Step 42: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
+ [2023-04-05 10:44:09,463] Order_05 - Step 43: Verify 'Shipping' in 'Shipping Address' is '2nd Day Air'
+ [2023-04-05 10:44:09,566] Order_05 - Step 44: Verify 'SKU' is displayed
+ [2023-04-05 10:44:19,703] Order_05 - Step 45: Verify 'Product name' is displayed
+ [2023-04-05 10:44:19,801] Order_05 - Step 46: Verify 'Price' is displayed
+ [2023-04-05 10:44:19,881] Order_05 - Step 47: Verify 'Qty.' is displayed
+ [2023-04-05 10:44:20,000] Order_05 - Step 48: Verify 'Total price' is displayed
+ [2023-04-05 10:44:20,083] Order_05 - Step 49: Verify 'Sub-total price' is displayed
+ [2023-04-05 10:44:30,196] Order_05 - Step 50: Verify 'Shipping price' is displayed
+ [2023-04-05 10:44:30,299] Order_05 - Step 51: Verify 'Tax price' is displayed
+ [2023-04-05 10:44:30,384] Order_05 - Step 52: Verify 'Total price' is displayed
+ [2023-04-05 10:44:30,498] Order_05 - Step 53: Click to 'Confirm' button
+ [2023-04-05 10:44:30,796] Order_05 - Step 54: Verify success message and order number is displayed
+ [2023-04-05 10:44:32,070] Order_05 - Step 55: Navigate to 'My Account' page
+ [2023-04-05 10:44:32,546] Order_05 - Step 56: Click to 'Orders' link in menu
+ [2023-04-05 10:44:33,089] Order_05 - Step 57: Verify order number is displayed
+ [2023-04-05 10:44:33,176] Order_05 - Step 58: Click to 'Details' button
+ [2023-04-05 10:44:33,693] Order_05 - Step 59: Verify 'Order Number' is displayed
+ [2023-04-05 10:44:33,783] Order_05 - Step 60: Verify 'Order Date' is displayed
+ [2023-04-05 10:44:33,870] Order_05 - Step 61: Verify 'Order Status' is displayed
+ [2023-04-05 10:44:33,957] Order_05 - Step 62: Verify 'Order Total' is displayed
+ [2023-04-05 10:44:34,045] Order_05 - Step 63: Verify 'Name' in 'Billing Address' is 'Auto Test'
+ [2023-04-05 10:44:34,109] Order_05 - Step 64: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
+ [2023-04-05 10:44:34,197] Order_05 - Step 65: Verify 'Phone' in 'Billing Address' is '0987654321'
+ [2023-04-05 10:44:34,301] Order_05 - Step 66: Verify 'Address' in 'Billing Address' is 'Go Vap District'
+ [2023-04-05 10:44:34,390] Order_05 - Step 67: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
+ [2023-04-05 10:44:34,451] Order_05 - Step 68: Verify 'Country' in 'Billing Address' is 'Viet Nam'
+ [2023-04-05 10:44:34,511] Order_05 - Step 69: Verify 'Payment Method' in 'Billing Address' is 'Check / Money Order'
+ [2023-04-05 10:44:34,583] Order_05 - Step 70: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'
+ [2023-04-05 10:44:34,675] Order_05 - Step 71: Verify 'Name' in 'Shipping Address' is 'Auto Test'
+ [2023-04-05 10:44:34,770] Order_05 - Step 72: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
+ [2023-04-05 10:44:34,865] Order_05 - Step 73: Verify 'Phone' in 'Shipping Address' is '0987654321'
+ [2023-04-05 10:44:34,956] Order_05 - Step 74: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
+ [2023-04-05 10:44:35,055] Order_05 - Step 75: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
+ [2023-04-05 10:44:35,147] Order_05 - Step 76: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
+ [2023-04-05 10:44:35,212] Order_05 - Step 77: Verify 'Shipping Method' in 'Shipping Address' is '2nd Day Air'
+ [2023-04-05 10:44:35,276] Order_05 - Step 78: Verify 'Shipping Status' in 'Shipping Address' is displayed
+ [2023-04-05 10:44:35,337] Order_05 - Step 79: Verify 'SKU' is displayed
+ [2023-04-05 10:44:45,452] Order_05 - Step 80: Verify 'Product name' is displayed
+ [2023-04-05 10:44:45,539] Order_05 - Step 81: Verify 'Price' is displayed
+ [2023-04-05 10:44:45,619] Order_05 - Step 82: Verify 'Quantity' is displayed
+ [2023-04-05 10:44:45,729] Order_05 - Step 83: Verify 'Total price' is displayed
+ [2023-04-05 10:44:45,839] Order_05 - Step 84: Verify 'Sub-total price' is displayed
+ [2023-04-05 10:44:55,958] Order_05 - Step 85: Verify 'Shipping price' is displayed
+ [2023-04-05 10:44:56,069] Order_05 - Step 86: Verify 'Tax price' is displayed
+ [2023-04-05 10:44:56,179] Order_05 - Step 87: Verify 'Total price' is displayed
+ [2023-04-05 10:44:56,307] OS name = windows 11
+ [2023-04-05 10:44:56,307] Driver instance name = firefoxdriver: firefox on windows (9a8dbe0d-e400-4d4b-b2d6-c512236a564b)

@@ -93,6 +93,52 @@ public class ShoppingCartPageObject extends BasePage {
 		clickToElement(UserShoppingCartPageUIs.UPDATE_SHOPPING_CART);
 	}
 
+	public void clickToEstimateShipping() {
+		waitForElementClickable(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_BUTTON);
+		clickToElement(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_BUTTON);
+	}
+
+	public boolean isShippingPopupDisplayed() {
+		waitForElementVisiable(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_POPUP);
+		return isElementDisplayed(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_POPUP);
+	}
+
+	public void selectItemInShippingPopupDropdown(String textItem) {
+		waitForElementVisiable(UserShoppingCartPageUIs.COUNTRY_DROPDOWN_IN_POPUP);
+		selectItemInDefaultDropdown(UserShoppingCartPageUIs.COUNTRY_DROPDOWN_IN_POPUP, textItem);
+	}
+
+	public void enterToZipPostCode(String textValue) {
+		waitForElementVisiable(UserShoppingCartPageUIs.ZIP_POSTAL_CODE_TEXTBOX);
+		sendkeyToElement(UserShoppingCartPageUIs.ZIP_POSTAL_CODE_TEXTBOX, textValue);
+	}
+
+	public void checkToRadionButtonByName(String radioName) {
+		waitForElementVisiable(UserShoppingCartPageUIs.DYNAMIC_RADIO_BY_NAME, radioName);
+		clickToElement(UserShoppingCartPageUIs.DYNAMIC_RADIO_BY_NAME, radioName);
+	}
+
+	public void clickToApplyButton() {
+		waitForElementClickable(UserShoppingCartPageUIs.APPLY_BUTTON);
+		clickToElement(UserShoppingCartPageUIs.APPLY_BUTTON);
+	}
+
+	public boolean isShippingPopupNotDisplayed() {
+		waitForElementInvisiable(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_POPUP);
+		return isElementUndisplayed(UserShoppingCartPageUIs.ESTIMATE_SHIPPING_POPUP);
+	}
+
+	public void checkToTermOfServiceCheckbox() {
+		waitForElementClickable(UserShoppingCartPageUIs.TERM_OF_SERVICE_CHECKBOX);
+		checkToDefautCheckboxRadio(UserShoppingCartPageUIs.TERM_OF_SERVICE_CHECKBOX);
+	}
+
+	public BillingAddressPageObject clickToCheckoutButton() {
+		waitForElementClickable(UserShoppingCartPageUIs.CHECKOUT_BUTTON);
+		clickToElement(UserShoppingCartPageUIs.CHECKOUT_BUTTON);
+		return PageGeneraterManager.getBillingAddressPage(driver);
+	}
+
 
 
 

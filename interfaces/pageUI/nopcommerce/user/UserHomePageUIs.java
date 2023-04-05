@@ -25,4 +25,7 @@ public class UserHomePageUIs {
 	public static final String COMPARE_PRODUCTS_LIST_LINK = "xpath=//a[text()='Compare products list']";
 	public static final String RECENTLY_VIEWED_PRODUCTS_LINK = "xpath=//a[text()='Recently viewed products']";
 
+
+
+
 }
