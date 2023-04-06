@@ -18,10 +18,15 @@ public class OrdersPageObject extends BasePage {
 		String orderNumber = orderNumberArray[2];
 		return orderNumber;
 	}
-	public OrderInfomationPageObject clickToDetailsButton() {
-		waitForElementClickable(UserOrdersPageUIs.DETAILS_BUTTON);
-		clickToElement(UserOrdersPageUIs.DETAILS_BUTTON);
+	public OrderInfomationPageObject clickToDetailsButton(String orderNumberInHomePage) {
+		waitForElementClickable(UserOrdersPageUIs.DETAILS_BUTTON, orderNumberInHomePage);
+		clickToElement(UserOrdersPageUIs.DETAILS_BUTTON, orderNumberInHomePage);
 		return PageGeneraterManager.getOrderInfomationPage(driver);
+	}
+	public ShoppingCartPageObject clickToReOrderButton() {
+		waitForElementClickable(UserOrdersPageUIs.RE_ORDER_BUTTON);
+		clickToElement(UserOrdersPageUIs.RE_ORDER_BUTTON);
+		return PageGeneraterManager.getShoppingCartPage(driver);
 	}
 
 }

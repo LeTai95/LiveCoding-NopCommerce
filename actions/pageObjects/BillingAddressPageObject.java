@@ -25,5 +25,9 @@ public class BillingAddressPageObject extends BasePage {
 		clickToElement(UserBillingAddressPageUIs.CONTINUE_BUTTON);
 		return PageGeneraterManager.getCheckoutPage(driver);
 	}
+	public void clickToEditButton() {
+		waitForElementClickable(UserBillingAddressPageUIs.EDIT_BUTTON);
+		clickToElement(UserBillingAddressPageUIs.EDIT_BUTTON);
+	}
 
 }

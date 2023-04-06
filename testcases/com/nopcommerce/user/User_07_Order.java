@@ -236,7 +236,7 @@ public class User_07_Order extends BaseTest {
 		log.info("Order_05 - Step 01: Navigate to Home page");
 		homePage = shoppingCartPage.navigateToHomePage();
 
-		log.info("Order_05 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'");
+		log.info("Order_05 - Step 02: Select 'Apple MacBook Pro 13-inch'");
 		productInfoPage = homePage.selectProductByProductName("Computers ", "Notebooks ", "Apple MacBook Pro 13-inch");
 
 		log.info("Order_05 - Step 03: Click to 'Add to cart' button");
@@ -430,7 +430,7 @@ public class User_07_Order extends BaseTest {
 		Assert.assertEquals(ordersPage.isOrderNumberDisplayed(), orderNumberInHomePage);
 		
 		log.info("Order_05 - Step 58: Click to 'Details' button");
-		orderInfomationPage = ordersPage.clickToDetailsButton();
+		orderInfomationPage = ordersPage.clickToDetailsButton(orderNumberInHomePage);
 		
 		log.info("Order_05 - Step 59: Verify 'Order Number' is displayed");
 		Assert.assertEquals(orderInfomationPage.isOrderNumberDisplayed(), orderNumberInHomePage);
@@ -540,12 +540,627 @@ public class User_07_Order extends BaseTest {
 
 	@Test
 	public void Order_06_Checkout_Order_Pay_By_Card() {
-		log.info("Order_06 - Step 01: Verify 'Total price' is displayed");
+		log.info("Order_06 - Step 01: Navigate to Home page");
+		homePage = orderInfomationPage.navigateToHomePage();
+		
+		log.info("Order_06 - Step 02: Select 'HP Spectre XT Pro UltraBook'");
+		productInfoPage = homePage.selectProductByProductName("Computers ", "Notebooks ", "HP Spectre XT Pro UltraBook");
+		
+		log.info("Order_06 - Step 03: Click to 'Add to cart' button");
+		productInfoPage.clickToAddToCartButton();
+
+		log.info("Order_06 - Step 04: Close product added to shopping cart message");
+		productInfoPage.closeProductAddedToShoppingCartMessage();
+
+		log.info("Order_06 - Step 05: Click to 'Shopping cart' link");
+		shoppingCartPage = productInfoPage.clickToShoppingCartLink();
+
+		log.info("Order_06 - Step 06: Click to 'Estimate shipping'");
+		shoppingCartPage.clickToEstimateShipping();
+
+		log.info("Order_06 - Step 07: Verify Shipping Popup is displayed");
+		Assert.assertTrue(shoppingCartPage.isShippingPopupDisplayed());
+
+		log.info("Order_06 - Step 08: Select 'Viet Nam' in Shipping Popup dropdown");
+		shoppingCartPage.selectItemInShippingPopupDropdown("Viet Nam");
+
+		log.info("Order_06 - Step 09: Enter to 'Zip/ postal code' textbox");
+		shoppingCartPage.enterToZipPostCode("550000");
+
+		log.info("Order_06 - Step 10: Check to 'Ground' radio");
+		shoppingCartPage.checkToRadionButtonByName("Ground");
+
+		log.info("Order_06 - Step 11: Click to Apply button");
+		shoppingCartPage.clickToApplyButton();
+
+		log.info("Order_06 - Step 12: Verify Shipping Popup is not displayed");
+		Assert.assertTrue(shoppingCartPage.isShippingPopupNotDisplayed());
+
+		log.info("Order_06 - Step 13: Check to 'Term of service' checkbox");
+		shoppingCartPage.checkToTermOfServiceCheckbox();
+
+		log.info("Order_06 - Step 14: Click to 'Checkout' button");
+		billingAddressPage = shoppingCartPage.clickToCheckoutButton();
+		
+		log.info("Order_06 - Step 15: Click to 'Continue' button");
+		checkoutPage = billingAddressPage.clickToContinueButton();
+		
+		log.info("Order_06 - Step 16: Check to 'Ground ($0.00)' radio button");
+		checkoutPage.checkToRadioButtonByName("Ground ($0.00)");
+		
+		log.info("Order_06 - Step 17: Click to 'Continue' button");
+		paymentMethodPage = checkoutPage.clickToContinueButton();
+		
+		log.info("Order_06 - Step 18: Check to 'Credit Card' radio button");
+		paymentMethodPage.checkToRadioButtonByName("Credit Card");
+		
+		log.info("Order_06 - Step 19: Click to 'Continue' button");
+		paymentInformationPage = paymentMethodPage.clickToContinueButton();
+		
+		log.info("Order_06 - Step 20: Select 'Master card' in 'Select credit card' dropdown");
+		paymentInformationPage.selectItemByDropdownID("CreditCardType", "Master card");
+		
+		log.info("Order_06 - Step 21: Enter to 'Cardholder name' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardholderName", "MASTERCARD");
+		
+		log.info("Order_06 - Step 22: Enter to 'Card number' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardNumber", "5207797735209125");
+		
+		log.info("Order_06 - Step 23: Select 'Date' in 'Expiration date' dropdown");
+		paymentInformationPage.selectItemByDropdownID("ExpireMonth", "04");
+		
+		log.info("Order_06 - Step 24: Select 'Year' in 'Expiration date' dropdown");
+		paymentInformationPage.selectItemByDropdownID("ExpireYear", "2023");
+		
+		log.info("Order_06 - Step 21: Enter to 'Card code' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardCode", "779");
+
+		log.info("Order_06 - Step 22: Click to 'Continue' button");
+		confirmOrderPage = paymentInformationPage.clickToContinueButton();
+		
+		log.info("Order_06 - Step 23: Verify 'Name' in 'Billing Address' is '" + UserData.Order.FIRST_NAME + " "
+				+ UserData.Order.LAST_NAME + "'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("billing-info",
+				UserData.Order.FIRST_NAME + " " + UserData.Order.LAST_NAME));
+
+		log.info("Order_06 - Step 24: Verify 'Email' in 'Billing Address' is '" + UserData.Order.EMAIL_ADDRESS + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.EMAIL_ADDRESS));
+
+		log.info("Order_06 - Step 25: Verify 'Phone' in 'Billing Address' is '" + UserData.Order.PHONE_NUMBER + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.PHONE_NUMBER));
+
+		log.info("Order_06 - Step 26: Verify 'Address' in 'Billing Address' is '" + UserData.Order.ADDRESS_1 + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.ADDRESS_1));
+
+		log.info("Order_06 - Step 27: Verify 'City Stale Zip' in 'Billing Address' is '" + UserData.Order.CITY_NAME
+				+ "," + UserData.Order.ZIP_POSTAL_CODE + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.CITY_NAME
+						+ "," + UserData.Order.ZIP_POSTAL_CODE));
+		
+		log.info("Order_06 - Step 28: Verify 'Country' in 'Billing Address' is '" + UserData.Order.COUNTRY_NAME + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.COUNTRY_NAME));
+		
+		log.info("Order_06 - Step 29: Verify 'Payment' in 'Billing Address' is 'Credit Card'");
+		Assert.assertTrue(confirmOrderPage.isMethodInfoDisplayed("payment-method", "Credit Card"));
+		
+		log.info("Order_06 - Step 30: Verify 'Name' in 'Shipping Address' is '" + UserData.Order.FIRST_NAME + " "
+				+ UserData.Order.LAST_NAME + "'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info",
+				UserData.Order.FIRST_NAME + " " + UserData.Order.LAST_NAME));
+
+		log.info("Order_06 - Step 31: Verify 'Email' in 'Shipping Address' is '" + UserData.Order.EMAIL_ADDRESS + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.EMAIL_ADDRESS));
+
+		log.info("Order_06 - Step 32: Verify 'Phone' in 'Shipping Address' is '" + UserData.Order.PHONE_NUMBER + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.PHONE_NUMBER));
+
+		log.info("Order_06 - Step 33: Verify 'Address' in 'Shipping Address' is '" + UserData.Order.ADDRESS_1 + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.ADDRESS_1));
+
+		log.info("Order_06 - Step 34: Verify 'City Stale Zip' in 'Shipping Address' is '" + UserData.Order.CITY_NAME
+				+ "," + UserData.Order.ZIP_POSTAL_CODE + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.CITY_NAME
+						+ "," + UserData.Order.ZIP_POSTAL_CODE));
+		
+		log.info("Order_06 - Step 35: Verify 'Country' in 'Shipping Address' is '" + UserData.Order.COUNTRY_NAME + "'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.COUNTRY_NAME));
+		
+		log.info("Order_06 - Step 36: Verify 'Shipping' in 'Shipping Address' is 'Ground'");
+		Assert.assertTrue(confirmOrderPage.isMethodInfoDisplayed("shipping-method", "Ground"));
+		
+		log.info("Order_06 - Step 37: Verify 'SKU' is displayed");
+		Assert.assertTrue(confirmOrderPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "SKU", "HP_SPX_UB"));
+		
+		log.info("Order_06 - Step 38: Verify 'Product name' is displayed");
+		Assert.assertTrue(confirmOrderPage.isProductNameDisplayedByRowNumberAndColumnName("1", "Product(s)", "HP Spectre XT Pro UltraBook"));
+		
+		log.info("Order_06 - Step 39: Verify 'Price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Price", "$1,350.00"));
+		
+		log.info("Order_06 - Step 40: Verify 'Qty.' is displayed");
+		Assert.assertTrue(confirmOrderPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Qty.", "1"));
+		
+		log.info("Order_06 - Step 41: Verify 'Total price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Total", "$1,350.00"));
+		
+		log.info("Order_06 - Step 42: Verify 'Sub-total price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isPriceInfoDisplayedByRowNameAndColumn("Sub-Total:", "2", "$1,350.00"));
+		
+		log.info("Order_06 - Step 43: Verify 'Shipping price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isPriceInfoDisplayedByRowNameAndColumn("Shipping:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 44: Verify 'Tax price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isPriceInfoDisplayedByRowNameAndColumn("Tax:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 45: Verify 'Total price' is displayed");
+		Assert.assertTrue(confirmOrderPage.isTotalPriceInfoDisplayedByRowNameAndColumn("Total:", "2", "$1,350.00"));
+		
+		log.info("Order_06 - Step 47: Click to 'Confirm' button");
+		confirmOrderPage.clickToConfirmButton();
+		
+		log.info("Order_06 - Step 48: Verify success message and order number is displayed");
+		Assert.assertTrue(confirmOrderPage.isSuccessMessagePageTitleDisplayed());
+		Assert.assertTrue(confirmOrderPage.isSuccessMessageTitleDisplayed());
+		Assert.assertTrue(confirmOrderPage.isOrderNumberDisplayed());
+		String orderNumberInHomePage = confirmOrderPage.getOrderNumberInHomePage();
+		
+		log.info("Order_06 - Step 49: Navigate to 'My Account' page");
+		myAccountPage = confirmOrderPage.clickToMyAccountLink();
+		
+		log.info("Order_06 - Step 50: Click to 'Orders' link in menu");
+		ordersPage = myAccountPage.clickToOrdersLink();
+		
+		log.info("Order_06 - Step 51: Verify order number is displayed");
+		Assert.assertEquals(ordersPage.isOrderNumberDisplayed(), orderNumberInHomePage);
+		
+		log.info("Order_06 - Step 52: Click to 'Details' button");
+		orderInfomationPage = ordersPage.clickToDetailsButton(orderNumberInHomePage);
+		
+		log.info("Order_06 - Step 53: Verify 'Order Number' is displayed");
+		Assert.assertEquals(orderInfomationPage.isOrderNumberDisplayed(), orderNumberInHomePage);
+		
+		log.info("Order_06 - Step 54: Verify 'Order Date' is displayed");
+		Assert.assertTrue(orderInfomationPage.isOrderInfoDisplayedByID("order-date"));
+		
+		log.info("Order_06 - Step 55: Verify 'Order Status' is displayed");
+		Assert.assertTrue(orderInfomationPage.isOrderInfoDisplayedByID("order-status"));
+		
+		log.info("Order_06 - Step 56: Verify 'Order Total' is displayed");
+		Assert.assertTrue(orderInfomationPage.isOrderInfoDisplayedByID("order-total"));
+		
+		log.info("Order_06 - Step 57: Verify 'Name' in 'Billing Address' is '" + UserData.Order.FIRST_NAME + " "
+				+ UserData.Order.LAST_NAME + "'");
+		Assert.assertTrue(orderInfomationPage.isConfirmOrderInfoDisplay("billing-info",
+				UserData.Order.FIRST_NAME + " " + UserData.Order.LAST_NAME));
+
+		log.info("Order_06 - Step 58: Verify 'Email' in 'Billing Address' is '" + UserData.Order.EMAIL_ADDRESS + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.EMAIL_ADDRESS));
+
+		log.info("Order_06 - Step 59: Verify 'Phone' in 'Billing Address' is '" + UserData.Order.PHONE_NUMBER + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.PHONE_NUMBER));
+
+		log.info("Order_06 - Step 60: Verify 'Address' in 'Billing Address' is '" + UserData.Order.ADDRESS_1 + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.ADDRESS_1));
+
+		log.info("Order_06 - Step 61: Verify 'City Stale Zip' in 'Billing Address' is '" + UserData.Order.CITY_NAME
+				+ "," + UserData.Order.ZIP_POSTAL_CODE + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.CITY_NAME
+						+ "," + UserData.Order.ZIP_POSTAL_CODE));
+		
+		log.info("Order_06 - Step 62: Verify 'Country' in 'Billing Address' is '" + UserData.Order.COUNTRY_NAME + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", UserData.Order.COUNTRY_NAME));
+		
+		log.info("Order_06 - Step 63: Verify 'Payment Method' in 'Billing Address' is 'Credit Card '");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("payment-method", "Credit Card "));
+		
+		log.info("Order_06 - Step 64: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("payment-method-status", "Pending"));
+		
+		log.info("Order_06 - Step 65: Verify 'Name' in 'Shipping Address' is '" + UserData.Order.FIRST_NAME + " "
+				+ UserData.Order.LAST_NAME + "'");
+		Assert.assertTrue(orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info",
+				UserData.Order.FIRST_NAME + " " + UserData.Order.LAST_NAME));
+
+		log.info("Order_06 - Step 66: Verify 'Email' in 'Shipping Address' is '" + UserData.Order.EMAIL_ADDRESS + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.EMAIL_ADDRESS));
+
+		log.info("Order_06 - Step 67: Verify 'Phone' in 'Shipping Address' is '" + UserData.Order.PHONE_NUMBER + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.PHONE_NUMBER));
+
+		log.info("Order_06 - Step 68: Verify 'Address' in 'Shipping Address' is '" + UserData.Order.ADDRESS_1 + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.ADDRESS_1));
+
+		log.info("Order_06 - Step 69: Verify 'City Stale Zip' in 'Shipping Address' is '" + UserData.Order.CITY_NAME
+				+ "," + UserData.Order.ZIP_POSTAL_CODE + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.CITY_NAME
+						+ "," + UserData.Order.ZIP_POSTAL_CODE));
+		
+		log.info("Order_06 - Step 70: Verify 'Country' in 'Shipping Address' is '" + UserData.Order.COUNTRY_NAME + "'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("shipping-info", UserData.Order.COUNTRY_NAME));
+		
+		log.info("Order_06 - Step 71: Verify 'Shipping Method' in 'Shipping Address' is 'Ground '");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("shipping-method", "Ground "));
+		
+		log.info("Order_06 - Step 72: Verify 'Shipping Status' in 'Shipping Address' is displayed");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("shipping-status", "Not yet shipped"));
+		
+		log.info("Order_06 - Step 72: Verify 'SKU' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "SKU", "HP_SPX_UB"));
+		
+		log.info("Order_06 - Step 73: Verify 'Product name' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductNameDisplayedByRowNumberAndColumnName("1", "Name", "HP Spectre XT Pro UltraBook"));
+		
+		log.info("Order_06 - Step 74: Verify 'Price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Price", "$1,350.00"));
+		
+		log.info("Order_06 - Step 75: Verify 'Quantity' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Quantity", "1"));
+		
+		log.info("Order_06 - Step 76: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Total", "$1,350.00"));
+		
+		log.info("Order_06 - Step 77: Verify 'Sub-total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Sub-Total:", "2", "$1,350.00"));
+		
+		log.info("Order_06 - Step 78: Verify 'Shipping price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Shipping:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 79: Verify 'Tax price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Tax:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 80: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isTotalPriceInfoDisplayedByRowNameAndColumn("Order Total:", "2", "$1,350.00"));
+		
 	}
 
-	//@Test
-	public void Order_07_Reorder() {
+	@Test
+	public void Order_07_ReOrder() {
+		log.info("Order_07 - Step 01: Navigate to Home page");
+		homePage = orderInfomationPage.navigateToHomePage();
+		
+		log.info("Order_07 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'");
+		productInfoPage = homePage.selectProductByProductName("Computers ", "Desktops ", "Lenovo IdeaCentre 600 All-in-One PC");
+		
+		log.info("Order_07 - Step 03: Click to 'Add to cart' button");
+		productInfoPage.clickToAddToCartButton();
+		
+		log.info("Order_07 - Step 04: Close product added to shopping cart message");
+		productInfoPage.closeProductAddedToShoppingCartMessage();
 
+		log.info("Order_07 - Step 05: Click to 'Shopping cart' link");
+		shoppingCartPage = productInfoPage.clickToShoppingCartLink();
+		
+		log.info("Order_07 - Step 06: Click to 'Estimate shipping'");
+		shoppingCartPage.clickToEstimateShipping();
+		
+		log.info("Order_07 - Step 07: Select 'Viet Nam' in Shipping Popup dropdown");
+		shoppingCartPage.selectItemInShippingPopupDropdown("Viet Nam");
+
+		log.info("Order_07 - Step 08: Enter to 'Zip/ postal code' textbox");
+		shoppingCartPage.enterToZipPostCode("222111");
+
+		log.info("Order_07 - Step 09: Check to 'Ground' radio");
+		shoppingCartPage.checkToRadionButtonByName("Ground");
+		
+		log.info("Order_07 - Step 10: Click to 'Apply' button");
+		shoppingCartPage.clickToApplyButton();
+		
+		log.info("Order_07 - Step 11: Check to 'Term of service' checkbox");
+		shoppingCartPage.checkToTermOfServiceCheckbox();
+		
+		log.info("Order_07 - Step 12: Click to 'Checkout' button");
+		billingAddressPage = shoppingCartPage.clickToCheckoutButton();
+		
+		log.info("Order_07 - Step 13: Click to 'Continue' button");
+		checkoutPage = billingAddressPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 14: Check to 'Ground ($0.00)' radio button");
+		checkoutPage.checkToRadioButtonByName("Ground ($0.00)");
+		
+		log.info("Order_07 - Step 15: Click to 'Continue' button");
+		paymentMethodPage = checkoutPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 16: Check to 'Credit Card' radio button");
+		paymentMethodPage.checkToRadioButtonByName("Credit Card");
+		
+		log.info("Order_07 - Step 17: Click to 'Continue' button");
+		paymentInformationPage = paymentMethodPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 18: Select 'Master card' in 'Select credit card' dropdown");
+		paymentInformationPage.selectItemByDropdownID("CreditCardType", "Master card");
+		
+		log.info("Order_07 - Step 19: Enter to 'Cardholder name' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardholderName", "MASTERCARD");
+		
+		log.info("Order_07 - Step 20: Enter to 'Card number' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardNumber", "5207797735209125");
+		
+		log.info("Order_07 - Step 21: Select 'Date' in 'Expiration date' dropdown");
+		paymentInformationPage.selectItemByDropdownID("ExpireMonth", "04");
+		
+		log.info("Order_07 - Step 22: Select 'Year' in 'Expiration date' dropdown");
+		paymentInformationPage.selectItemByDropdownID("ExpireYear", "2023");
+		
+		log.info("Order_07 - Step 23: Enter to 'Card code' name textbox");
+		paymentInformationPage.enterToTextboxByTextboxID("CardCode", "779");
+		
+		log.info("Order_07 - Step 24: Click to 'Continue' button");
+		confirmOrderPage = paymentInformationPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 25: Click to 'Confirm' button");
+		confirmOrderPage.clickToConfirmButton();
+		
+		log.info("Order_07 - Step 26: Get Order Number");
+		String orderNumberInHomePage = confirmOrderPage.getOrderNumberInHomePage();
+		
+		log.info("Order_07 - Step 27: Click to 'My Account' link");
+		myAccountPage = orderInfomationPage.clickToMyAccount();
+		
+		log.info("Order_07 - Step 28: Click to 'Orders' link");
+		ordersPage = myAccountPage.clickToOrdersLink();
+		
+		log.info("Order_07 - Step 29: Click to 'Detail' button");
+		orderInfomationPage = ordersPage.clickToDetailsButton(orderNumberInHomePage);
+		
+		log.info("Order_07 - Step 30: Click to 'Re-order' button");
+		shoppingCartPage = ordersPage.clickToReOrderButton();
+		
+		log.info("Order_07 - Step 31: Enter to 'Qty.' with value is '10'");
+		shoppingCartPage.enterToQtyByRowNumberAndColumnNumber("1", "Qty.", "10");
+		
+		log.info("Order_07 - Step 32: Click to 'Update shopping cart' button");
+		shoppingCartPage.clickToUpdateShoppingCartButton();
+		
+		log.info("Order_07 - Step 33: Check to 'Term of service' checkbox");
+		shoppingCartPage.checkToTermOfServiceCheckbox();
+		
+		log.info("Order_07 - Step 34: Click to 'Checkout' button");
+		billingAddressPage = shoppingCartPage.clickToCheckoutButton();
+		
+		log.info("Order_07 - Step 35: Click to 'Edit' button");
+		billingAddressPage.clickToEditButton();
+		
+		log.info("Order_07 - Step 36: Select 'New Address' in 'Billing address' dropdown");
+		billingAddressPage.selectItemByDropdownIDAndTextItem("billing-address-select", "New Address");
+		
+		log.info("Order_07 - Step 37: Enter to 'Firstname' textbox with value 'Automation'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_FirstName", "Automation");
+		
+		log.info("Order_07 - Step 38: Enter to 'Lastname' textbox with value 'FC'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_LastName", "FC");
+		
+		log.info("Order_07 - Step 39: Enter to 'Email' textbox with value 'automationfc95@gmail.com'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_Email", "automationfc95@gmail.com");
+		
+		log.info("Order_07 - Step 40: Enter to 'Country' textbox with value 'Viet Nam'");
+		billingAddressPage.selectItemByDropdownIDAndTextItem("BillingNewAddress_CountryId", "Viet Nam");
+		
+		log.info("Order_07 - Step 41: Enter to 'City' textbox with value 'Long An'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_City", "Long An Provice");
+		
+		log.info("Order_07 - Step 42: Enter to 'Address 1' textbox with value 'FC'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_Address1", "Ben Luc Town");
+		
+		log.info("Order_07 - Step 43: Enter to 'Zip / postal code' textbox with value '55550000'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_ZipPostalCode", "55550000");
+		
+		log.info("Order_07 - Step 44: Enter to 'Phone number' textbox with value '0909222111'");
+		billingAddressPage.enterToTextboxByTextboxID("BillingNewAddress_PhoneNumber", "0909222111");
+		
+		log.info("Order_07 - Step 45: Click to 'Continue' button");
+		checkoutPage = billingAddressPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 46: Check to 'Next Day Air ($0.00)' radio button");
+		checkoutPage.checkToRadioButtonByName("Next Day Air ($0.00)");
+		
+		log.info("Order_07 - Step 47: Click to 'Continue' button");
+		paymentMethodPage = checkoutPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 48: Check to 'Check / Money Order' radio button");
+		paymentMethodPage.checkToRadioButtonByName("Check / Money Order");
+		
+		log.info("Order_07 - Step 49: Click to 'Continue' button");
+		paymentInformationPage = paymentMethodPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 50: Click to 'Continue' button");
+		confirmOrderPage = paymentInformationPage.clickToContinueButton();
+		
+		log.info("Order_07 - Step 51: Verify 'Name' in 'Billing Address' is 'Automation FC'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("billing-info","Automation FC"));
+
+		log.info("Order_07 - Step 52: Verify 'Email' in 'Billing Address' is 'automationfc95@gmail.com'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", "automationfc95@gmail.com"));
+
+		log.info("Order_07 - Step 53: Verify 'Phone' in 'Billing Address' is '0909222111'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", "0909222111"));
+
+		log.info("Order_07 - Step 54: Verify 'Address' in 'Billing Address' is 'Ben Luc Town'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", "Ben Luc Town"));
+
+		log.info("Order_07 - Step 55: Verify 'City Stale Zip' in 'Billing Address' is 'Long An Provice'" + "," + "55550000");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", "Long An Provice" + "," + "55550000"));
+		
+		log.info("Order_07 - Step 56: Verify 'Country' in 'Billing Address' is 'Viet Name'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("billing-info", "Viet Nam"));
+		
+		log.info("Order_07 - Step 57: Verify 'Payment' in 'Billing Address' is 'Check / Money Order'");
+		Assert.assertTrue(confirmOrderPage.isMethodInfoDisplayed("payment-method", "Check / Money Order"));
+		
+		log.info("Order_07 - Step 58: Verify 'Name' in 'Shipping Address' is 'Automation FC'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Automation FC"));
+
+		log.info("Order_07 - Step 59: Verify 'Email' in 'Shipping Address' is 'automationfc95@gmail.com'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "automationfc95@gmail.com"));
+
+		log.info("Order_07 - Step 60: Verify 'Phone' in 'Shipping Address' is '0909222111'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "0909222111"));
+
+		log.info("Order_07 - Step 61: Verify 'Address' in 'Shipping Address' is 'Ben Luc Town'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Ben Luc Town"));
+
+		log.info("Order_07 - Step 62: Verify 'City Stale Zip' in 'Shipping Address' is 'Long An Provice'" + "," + "55550000");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Long An Provice" + "," + "55550000"));
+		
+		log.info("Order_07 - Step 63: Verify 'Country' in 'Shipping Address' is 'Viet Nam'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Viet Nam"));
+		
+		log.info("Order_07 - Step 64: Verify 'Shipping' in 'Shipping Address' is 'Next Day Air '");
+		Assert.assertTrue(confirmOrderPage.isMethodInfoDisplayed("shipping-method", "Next Day Air"));
+		
+		log.info("Order_07 - Step 65: Verify 'SKU' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "SKU", "LE_IC_600"));
+		
+		log.info("Order_07 - Step 66: Verify 'Product name' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductNameDisplayedByRowNumberAndColumnName("1", "Product(s)", "Lenovo IdeaCentre 600 All-in-One PC"));
+		
+		log.info("Order_07 - Step 67: Verify 'Price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Price", "$500.00"));
+		
+		log.info("Order_07 - Step 68: Verify 'Quantity' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Qty.", "10"));
+		
+		log.info("Order_07 - Step 69: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Total", "$5,000.00"));
+		
+		log.info("Order_07 - Step 70: Verify 'Sub-total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Sub-Total:", "2", "$5,000.00"));
+		
+		log.info("Order_07 - Step 71: Verify 'Shipping price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Shipping:", "2", "$0.00"));
+		
+		log.info("Order_07 - Step 72: Verify 'Tax price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Tax:", "2", "$0.00"));
+		
+		log.info("Order_07 - Step 73: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isTotalPriceInfoDisplayedByRowNameAndColumn("Total:", "2", "$5,000.00"));	
+		
+		log.info("Order_07 - Step 73: Click to 'Confirm' button");
+		orderInfomationPage.clickToConfirmButton();
+		
+		log.info("Order_07 - Step 74: Get Order Number");
+		String orderNumberInHomePageBefore = confirmOrderPage.getOrderNumberInHomePage();
+		
+		log.info("Order_07 - Step 75: Click to 'My Account' link");
+		myAccountPage = orderInfomationPage.clickToMyAccount();
+		
+		log.info("Order_07 - Step 76: Click to 'Orders' link");
+		ordersPage = myAccountPage.clickToOrdersLink();
+		
+		log.info("Order_07 - Step 77: Click to 'Detail' button");
+		orderInfomationPage = ordersPage.clickToDetailsButton(orderNumberInHomePageBefore);
+		
+		log.info("Order_07 - Step 78: Verify 'Name' in 'Billing Address' is 'Automation FC'");
+		Assert.assertTrue(orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "Automation FC"));
+
+		log.info("Order_07 - Step 79: Verify 'Email' in 'Billing Address' is 'automationfc95@gmail.com'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "automationfc95@gmail.com"));
+
+		log.info("Order_07 - Step 80: Verify 'Phone' in 'Billing Address' is '0909222111'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "0909222111"));
+
+		log.info("Order_07 - Step 81: Verify 'Address' in 'Billing Address' is 'Ben Luc Town'");
+		Assert.assertTrue(orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "Ben Luc Town"));
+
+		log.info("Order_07 - Step 82: Verify 'City Stale Zip' in 'Billing Address' is Long An Provice"+ "," + "55550000");
+		Assert.assertTrue(orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "Long An Provice"+ "," + "55550000"));
+		
+		log.info("Order_07 - Step 83: Verify 'Country' in 'Billing Address' is 'Viet Nam'");
+		Assert.assertTrue(
+				orderInfomationPage.isConfirmOrderInfoDisplay("billing-info", "Viet Nam"));
+		
+		log.info("Order_07 - Step 84: Verify 'Payment Method' in 'Billing Address' is 'Check / Money Order'");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("payment-method", "Check / Money Order"));
+		
+		log.info("Order_07 - Step 85: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("payment-method-status", "Pending"));
+		
+		log.info("Order_07 - Step 86: Verify 'Name' in 'Shipping Address' is 'Automation FC'");
+		Assert.assertTrue(confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Automation FC"));
+
+		log.info("Order_07 - Step 87: Verify 'Email' in 'Shipping Address' is 'automationfc95@gmail.com'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "automationfc95@gmail.com"));
+
+		log.info("Order_07 - Step 88: Verify 'Phone' in 'Shipping Address' is '0909222111'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "0909222111"));
+
+		log.info("Order_07 - Step 89: Verify 'Address' in 'Shipping Address' is 'Ben Luc Town'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Ben Luc Town"));
+
+		log.info("Order_07 - Step 90: Verify 'City Stale Zip' in 'Shipping Address' is 'Long An Provice'" + "," + "55550000");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Long An Provice" + "," + "55550000"));
+		
+		log.info("Order_07 - Step 91: Verify 'Country' in 'Shipping Address' is 'Viet Nam'");
+		Assert.assertTrue(
+				confirmOrderPage.isConfirmOrderInfoDisplay("shipping-info", "Viet Nam"));
+		
+		log.info("Order_07 - Step 92: Verify 'Shipping' in 'Shipping Address' is 'Next Day Air'");
+		Assert.assertTrue(confirmOrderPage.isMethodInfoDisplayed("shipping-method", "Next Day Air"));	
+		
+		log.info("Order_06 - Step 93: Verify 'Shipping Status' in 'Shipping Address' is displayed");
+		Assert.assertTrue(orderInfomationPage.isMethodInfoDisplayed("shipping-status", "Not yet shipped"));
+		
+		log.info("Order_06 - Step 94: Verify 'SKU' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "SKU", "LE_IC_600"));
+		
+		log.info("Order_06 - Step 95: Verify 'Product name' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductNameDisplayedByRowNumberAndColumnName("1", "Name", "Lenovo IdeaCentre 600 All-in-One PC"));
+		
+		log.info("Order_06 - Step 96: Verify 'Price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Price", "$500.00"));
+		
+		log.info("Order_06 - Step 97: Verify 'Quantity' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Quantity", "10"));
+		
+		log.info("Order_06 - Step 98: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isProductInfoDisplayedByRowNumberAndColumnName("1", "Total", "$5,000.00"));
+		
+		log.info("Order_06 - Step 99: Verify 'Sub-total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Sub-Total:", "2", "$5,000.00"));
+		
+		log.info("Order_06 - Step 100: Verify 'Shipping price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Shipping:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 101: Verify 'Tax price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isPriceInfoDisplayedByRowNameAndColumn("Tax:", "2", "$0.00"));
+		
+		log.info("Order_06 - Step 102: Verify 'Total price' is displayed");
+		Assert.assertTrue(orderInfomationPage.isTotalPriceInfoDisplayedByRowNameAndColumn("Order Total:", "2", "$5,000.00"));
+		
 	}
 
 	@AfterClass(alwaysRun = true)

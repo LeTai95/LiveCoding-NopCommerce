@@ -20,7 +20,5 @@ public class UserShoppingCartPageUIs {
 	public static final String APPLY_BUTTON = "xpath=//button[text()='Apply']";
 	public static final String TERM_OF_SERVICE_CHECKBOX = "xpath=//input[@id='termsofservice']";
 	public static final String CHECKOUT_BUTTON = "xpath=//button[@id='checkout']";
-	
-	
-	
+	public static final String CONTINUE_BUTTON = "xpath=//div[@id='billing-buttons-container']//button[contains(@class,'new-address-next-step-button')]";
 }

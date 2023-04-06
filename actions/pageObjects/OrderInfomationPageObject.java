@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.PageGeneraterManager;
 import pageUI.nopcommerce.user.UserConfirmOrderPageUIs;
 import pageUI.nopcommerce.user.UserOrderInfomationPageUIs;
 
@@ -79,6 +80,23 @@ public class OrderInfomationPageObject extends BasePage {
 				String.valueOf(rowIndex), columnNumber, priceValue);
 		return isElementDisplayed(UserConfirmOrderPageUIs.TOTAL_ORDER_PRICE_BY_ROW_NUMBER_AND_COLUMN_NAME,
 				String.valueOf(rowIndex), columnNumber, priceValue);
+	}
+
+	public HomePageObject navigateToHomePage() {
+		waitForElementVisiable(UserConfirmOrderPageUIs.HEADER_LOGO);
+		clickToElement(UserConfirmOrderPageUIs.HEADER_LOGO);
+		return PageGeneraterManager.getHomePage(driver);
+	}
+
+	public MyAccountPageObject clickToMyAccount() {
+		waitForElementVisiable(UserConfirmOrderPageUIs.MY_ACCOUNT_LINK);
+		clickToElement(UserConfirmOrderPageUIs.MY_ACCOUNT_LINK);
+		return PageGeneraterManager.getMyAccountPage(driver);
+	}
+
+	public void clickToConfirmButton() {
+		waitForElementClickable(UserConfirmOrderPageUIs.CONFIRM_BUTTON);
+		clickToElement(UserConfirmOrderPageUIs.CONFIRM_BUTTON);
 	}
 
 }

@@ -1,14 +1,15 @@
-1680666131599	geckodriver	INFO	Listening on 127.0.0.1:37708
-1680666132247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletEUZVf"
+1680772741416	geckodriver	INFO	Listening on 127.0.0.1:63289
+1680772742072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletQeuAy"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1680666132805	Marionette	INFO	Marionette enabled
+1680772742446	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1680666132812	Marionette	INFO	Listening on port 64543
-Read port: 64543
-1680666133103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletEUZVf\\search.json.mozlz4", (void 0)))
+1680772742450	Marionette	INFO	Listening on port 52176
+Read port: 52176
+1680772742565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofiletQeuAy\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1680666296332	Marionette	INFO	Stopped listening on port 64543
+1680773168622	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680773196265	Marionette	INFO	Stopped listening on port 52176
 Dynamically enable window occlusion 1
