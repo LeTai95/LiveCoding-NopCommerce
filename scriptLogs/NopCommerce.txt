@@ -1,328 +1,219 @@
- [2023-04-06 16:19:00,952] Pre-Condition- Step 01: Open browser and navigate to website
- [2023-04-06 16:19:08,476] Pre-Condition - Step 02: Click to 'Register' link
- [2023-04-06 16:19:10,846] Pre-Condition - Step 03: Enter to Firstname textbox with value 'ABC'
- [2023-04-06 16:19:10,944] Pre-Condition - Step 04: Enter to Lastname textbox with value 'XYZ'
- [2023-04-06 16:19:11,070] Pre-Condition - Step 05: Enter to Email textbox with value 'automationvn40952@gmail.com'
- [2023-04-06 16:19:11,204] Pre-Condition - Step 06: Enter to Password textbox with value '0000000000'
- [2023-04-06 16:19:11,329] Pre-Condition - Step 07: Enter to Confirm Password textbox with value '0000000000'
- [2023-04-06 16:19:11,455] Pre-Condition - Step 08: Click to 'Register' button
- [2023-04-06 16:19:13,053] Pre-Condition- Step 09: Navigate to 'Login' page
- [2023-04-06 16:19:13,872] Pre-Condition - Step 10: Enter to  Email textbox with value 'automationvn40952@gmail.com' 
- [2023-04-06 16:19:13,988] Pre-Condition - Step 11: Enter to  Password textbox with value '0000000000'
- [2023-04-06 16:19:14,134] Pre-Condition - Step 12: Click to 'Login' button
- [2023-04-06 16:19:15,283] Pre-Condition - Step 13: Select 'Build your own computer'
- [2023-04-06 16:19:37,491] Order_01 - Step 01: Select '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' in 'Processor' dropdown
- [2023-04-06 16:19:37,559] Order_01 - Step 02: Select '8GB [+$60.00]' in 'RAM' dropdown
- [2023-04-06 16:19:37,854] Order_01 - Step 03: Check to '400 GB [+$100.00]'
- [2023-04-06 16:19:38,123] Order_01 - Step 04: Check to 'Vista Premium [+$60.00]'
- [2023-04-06 16:19:38,399] Order_01 - Step 05: Check all 'Software ' checkbox
- [2023-04-06 16:19:39,016] Order_01 - Step 06: Click to 'Add to cart' button
- [2023-04-06 16:19:39,287] Order_01 - Step 07: Verify product added to shopping cart message is displayed
- [2023-04-06 16:19:39,794] Order_01 - Step 08: Close product added to shopping cart message
- [2023-04-06 16:19:40,080] Order_01 - Step 09: Click to 'Shopping cart' link
- [2023-04-06 16:19:54,393] Order_01 - Step 10: Verify product is displayed in shopping cart
- [2023-04-06 16:19:54,481] Order_01 - Step 11: Verify product Info is displayed in shopping cart
- [2023-04-06 16:19:54,541] Order_01 - Step 12: Verify product Price is displayed in shopping cart
- [2023-04-06 16:19:54,610] Order_02 - Step 01: Click to 'Edit'
- [2023-04-06 16:20:03,806] Order_01 - Step 02: Select '2.2 GHz Intel Pentium Dual-Core E2200' in 'Processor' dropdown
- [2023-04-06 16:20:04,147] Order_02 - Step 03: Select '4GB [+$20.00]' in 'RAM' dropdown
- [2023-04-06 16:20:04,493] Order_02 - Step 04: Check to '320 GB'
- [2023-04-06 16:20:04,833] Order_02 - Step 05: Check to 'Vista Home [+$50.00]'
- [2023-04-06 16:20:05,143] Order_02 - Step 06: Uncheck 'Acrobat Reader [+$10.00]' and 'Total Commander [+$5.00]' checkbox
- [2023-04-06 16:20:05,785] Order_02 - Step 07: Enter product number is '2'
- [2023-04-06 16:20:05,946] Order_02 - Step 08: Verify price is '$1,320.00'
- [2023-04-06 16:20:07,653] Order_02 - Step 09: Click to 'Add to cart' button
- [2023-04-06 16:20:07,958] Order_02 - Step 10: Verify product added to shopping cart message is displayed
- [2023-04-06 16:20:08,370] Order_02 - Step 11: Close product added to shopping cart message
- [2023-04-06 16:20:08,676] Order_02 - Step 12: Click to 'Shopping cart' link
- [2023-04-06 16:20:26,034] Order_02 - Step 13: Verify product is displayed in shopping cart
- [2023-04-06 16:20:26,148] Order_02 - Step 14: Verify product Info is displayed in shopping cart
- [2023-04-06 16:20:26,244] Order_02 - Step 14: Verify 'Total' is '$2,640.00'
- [2023-04-06 16:20:26,350] Order_03 - Step 01: Click to 'Remove' button
- [2023-04-06 16:20:28,114] Order_03 - Step 02: Verify message is displayed
- [2023-04-06 16:20:28,225] Order_03 - Step 03: Verify product is not displayed
- [2023-04-06 16:20:53,292] Order_04 - Step 01: Navigate to Home page
- [2023-04-06 16:20:56,597] Order_04 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
- [2023-04-06 16:21:04,333] Order_04 - Step 03: Click to 'Add to cart' button
- [2023-04-06 16:21:04,650] Order_04 - Step 04: Close product added to shopping cart message
- [2023-04-06 16:21:05,417] Order_04 - Step 05: Click to 'Shopping cart' link
- [2023-04-06 16:21:20,272] Order_04 - Step 06: Enter to 'Qty.'
- [2023-04-06 16:21:20,434] Order_04 - Step 07: Click to 'Update shopping cart'
- [2023-04-06 16:21:21,499] Order_02 - Step 08: Verify 'Total' is '$2,500.00'
- [2023-04-06 16:21:21,587] Order_03 - Step 09: Click to 'Remove' button
- [2023-04-06 16:21:24,698] Order_05 - Step 01: Navigate to Home page
- [2023-04-06 16:21:25,442] Order_05 - Step 02: Select 'Apple MacBook Pro 13-inch'
- [2023-04-06 16:21:38,194] Order_05 - Step 03: Click to 'Add to cart' button
- [2023-04-06 16:21:38,495] Order_05 - Step 04: Close product added to shopping cart message
- [2023-04-06 16:21:38,965] Order_05 - Step 05: Click to 'Shopping cart' link
- [2023-04-06 16:21:55,304] Order_05 - Step 06: Click to 'Estimate shipping'
- [2023-04-06 16:21:55,603] Order_05 - Step 07: Verify Shipping Popup is displayed
- [2023-04-06 16:21:55,730] Order_05 - Step 08: Select 'Viet Nam' in Shipping Popup dropdown
- [2023-04-06 16:21:56,084] Order_05 - Step 09: Enter to 'Zip/ postal code' textbox
- [2023-04-06 16:21:56,219] Order_05 - Step 10: Check to 'Next Day Air' radio
- [2023-04-06 16:21:58,227] Order_05 - Step 11: Check to 'Next Day Air' radio
- [2023-04-06 16:21:58,537] Order_05 - Step 12: Verify Shipping Popup is not displayed
- [2023-04-06 16:21:58,679] Order_05 - Step 13: Check to 'Term of service' checkbox
- [2023-04-06 16:21:59,537] Order_05 - Step 14: Click to 'Checkout' button
- [2023-04-06 16:22:26,540] Order_05 - Step 15: Enter to 'Firstname' textbox with value : 'Auto'
- [2023-04-06 16:22:26,807] Order_05 - Step 16: Enter to 'Lastname' textbox with value : 'Test'
- [2023-04-06 16:22:27,001] Order_05 - Step 17: Enter to 'Email' textbox with value : 'johnwick111222@gmail.com'
- [2023-04-06 16:22:27,191] Order_05 - Step 18: Select 'Viet Nam' in Country dropdown
- [2023-04-06 16:22:27,537] Order_05 - Step 19: Enter to 'City' textbox with value : 'Ho Chi Minh'
- [2023-04-06 16:22:27,641] Order_05 - Step 20: Enter to 'Address 1' textbox with value : 'Go Vap District'
- [2023-04-06 16:22:27,788] Order_05 - Step 21: Enter to 'Zip / postal code' textbox with value : '000000000'
- [2023-04-06 16:22:27,923] Order_05 - Step 22: Enter to 'Phone number' textbox with value : '0987654321'
- [2023-04-06 16:22:28,054] Order_05 - Step 23: Click to 'Continue' button
- [2023-04-06 16:22:28,398] Order_05 - Step 24: Check to '2nd Day Air ($0.00)' radio button
- [2023-04-06 16:22:28,949] Order_05 - Step 25: Click to 'Continue' button
- [2023-04-06 16:22:29,253] Order_05 - Step 26: Check to 'Check / Money Order' radio button
- [2023-04-06 16:22:29,491] Order_05 - Step 27: Click to 'Continue' button
- [2023-04-06 16:22:29,809] Order_05 - Step 28: Verify payment information is displayed
- [2023-04-06 16:22:30,465] Order_05 - Step 29: Click to 'Continue' button
- [2023-04-06 16:22:30,755] Order_05 - Step 30: Verify 'Name' in 'Billing Address' is 'Auto Test'
- [2023-04-06 16:22:31,124] Order_05 - Step 31: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:22:31,227] Order_05 - Step 32: Verify 'Phone' in 'Billing Address' is '0987654321'
- [2023-04-06 16:22:31,319] Order_05 - Step 33: Verify 'Address' in 'Billing Address' is 'Go Vap District'
- [2023-04-06 16:22:31,424] Order_05 - Step 34: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:22:31,534] Order_05 - Step 35: Verify 'Country' in 'Billing Address' is 'Viet Nam'
- [2023-04-06 16:22:31,626] Order_05 - Step 36: Verify 'Payment' in 'Billing Address' is 'Check / Money Order'
- [2023-04-06 16:22:31,722] Order_05 - Step 37: Verify 'Name' in 'Shipping Address' is 'Auto Test'
- [2023-04-06 16:22:31,810] Order_05 - Step 38: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:22:31,903] Order_05 - Step 39: Verify 'Phone' in 'Shipping Address' is '0987654321'
- [2023-04-06 16:22:31,991] Order_05 - Step 40: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
- [2023-04-06 16:22:32,091] Order_05 - Step 41: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:22:32,167] Order_05 - Step 42: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:22:32,230] Order_05 - Step 43: Verify 'Shipping' in 'Shipping Address' is '2nd Day Air'
- [2023-04-06 16:22:32,319] Order_05 - Step 44: Verify 'SKU' is displayed
- [2023-04-06 16:22:42,434] Order_05 - Step 45: Verify 'Product name' is displayed
- [2023-04-06 16:22:42,536] Order_05 - Step 46: Verify 'Price' is displayed
- [2023-04-06 16:22:42,624] Order_05 - Step 47: Verify 'Qty.' is displayed
- [2023-04-06 16:22:42,735] Order_05 - Step 48: Verify 'Total price' is displayed
- [2023-04-06 16:22:42,868] Order_05 - Step 49: Verify 'Sub-total price' is displayed
- [2023-04-06 16:22:52,989] Order_05 - Step 50: Verify 'Shipping price' is displayed
- [2023-04-06 16:22:53,098] Order_05 - Step 51: Verify 'Tax price' is displayed
- [2023-04-06 16:22:53,212] Order_05 - Step 52: Verify 'Total price' is displayed
- [2023-04-06 16:22:53,317] Order_05 - Step 53: Click to 'Confirm' button
- [2023-04-06 16:22:53,636] Order_05 - Step 54: Verify success message and order number is displayed
- [2023-04-06 16:22:54,919] Order_05 - Step 55: Navigate to 'My Account' page
- [2023-04-06 16:22:58,265] Order_05 - Step 56: Click to 'Orders' link in menu
- [2023-04-06 16:22:59,003] Order_05 - Step 57: Verify order number is displayed
- [2023-04-06 16:22:59,091] Order_05 - Step 58: Click to 'Details' button
- [2023-04-06 16:23:02,019] Order_05 - Step 59: Verify 'Order Number' is displayed
- [2023-04-06 16:23:02,107] Order_05 - Step 60: Verify 'Order Date' is displayed
- [2023-04-06 16:23:02,195] Order_05 - Step 61: Verify 'Order Status' is displayed
- [2023-04-06 16:23:02,305] Order_05 - Step 62: Verify 'Order Total' is displayed
- [2023-04-06 16:23:02,415] Order_05 - Step 63: Verify 'Name' in 'Billing Address' is 'Auto Test'
- [2023-04-06 16:23:02,481] Order_05 - Step 64: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:23:02,558] Order_05 - Step 65: Verify 'Phone' in 'Billing Address' is '0987654321'
- [2023-04-06 16:23:02,668] Order_05 - Step 66: Verify 'Address' in 'Billing Address' is 'Go Vap District'
- [2023-04-06 16:23:02,723] Order_05 - Step 67: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:23:02,800] Order_05 - Step 68: Verify 'Country' in 'Billing Address' is 'Viet Nam'
- [2023-04-06 16:23:02,844] Order_05 - Step 69: Verify 'Payment Method' in 'Billing Address' is 'Check / Money Order'
- [2023-04-06 16:23:02,899] Order_05 - Step 70: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'
- [2023-04-06 16:23:02,954] Order_05 - Step 71: Verify 'Name' in 'Shipping Address' is 'Auto Test'
- [2023-04-06 16:23:03,020] Order_05 - Step 72: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:23:03,130] Order_05 - Step 73: Verify 'Phone' in 'Shipping Address' is '0987654321'
- [2023-04-06 16:23:03,218] Order_05 - Step 74: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
- [2023-04-06 16:23:03,306] Order_05 - Step 75: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:23:03,394] Order_05 - Step 76: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:23:03,471] Order_05 - Step 77: Verify 'Shipping Method' in 'Shipping Address' is '2nd Day Air'
- [2023-04-06 16:23:03,537] Order_05 - Step 78: Verify 'Shipping Status' in 'Shipping Address' is displayed
- [2023-04-06 16:23:03,603] Order_05 - Step 79: Verify 'SKU' is displayed
- [2023-04-06 16:23:13,717] Order_05 - Step 80: Verify 'Product name' is displayed
- [2023-04-06 16:23:13,832] Order_05 - Step 81: Verify 'Price' is displayed
- [2023-04-06 16:23:13,956] Order_05 - Step 82: Verify 'Quantity' is displayed
- [2023-04-06 16:23:14,064] Order_05 - Step 83: Verify 'Total price' is displayed
- [2023-04-06 16:23:14,172] Order_05 - Step 84: Verify 'Sub-total price' is displayed
- [2023-04-06 16:23:24,365] Order_05 - Step 85: Verify 'Shipping price' is displayed
- [2023-04-06 16:23:24,455] Order_05 - Step 86: Verify 'Tax price' is displayed
- [2023-04-06 16:23:24,577] Order_05 - Step 87: Verify 'Total price' is displayed
- [2023-04-06 16:23:24,691] Order_06 - Step 01: Navigate to Home page
- [2023-04-06 16:23:26,065] Order_06 - Step 02: Select 'HP Spectre XT Pro UltraBook'
- [2023-04-06 16:23:32,636] Order_06 - Step 03: Click to 'Add to cart' button
- [2023-04-06 16:23:32,940] Order_06 - Step 04: Close product added to shopping cart message
- [2023-04-06 16:23:33,443] Order_06 - Step 05: Click to 'Shopping cart' link
- [2023-04-06 16:23:46,130] Order_06 - Step 06: Click to 'Estimate shipping'
- [2023-04-06 16:23:46,441] Order_06 - Step 07: Verify Shipping Popup is displayed
- [2023-04-06 16:23:46,531] Order_06 - Step 08: Select 'Viet Nam' in Shipping Popup dropdown
- [2023-04-06 16:23:46,642] Order_06 - Step 09: Enter to 'Zip/ postal code' textbox
- [2023-04-06 16:23:46,814] Order_06 - Step 10: Check to 'Ground' radio
- [2023-04-06 16:23:48,795] Order_06 - Step 11: Click to Apply button
- [2023-04-06 16:23:49,102] Order_06 - Step 12: Verify Shipping Popup is not displayed
- [2023-04-06 16:23:49,235] Order_06 - Step 13: Check to 'Term of service' checkbox
- [2023-04-06 16:23:50,082] Order_06 - Step 14: Click to 'Checkout' button
- [2023-04-06 16:23:53,922] Order_06 - Step 15: Click to 'Continue' button
- [2023-04-06 16:23:54,220] Order_06 - Step 16: Check to 'Ground ($0.00)' radio button
- [2023-04-06 16:23:54,616] Order_06 - Step 17: Click to 'Continue' button
- [2023-04-06 16:23:54,914] Order_06 - Step 18: Check to 'Credit Card' radio button
- [2023-04-06 16:23:55,814] Order_06 - Step 19: Click to 'Continue' button
- [2023-04-06 16:23:56,113] Order_06 - Step 20: Select 'Master card' in 'Select credit card' dropdown
- [2023-04-06 16:23:56,610] Order_06 - Step 21: Enter to 'Cardholder name' name textbox
- [2023-04-06 16:23:56,735] Order_06 - Step 22: Enter to 'Card number' name textbox
- [2023-04-06 16:23:56,877] Order_06 - Step 23: Select 'Date' in 'Expiration date' dropdown
- [2023-04-06 16:23:57,222] Order_06 - Step 24: Select 'Year' in 'Expiration date' dropdown
- [2023-04-06 16:23:57,316] Order_06 - Step 21: Enter to 'Card code' name textbox
- [2023-04-06 16:23:57,441] Order_06 - Step 22: Click to 'Continue' button
- [2023-04-06 16:23:57,770] Order_06 - Step 23: Verify 'Name' in 'Billing Address' is 'Auto Test'
- [2023-04-06 16:23:58,140] Order_06 - Step 24: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:23:58,236] Order_06 - Step 25: Verify 'Phone' in 'Billing Address' is '0987654321'
- [2023-04-06 16:23:58,316] Order_06 - Step 26: Verify 'Address' in 'Billing Address' is 'Go Vap District'
- [2023-04-06 16:23:58,372] Order_06 - Step 27: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:23:58,452] Order_06 - Step 28: Verify 'Country' in 'Billing Address' is 'Viet Nam'
- [2023-04-06 16:23:58,548] Order_06 - Step 29: Verify 'Payment' in 'Billing Address' is 'Credit Card'
- [2023-04-06 16:23:58,636] Order_06 - Step 30: Verify 'Name' in 'Shipping Address' is 'Auto Test'
- [2023-04-06 16:23:58,732] Order_06 - Step 31: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:23:58,828] Order_06 - Step 32: Verify 'Phone' in 'Shipping Address' is '0987654321'
- [2023-04-06 16:23:58,924] Order_06 - Step 33: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
- [2023-04-06 16:23:59,020] Order_06 - Step 34: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:23:59,092] Order_06 - Step 35: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:23:59,188] Order_06 - Step 36: Verify 'Shipping' in 'Shipping Address' is 'Ground'
- [2023-04-06 16:23:59,284] Order_06 - Step 37: Verify 'SKU' is displayed
- [2023-04-06 16:24:09,406] Order_06 - Step 38: Verify 'Product name' is displayed
- [2023-04-06 16:24:09,516] Order_06 - Step 39: Verify 'Price' is displayed
- [2023-04-06 16:24:09,628] Order_06 - Step 40: Verify 'Qty.' is displayed
- [2023-04-06 16:24:09,732] Order_06 - Step 41: Verify 'Total price' is displayed
- [2023-04-06 16:24:09,834] Order_06 - Step 42: Verify 'Sub-total price' is displayed
- [2023-04-06 16:24:19,965] Order_06 - Step 43: Verify 'Shipping price' is displayed
- [2023-04-06 16:24:20,067] Order_06 - Step 44: Verify 'Tax price' is displayed
- [2023-04-06 16:24:20,165] Order_06 - Step 45: Verify 'Total price' is displayed
- [2023-04-06 16:24:20,271] Order_06 - Step 47: Click to 'Confirm' button
- [2023-04-06 16:24:20,569] Order_06 - Step 48: Verify success message and order number is displayed
- [2023-04-06 16:24:21,708] Order_06 - Step 49: Navigate to 'My Account' page
- [2023-04-06 16:24:22,342] Order_06 - Step 50: Click to 'Orders' link in menu
- [2023-04-06 16:24:23,002] Order_06 - Step 51: Verify order number is displayed
- [2023-04-06 16:24:23,086] Order_06 - Step 52: Click to 'Details' button
- [2023-04-06 16:24:24,799] Order_06 - Step 53: Verify 'Order Number' is displayed
- [2023-04-06 16:24:24,871] Order_06 - Step 54: Verify 'Order Date' is displayed
- [2023-04-06 16:24:24,959] Order_06 - Step 55: Verify 'Order Status' is displayed
- [2023-04-06 16:24:25,046] Order_06 - Step 56: Verify 'Order Total' is displayed
- [2023-04-06 16:24:25,133] Order_06 - Step 57: Verify 'Name' in 'Billing Address' is 'Auto Test'
- [2023-04-06 16:24:25,225] Order_06 - Step 58: Verify 'Email' in 'Billing Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:24:25,311] Order_06 - Step 59: Verify 'Phone' in 'Billing Address' is '0987654321'
- [2023-04-06 16:24:25,404] Order_06 - Step 60: Verify 'Address' in 'Billing Address' is 'Go Vap District'
- [2023-04-06 16:24:25,496] Order_06 - Step 61: Verify 'City Stale Zip' in 'Billing Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:24:25,590] Order_06 - Step 62: Verify 'Country' in 'Billing Address' is 'Viet Nam'
- [2023-04-06 16:24:25,679] Order_06 - Step 63: Verify 'Payment Method' in 'Billing Address' is 'Credit Card '
- [2023-04-06 16:24:25,766] Order_06 - Step 64: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'
- [2023-04-06 16:24:25,858] Order_06 - Step 65: Verify 'Name' in 'Shipping Address' is 'Auto Test'
- [2023-04-06 16:24:25,961] Order_06 - Step 66: Verify 'Email' in 'Shipping Address' is 'johnwick111222@gmail.com'
- [2023-04-06 16:24:26,054] Order_06 - Step 67: Verify 'Phone' in 'Shipping Address' is '0987654321'
- [2023-04-06 16:24:26,147] Order_06 - Step 68: Verify 'Address' in 'Shipping Address' is 'Go Vap District'
- [2023-04-06 16:24:26,241] Order_06 - Step 69: Verify 'City Stale Zip' in 'Shipping Address' is 'Ho Chi Minh,000000000'
- [2023-04-06 16:24:26,341] Order_06 - Step 70: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:24:26,451] Order_06 - Step 71: Verify 'Shipping Method' in 'Shipping Address' is 'Ground '
- [2023-04-06 16:24:26,531] Order_06 - Step 72: Verify 'Shipping Status' in 'Shipping Address' is displayed
- [2023-04-06 16:24:26,613] Order_06 - Step 72: Verify 'SKU' is displayed
- [2023-04-06 16:24:36,731] Order_06 - Step 73: Verify 'Product name' is displayed
- [2023-04-06 16:24:36,843] Order_06 - Step 74: Verify 'Price' is displayed
- [2023-04-06 16:24:36,951] Order_06 - Step 75: Verify 'Quantity' is displayed
- [2023-04-06 16:24:37,075] Order_06 - Step 76: Verify 'Total price' is displayed
- [2023-04-06 16:24:37,187] Order_06 - Step 77: Verify 'Sub-total price' is displayed
- [2023-04-06 16:24:47,324] Order_06 - Step 78: Verify 'Shipping price' is displayed
- [2023-04-06 16:24:47,432] Order_06 - Step 79: Verify 'Tax price' is displayed
- [2023-04-06 16:24:47,540] Order_06 - Step 80: Verify 'Total price' is displayed
- [2023-04-06 16:24:47,647] Order_07 - Step 01: Navigate to Home page
- [2023-04-06 16:24:48,325] Order_07 - Step 02: Select 'Lenovo IdeaCentre 600 All-in-One PC'
- [2023-04-06 16:24:54,756] Order_07 - Step 03: Click to 'Add to cart' button
- [2023-04-06 16:24:55,084] Order_07 - Step 04: Close product added to shopping cart message
- [2023-04-06 16:24:55,955] Order_07 - Step 05: Click to 'Shopping cart' link
- [2023-04-06 16:25:08,539] Order_07 - Step 06: Click to 'Estimate shipping'
- [2023-04-06 16:25:08,835] Order_07 - Step 07: Select 'Viet Nam' in Shipping Popup dropdown
- [2023-04-06 16:25:08,931] Order_07 - Step 08: Enter to 'Zip/ postal code' textbox
- [2023-04-06 16:25:09,101] Order_07 - Step 09: Check to 'Ground' radio
- [2023-04-06 16:25:11,197] Order_07 - Step 10: Click to 'Apply' button
- [2023-04-06 16:25:11,477] Order_07 - Step 11: Check to 'Term of service' checkbox
- [2023-04-06 16:25:12,361] Order_07 - Step 12: Click to 'Checkout' button
- [2023-04-06 16:25:18,089] Order_07 - Step 13: Click to 'Continue' button
- [2023-04-06 16:25:18,399] Order_07 - Step 14: Check to 'Ground ($0.00)' radio button
- [2023-04-06 16:25:18,631] Order_07 - Step 15: Click to 'Continue' button
- [2023-04-06 16:25:18,935] Order_07 - Step 16: Check to 'Credit Card' radio button
- [2023-04-06 16:25:19,405] Order_07 - Step 17: Click to 'Continue' button
- [2023-04-06 16:25:19,706] Order_07 - Step 18: Select 'Master card' in 'Select credit card' dropdown
- [2023-04-06 16:25:20,420] Order_07 - Step 19: Enter to 'Cardholder name' name textbox
- [2023-04-06 16:25:20,550] Order_07 - Step 20: Enter to 'Card number' name textbox
- [2023-04-06 16:25:20,727] Order_07 - Step 21: Select 'Date' in 'Expiration date' dropdown
- [2023-04-06 16:25:21,069] Order_07 - Step 22: Select 'Year' in 'Expiration date' dropdown
- [2023-04-06 16:25:21,177] Order_07 - Step 23: Enter to 'Card code' name textbox
- [2023-04-06 16:25:21,279] Order_07 - Step 24: Click to 'Continue' button
- [2023-04-06 16:25:21,576] Order_07 - Step 25: Click to 'Confirm' button
- [2023-04-06 16:25:23,028] Order_07 - Step 26: Get Order Number
- [2023-04-06 16:25:24,032] Order_07 - Step 27: Click to 'My Account' link
- [2023-04-06 16:25:25,171] Order_07 - Step 28: Click to 'Orders' link
- [2023-04-06 16:25:33,924] Order_07 - Step 29: Click to 'Detail' button
- [2023-04-06 16:25:35,785] Order_07 - Step 30: Click to 'Re-order' button
- [2023-04-06 16:25:36,998] Order_07 - Step 31: Enter to 'Qty.' with value is '10'
- [2023-04-06 16:25:37,152] Order_07 - Step 32: Click to 'Update shopping cart' button
- [2023-04-06 16:25:38,296] Order_07 - Step 33: Check to 'Term of service' checkbox
- [2023-04-06 16:25:38,620] Order_07 - Step 34: Click to 'Checkout' button
- [2023-04-06 16:25:40,052] Order_07 - Step 35: Click to 'Edit' button
- [2023-04-06 16:25:40,409] Order_07 - Step 36: Select 'New Address' in 'Billing address' dropdown
- [2023-04-06 16:25:40,773] Order_07 - Step 37: Enter to 'Firstname' textbox with value 'Automation'
- [2023-04-06 16:25:40,937] Order_07 - Step 38: Enter to 'Lastname' textbox with value 'FC'
- [2023-04-06 16:25:41,148] Order_07 - Step 39: Enter to 'Email' textbox with value 'automationfc95@gmail.com'
- [2023-04-06 16:25:41,309] Order_07 - Step 40: Enter to 'Country' textbox with value 'Viet Nam'
- [2023-04-06 16:25:41,400] Order_07 - Step 41: Enter to 'City' textbox with value 'Long An'
- [2023-04-06 16:25:41,564] Order_07 - Step 42: Enter to 'Address 1' textbox with value 'FC'
- [2023-04-06 16:25:41,741] Order_07 - Step 43: Enter to 'Zip / postal code' textbox with value '55550000'
- [2023-04-06 16:25:41,910] Order_07 - Step 44: Enter to 'Phone number' textbox with value '0909222111'
- [2023-04-06 16:25:42,062] Order_07 - Step 45: Click to 'Continue' button
- [2023-04-06 16:25:42,400] Order_07 - Step 46: Check to 'Next Day Air ($0.00)' radio button
- [2023-04-06 16:25:42,846] Order_07 - Step 47: Click to 'Continue' button
- [2023-04-06 16:25:43,134] Order_07 - Step 48: Check to 'Check / Money Order' radio button
- [2023-04-06 16:25:43,378] Order_07 - Step 49: Click to 'Continue' button
- [2023-04-06 16:25:43,672] Order_07 - Step 50: Click to 'Continue' button
- [2023-04-06 16:25:44,531] Order_07 - Step 51: Verify 'Name' in 'Billing Address' is 'Automation FC'
- [2023-04-06 16:25:45,165] Order_07 - Step 52: Verify 'Email' in 'Billing Address' is 'automationfc95@gmail.com'
- [2023-04-06 16:25:45,253] Order_07 - Step 53: Verify 'Phone' in 'Billing Address' is '0909222111'
- [2023-04-06 16:25:45,371] Order_07 - Step 54: Verify 'Address' in 'Billing Address' is 'Ben Luc Town'
- [2023-04-06 16:25:45,432] Order_07 - Step 55: Verify 'City Stale Zip' in 'Billing Address' is 'Long An Provice',55550000
- [2023-04-06 16:25:45,508] Order_07 - Step 56: Verify 'Country' in 'Billing Address' is 'Viet Name'
- [2023-04-06 16:25:45,580] Order_07 - Step 57: Verify 'Payment' in 'Billing Address' is 'Check / Money Order'
- [2023-04-06 16:25:45,668] Order_07 - Step 58: Verify 'Name' in 'Shipping Address' is 'Automation FC'
- [2023-04-06 16:25:45,749] Order_07 - Step 59: Verify 'Email' in 'Shipping Address' is 'automationfc95@gmail.com'
- [2023-04-06 16:25:45,861] Order_07 - Step 60: Verify 'Phone' in 'Shipping Address' is '0909222111'
- [2023-04-06 16:25:45,954] Order_07 - Step 61: Verify 'Address' in 'Shipping Address' is 'Ben Luc Town'
- [2023-04-06 16:25:46,045] Order_07 - Step 62: Verify 'City Stale Zip' in 'Shipping Address' is 'Long An Provice',55550000
- [2023-04-06 16:25:46,116] Order_07 - Step 63: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:25:46,193] Order_07 - Step 64: Verify 'Shipping' in 'Shipping Address' is 'Next Day Air '
- [2023-04-06 16:25:46,294] Order_07 - Step 65: Verify 'SKU' is displayed
- [2023-04-06 16:25:56,402] Order_07 - Step 66: Verify 'Product name' is displayed
- [2023-04-06 16:25:56,517] Order_07 - Step 67: Verify 'Price' is displayed
- [2023-04-06 16:25:56,630] Order_07 - Step 68: Verify 'Quantity' is displayed
- [2023-04-06 16:25:56,734] Order_07 - Step 69: Verify 'Total price' is displayed
- [2023-04-06 16:25:56,842] Order_07 - Step 70: Verify 'Sub-total price' is displayed
- [2023-04-06 16:26:06,964] Order_07 - Step 71: Verify 'Shipping price' is displayed
- [2023-04-06 16:26:07,072] Order_07 - Step 72: Verify 'Tax price' is displayed
- [2023-04-06 16:26:07,182] Order_07 - Step 73: Verify 'Total price' is displayed
- [2023-04-06 16:26:07,270] Order_07 - Step 73: Click to 'Confirm' button
- [2023-04-06 16:26:07,570] Order_07 - Step 74: Get Order Number
- [2023-04-06 16:26:08,550] Order_07 - Step 75: Click to 'My Account' link
- [2023-04-06 16:26:09,760] Order_07 - Step 76: Click to 'Orders' link
- [2023-04-06 16:26:10,372] Order_07 - Step 77: Click to 'Detail' button
- [2023-04-06 16:26:13,822] Order_07 - Step 78: Verify 'Name' in 'Billing Address' is 'Automation FC'
- [2023-04-06 16:26:13,901] Order_07 - Step 79: Verify 'Email' in 'Billing Address' is 'automationfc95@gmail.com'
- [2023-04-06 16:26:13,995] Order_07 - Step 80: Verify 'Phone' in 'Billing Address' is '0909222111'
- [2023-04-06 16:26:14,094] Order_07 - Step 81: Verify 'Address' in 'Billing Address' is 'Ben Luc Town'
- [2023-04-06 16:26:14,183] Order_07 - Step 82: Verify 'City Stale Zip' in 'Billing Address' is Long An Provice,55550000
- [2023-04-06 16:26:14,277] Order_07 - Step 83: Verify 'Country' in 'Billing Address' is 'Viet Nam'
- [2023-04-06 16:26:14,372] Order_07 - Step 84: Verify 'Payment Method' in 'Billing Address' is 'Check / Money Order'
- [2023-04-06 16:26:14,466] Order_07 - Step 85: Verify 'Payment Statuc' in 'Billing Address' is 'Pending'
- [2023-04-06 16:26:14,561] Order_07 - Step 86: Verify 'Name' in 'Shipping Address' is 'Automation FC'
- [2023-04-06 16:26:14,655] Order_07 - Step 87: Verify 'Email' in 'Shipping Address' is 'automationfc95@gmail.com'
- [2023-04-06 16:26:14,749] Order_07 - Step 88: Verify 'Phone' in 'Shipping Address' is '0909222111'
- [2023-04-06 16:26:14,844] Order_07 - Step 89: Verify 'Address' in 'Shipping Address' is 'Ben Luc Town'
- [2023-04-06 16:26:14,938] Order_07 - Step 90: Verify 'City Stale Zip' in 'Shipping Address' is 'Long An Provice',55550000
- [2023-04-06 16:26:15,032] Order_07 - Step 91: Verify 'Country' in 'Shipping Address' is 'Viet Nam'
- [2023-04-06 16:26:15,126] Order_07 - Step 92: Verify 'Shipping' in 'Shipping Address' is 'Next Day Air'
- [2023-04-06 16:26:15,221] Order_06 - Step 93: Verify 'Shipping Status' in 'Shipping Address' is displayed
- [2023-04-06 16:26:15,315] Order_06 - Step 94: Verify 'SKU' is displayed
- [2023-04-06 16:26:25,431] Order_06 - Step 95: Verify 'Product name' is displayed
- [2023-04-06 16:26:25,528] Order_06 - Step 96: Verify 'Price' is displayed
- [2023-04-06 16:26:25,626] Order_06 - Step 97: Verify 'Quantity' is displayed
- [2023-04-06 16:26:25,734] Order_06 - Step 98: Verify 'Total price' is displayed
- [2023-04-06 16:26:25,858] Order_06 - Step 99: Verify 'Sub-total price' is displayed
- [2023-04-06 16:26:35,960] Order_06 - Step 100: Verify 'Shipping price' is displayed
- [2023-04-06 16:26:36,053] Order_06 - Step 101: Verify 'Tax price' is displayed
- [2023-04-06 16:26:36,154] Order_06 - Step 102: Verify 'Total price' is displayed
- [2023-04-06 16:26:36,247] OS name = windows 11
- [2023-04-06 16:26:36,247] Driver instance name = firefoxdriver: firefox on windows (5f9e73e0-fbff-4bdd-96cc-8ec2fb249eaf)
+ [2023-04-12 16:26:19,830] Pre-Conditon - Step_01: Open browser and login to Admin page
+ [2023-04-12 16:26:27,232] Admin_01 - Step_01: Click to 'Catalog' menu
+ [2023-04-12 16:26:27,375] Admin_01 - Step_02: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:30,402] Admin_01 - Step_03: Enter to 'Product name' textbox
+ [2023-04-12 16:26:30,613] Admin_01 - Step_04: Click to 'Search' button
+ [2023-04-12 16:26:33,977] Admin_01 - Step_05: Verify 'Product name' is equals 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-12 16:26:34,088] Admin_01 - Step_06: Verify 'SKU' is equals 'LE_IC_600'
+ [2023-04-12 16:26:34,178] Admin_01 - Step_07: Verify 'Price' is equals '500'
+ [2023-04-12 16:26:34,273] Admin_01 - Step_08: Verify 'Stock quantity' is equals '10000'
+ [2023-04-12 16:26:34,383] Admin_01 - Step_09: Verify 'Published icon' is displayed
+ [2023-04-12 16:26:34,496] Admin_02 - Step_01: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:36,204] Admin_02 - Step_02: Enter to 'Product name' textbox
+ [2023-04-12 16:26:36,410] Admin_02 - Step_03: Select 'Computers' in 'Catagory' dropdown
+ [2023-04-12 16:26:36,804] Admin_02 - Step_04: Click to 'Search' button
+ [2023-04-12 16:26:40,155] Admin_02 - Step_05: Verify 'No data available in table' message is displayed
+ [2023-04-12 16:26:40,260] Admin_03 - Step_01: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:41,951] Admin_03 - Step_02: Enter to 'Product name' textbox
+ [2023-04-12 16:26:42,134] Admin_03 - Step_03: Select 'Computers' in 'Catagory' dropdown
+ [2023-04-12 16:26:42,523] Admin_03 - Step_04: Check to 'Search subcategories' checkbox
+ [2023-04-12 16:26:42,835] Admin_03 - Step_05: Click to 'Search' button
+ [2023-04-12 16:26:46,184] Admin_03 - Step_06: Verify 'Product name' is equals 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-12 16:26:46,308] Admin_04 - Step_01: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:48,079] Admin_04 - Step_02: Enter to 'Product name' textbox
+ [2023-04-12 16:26:48,286] Admin_04 - Step_03: Select 'Computers >> Desktops' in 'Catagory' dropdown
+ [2023-04-12 16:26:48,660] Admin_04 - Step_04: Click to 'Search' button
+ [2023-04-12 16:26:52,004] Admin_04 - Step_05: Verify 'Product name' is equals 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-12 16:26:52,099] Admin_05 - Step_01: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:53,736] Admin_05 - Step_02: Enter to 'Product name' textbox
+ [2023-04-12 16:26:53,917] Admin_05 - Step_03: Select 'All' in 'Catagory' dropdown
+ [2023-04-12 16:26:54,031] Admin_05 - Step_04: Select 'Apple' in 'Manufacturer' dropdown
+ [2023-04-12 16:26:54,388] Admin_05 - Step_05: Click to 'Search' button
+ [2023-04-12 16:26:57,701] Admin_05 - Step_06: Verify 'No data available in table' message is displayed
+ [2023-04-12 16:26:57,808] Admin_06 - Step_01: Click to 'Products' in 'Catalog' menu
+ [2023-04-12 16:26:59,460] Admin_06 - Step_02: Enter to 'Go directly to product SKU' textbox
+ [2023-04-12 16:26:59,632] Admin_06 - Step_03: Click to 'Go' button
+ [2023-04-12 16:27:01,113] Admin_06 - Step_04: Verify 'Product name' is 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2023-04-12 16:27:01,329] Admin_06 - Step_05: Switch to 'Product Info Description' iframe
+ [2023-04-12 16:27:02,058] Admin_06 - Step_06: Verify 'Lenovo IdeaCentre 600 All-in-One PC' infomation
+ [2023-04-12 16:27:02,234] Admin_06 - Step_05: Switch to Default content
+ [2023-04-12 16:27:02,272] Admin_07 - Step_01: Click to 'Customers' menu
+ [2023-04-12 16:27:02,451] Admin_07 - Step_02: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:04,386] Admin_07 - Step_03: Click to 'Add new' button
+ [2023-04-12 16:27:04,529] Admin_07 - Step_04: Enter to 'Email' textbox with value is 'automationfc79829@gmail.com'
+ [2023-04-12 16:27:06,076] Admin_07 - Step_05: Enter to 'Password' textbox with value is '123456'
+ [2023-04-12 16:27:07,233] Admin_07 - Step_06: Enter to 'First name' textbox with value is 'Automation'
+ [2023-04-12 16:27:08,392] Admin_07 - Step_06: Enter to 'Last name' textbox with value is 'FC'
+ [2023-04-12 16:27:09,595] Admin_07 - Step_08: Check to 'Male' in Gender radio
+ [2023-04-12 16:27:09,925] Admin_07 - Step_09: Enter to 'Data of birth' with value is '1/1/2020'
+ [2023-04-12 16:27:11,080] Admin_07 - Step_09: Enter to 'Company name' with value is 'AutomationFC'
+ [2023-04-12 16:27:12,248] Admin_07 - Step_11: Check to 'Active' checkbox
+ [2023-04-12 16:27:12,338] Admin_07 - Step_12: Enter to 'Admin comment' textbox with value is 'Add new customer (Guest)'
+ [2023-04-12 16:27:12,483] Admin_07 - Step_13: Click to 'Save and Continue Edit' button
+ [2023-04-12 16:27:13,567] Admin_07 - Step_14: Verify 'New customer has been added successfully' message is displayed
+ [2023-04-12 16:27:13,785] Admin_07 - Step_15: Verify 'Email' value is 'automationfc79829@gmail.com'
+ [2023-04-12 16:27:13,887] Admin_07 - Step_16: Verify 'First name' value is 'Automation'
+ [2023-04-12 16:27:13,966] Admin_07 - Step_17: Verify 'Last name' value is 'FC'
+ [2023-04-12 16:27:14,087] Admin_07 - Step_18: Verify 'Male' radio button is checked
+ [2023-04-12 16:27:14,173] Admin_07 - Step_19: Verify 'Data of birth' value is '1/1/2020'
+ [2023-04-12 16:27:14,261] Admin_07 - Step_20: Verify 'Company name' value is 'AutomationFC'
+ [2023-04-12 16:27:14,340] Admin_07 - Step_21: Verify 'Registered' is selected in 'Customer roles' dropdown
+ [2023-04-12 16:27:14,441] Admin_07 - Step_22: Verify 'Active' checkbox is checked
+ [2023-04-12 16:27:14,514] Admin_07 - Step_23: Verify 'Admin comment' value is 'Add new customer (Guest)'
+ [2023-04-12 16:27:14,590] Admin_07 - Step_24: Click to 'back to customer list' link
+ [2023-04-12 16:27:15,224] Admin_07 - Step_25: Click to 'Search' button
+ [2023-04-12 16:27:17,098] Admin_07 - Step_26: Verify Customer Info is displayed
+ [2023-04-12 16:27:17,200] Admin_08 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:18,867] Admin_08 - Step_02: Enter to 'Email' textbox with value is 'automationfc79829@gmail.com'
+ [2023-04-12 16:27:20,051] Admin_08 - Step_05: Click to 'Search' button
+ [2023-04-12 16:27:21,437] Admin_08 - Step_06: Verify Customer Info is displayed
+ [2023-04-12 16:27:21,542] Admin_09 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:23,216] Admin_09 - Step_02: Enter to 'Firstname' textbox with value is 'Automation'
+ [2023-04-12 16:27:24,379] Admin_09 - Step_03: Enter to 'Lastname' textbox with value is 'FC'
+ [2023-04-12 16:27:25,521] Admin_09 - Step_06: Click to 'Search' button
+ [2023-04-12 16:27:26,872] Admin_09 - Step_07: Verify Customer Info is displayed
+ [2023-04-12 16:27:26,987] Admin_10 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:28,676] Admin_10 - Step_02: Enter to 'Company' textbox with value is 'AutomationFC'
+ [2023-04-12 16:27:29,827] Admin_10 - Step_05: Click to 'Search' button
+ [2023-04-12 16:27:31,173] Admin_10 - Step_06: Verify Customer Info is displayed
+ [2023-04-12 16:27:31,289] Admin_11 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:32,895] Admin_11 - Step_02: Enter to 'Email' textbox with value is 'automationfc79829@gmail.com'
+ [2023-04-12 16:27:34,018] Admin_11 - Step_03: Enter to 'Firstname' textbox with value is 'Automation'
+ [2023-04-12 16:27:35,158] Admin_11 - Step_04: Enter to 'Lastname' textbox with value is 'FC'
+ [2023-04-12 16:27:36,323] Admin_11 - Step_05: Select '1' in 'Month' dropdown
+ [2023-04-12 16:27:36,671] Admin_11 - Step_06: Select '1' in 'Day' dropdown
+ [2023-04-12 16:27:37,017] Admin_11 - Step_07: Enter to 'Company' textbox with value is 'AutomationFC'
+ [2023-04-12 16:27:38,169] Admin_11 - Step_10: Click to 'Search' button
+ [2023-04-12 16:27:39,510] Admin_11 - Step_11: Verify Customer Info is displayed
+ [2023-04-12 16:27:39,627] Admin_12 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:41,294] Admin_12 - Step_02: Enter to 'Email' textbox with value is 'automationfc79829@gmail.com'
+ [2023-04-12 16:27:42,474] Admin_12 - Step_03: Enter to 'Firstname' textbox with value is 'Automation'
+ [2023-04-12 16:27:43,666] Admin_12 - Step_04: Enter to 'Lastname' textbox with value is 'FC'
+ [2023-04-12 16:27:44,837] Admin_12 - Step_05: Select '1' in 'Month' dropdown
+ [2023-04-12 16:27:45,197] Admin_12 - Step_06: Select '1' in 'Day' dropdown
+ [2023-04-12 16:27:45,552] Admin_12 - Step_07: Enter to 'Company' textbox with value is 'AutomationFC'
+ [2023-04-12 16:27:46,689] Admin_12 - Step_10: Click to 'Search' button
+ [2023-04-12 16:27:48,046] Admin_12 - Step_11: Click to 'Edit' button
+ [2023-04-12 16:27:49,737] Admin_12 - Step_12: Enter to 'Email' textbox with value is 'edit_automationfc79829@gmail.com'
+ [2023-04-12 16:27:50,933] Admin_12 - Step_13: Enter to 'First name' textbox with value is 'Edit Automation'
+ [2023-04-12 16:27:52,120] Admin_12 - Step_14: Enter to 'Last name' textbox with value is 'Edit FC'
+ [2023-04-12 16:27:53,300] Admin_12 - Step_15: Enter to 'Date of birth' textbox with value is '2/2/2020'
+ [2023-04-12 16:27:54,511] Admin_12 - Step_16: Enter to 'Company name' textbox with value is 'Edit AutomationFC'
+ [2023-04-12 16:27:55,709] Admin_12 - Step_17: Enter to 'Admin comment' textbox with value is 'Edit Add new customer (Guest)'
+ [2023-04-12 16:27:55,907] Admin_12 - Step_18: Click to 'Save' button
+ [2023-04-12 16:27:56,793] Admin_12 - Step_19: Verify 'The customer has been updated successfully' message is displayed
+ [2023-04-12 16:27:56,959] Admin_12 - Step_20: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:27:58,769] Admin_12 - Step_21: Enter to 'Email' textbox with value is 'edit_automationfc79829@gmail.com'
+ [2023-04-12 16:27:59,953] Admin_12 - Step_22: Enter to 'Firstname' textbox with value is 'Edit Automation'
+ [2023-04-12 16:28:01,108] Admin_12 - Step_23: Enter to 'Lastname' textbox with value is 'Edit FC'
+ [2023-04-12 16:28:02,280] Admin_12 - Step_24: Select '2' in 'Month' dropdown
+ [2023-04-12 16:28:02,647] Admin_12 - Step_25: Select '2' in 'Day' dropdown
+ [2023-04-12 16:28:03,009] Admin_12 - Step_26: Enter to 'Company' textbox with value is 'Edit AutomationFC'
+ [2023-04-12 16:28:04,142] Admin_12 - Step_28: Click to 'Search' button
+ [2023-04-12 16:28:05,490] Admin_12 - Step_29: Verify 'edit_automationfc79829@gmail.com' is displayed in Customer Info
+ [2023-04-12 16:28:05,596] Admin_12 - Step_30: Verify 'Edit Automation Edit FC' is displayed in Customer Info
+ [2023-04-12 16:28:05,659] Admin_12 - Step_31: Verify 'Edit AutomationFC' is displayed in Customer Info
+ [2023-04-12 16:28:05,724] Admin_13 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:28:07,347] Admin_13 - Step_02: Enter to 'Email' textbox with value is 'edit_automationfc79829@gmail.com'
+ [2023-04-12 16:28:08,528] Admin_13 - Step_03: Enter to 'Firstname' textbox with value is 'Edit Automation'
+ [2023-04-12 16:28:09,713] Admin_13 - Step_04: Enter to 'Lastname' textbox with value is 'Edit FC'
+ [2023-04-12 16:28:10,877] Admin_13 - Step_05: Select '2' in 'Month' dropdown
+ [2023-04-12 16:28:11,243] Admin_13 - Step_06: Select '2' in 'Day' dropdown
+ [2023-04-12 16:28:11,576] Admin_13 - Step_07: Enter to 'Company' textbox with value is 'Edit AutomationFC'
+ [2023-04-12 16:28:12,719] Admin_13 - Step_10: Click to 'Search' button
+ [2023-04-12 16:28:14,056] Admin_13 - Step_11: Click to 'Edit' button
+ [2023-04-12 16:28:16,047] Admin_13 - Step_12: Click to 'Add new address' button
+ [2023-04-12 16:28:18,863] Admin_13 - Step_13: Enter to 'First name' textbox with value is'Automation'
+ [2023-04-12 16:28:20,029] Admin_13 - Step_14: Enter to 'Last name' textbox with value is'FC'
+ [2023-04-12 16:28:21,212] Admin_13 - Step_15: Enter to 'Email' textbox with value is'automationfc@gmail.com'
+ [2023-04-12 16:28:22,364] Admin_13 - Step_16: Enter to 'Company' textbox with value is'Automation FC'
+ [2023-04-12 16:28:23,545] Admin_13 - Step_17: Select 'Viet Nam'in 'Country' dropdown
+ [2023-04-12 16:28:23,899] Admin_13 - Step_18: Select 'Other'in 'State / province' dropdown
+ [2023-04-12 16:28:24,009] Admin_13 - Step_19: Enter to 'County / region' textbox with value is'Viet Nam'
+ [2023-04-12 16:28:25,142] Admin_13 - Step_20: Enter to 'City' textbox with value is'Ho Chi Minh'
+ [2023-04-12 16:28:26,294] Admin_13 - Step_21: Enter to 'Address 1' textbox with value is'743 Le Loi'
+ [2023-04-12 16:28:27,477] Admin_13 - Step_22: Enter to 'Address 2' textbox with value is'453 Le Lai'
+ [2023-04-12 16:28:28,640] Admin_13 - Step_23: Enter to 'Zip / postal code' textbox with value is'650000'
+ [2023-04-12 16:28:29,810] Admin_13 - Step_24: Enter to 'Phone number' textbox with value is'0987654555'
+ [2023-04-12 16:28:30,962] Admin_13 - Step_25: Enter to 'Fax number' textbox with value is'+84987654555'
+ [2023-04-12 16:28:32,164] Admin_13 - Step_26: Click to 'Save' button
+ [2023-04-12 16:28:33,247] Admin_13 - Step_27: Verify 'The new address has been added successfully' is displayed
+ [2023-04-12 16:28:33,374] Admin_13 - Step_28: Verify 'First name' textbox value is equals 'Automation'
+ [2023-04-12 16:28:33,458] Admin_13 - Step_29: Verify 'Last name' textbox value is equals 'FC'
+ [2023-04-12 16:28:33,536] Admin_13 - Step_30: Verify 'Email' textbox value is equals 'automationfc@gmail.com'
+ [2023-04-12 16:28:33,642] Admin_13 - Step_31: Verify 'Company' textbox value is equals 'Automation FC'
+ [2023-04-12 16:28:33,741] Admin_13 - Step_32: Verify 'Viet Nam'is selected in 'Country' dropdown
+ [2023-04-12 16:28:34,813] Admin_13 - Step_33: Verify 'Other'is selected in 'State / province' dropdown
+ [2023-04-12 16:28:34,919] Admin_13 - Step_34: Verify 'County / region' textbox value is equals 'Viet Nam'
+ [2023-04-12 16:28:35,002] Admin_13 - Step_35: Verify 'City' textbox value is equals 'Ho Chi Minh'
+ [2023-04-12 16:28:35,081] Admin_13 - Step_36: Verify 'Address 1' textbox value is equals '743 Le Loi'
+ [2023-04-12 16:28:35,176] Admin_13 - Step_37: Verify 'Address 2' textbox value is equals '453 Le Lai'
+ [2023-04-12 16:28:35,236] Admin_13 - Step_38: Verify 'Zip / postal code' textbox value is equals '650000'
+ [2023-04-12 16:28:35,290] Admin_13 - Step_39: Verify 'Phone number' textbox value is equals '0987654555'
+ [2023-04-12 16:28:35,354] Admin_13 - Step_40: Verify 'Fax number' textbox value is equals '+84987654555'
+ [2023-04-12 16:28:35,417] Admin_13 - Step_41: Click to 'back to customer details' link
+ [2023-04-12 16:28:36,037] Admin_13 - Step_42: Verify 'First name' value is equals 'Automation'
+ [2023-04-12 16:28:36,605] Admin_13 - Step_43: Verify 'Last name' value is equals 'FC'
+ [2023-04-12 16:28:36,672] Admin_13 - Step_44: Verify 'Email' value is equals 'automationfc@gmail.com'
+ [2023-04-12 16:28:36,773] Admin_13 - Step_45: Verify 'Phone number' value is equals '0987654555'
+ [2023-04-12 16:28:36,882] Admin_13 - Step_46: Verify 'Fax number' value is equals '+84987654555'
+ [2023-04-12 16:28:36,946] Admin_13 - Step_47: Verify 'Address' value is equals 'Automation FC'
+ [2023-04-12 16:28:37,017] Admin_14 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:28:38,728] Admin_14 - Step_02: Enter to 'Email' textbox with value is 'edit_automationfc79829@gmail.com'
+ [2023-04-12 16:28:39,881] Admin_14 - Step_03: Enter to 'Firstname' textbox with value is 'Edit Automation'
+ [2023-04-12 16:28:41,032] Admin_14 - Step_04: Enter to 'Lastname' textbox with value is 'Edit FC'
+ [2023-04-12 16:28:42,181] Admin_14 - Step_05: Select '2' in 'Month' dropdown
+ [2023-04-12 16:28:42,527] Admin_14 - Step_06: Select '2' in 'Day' dropdown
+ [2023-04-12 16:28:42,862] Admin_14 - Step_07: Enter to 'Company' textbox with value is 'Edit AutomationFC'
+ [2023-04-12 16:28:44,013] Admin_14 - Step_08: Click to 'Search' button
+ [2023-04-12 16:28:45,380] Admin_14 - Step_09: Click to 'Edit' button
+ [2023-04-12 16:28:47,187] Admin_14 - Step_10: Click to 'Edit' button in 'Address'
+ [2023-04-12 16:28:47,362] Admin_14 - Step_11: Enter to 'First name' textbox with value is 'Edit Automation'
+ [2023-04-12 16:28:48,905] Admin_14 - Step_12: Enter to 'Last name' textbox with value is 'Edit FC'
+ [2023-04-12 16:28:50,099] Admin_14 - Step_13: Enter to 'Email' textbox with value is 'editautomationfc@gmail.com'
+ [2023-04-12 16:28:51,300] Admin_14 - Step_14: Enter to 'Company' textbox with value is 'Edit Automation FC'
+ [2023-04-12 16:28:52,512] Admin_14 - Step_15: Select 'United States'in 'Country' dropdown
+ [2023-04-12 16:28:53,885] Admin_14 - Step_16: Select 'California'in 'State / province' dropdown
+ [2023-04-12 16:28:55,249] Admin_14 - Step_17: Enter to 'County / region' textbox with value is'United States'
+ [2023-04-12 16:28:56,435] Admin_14 - Step_18: Enter to 'City' textbox with value is'Albany'
+ [2023-04-12 16:28:57,622] Admin_14 - Step_19: Enter to 'Address 1' textbox with value is'123 PO Box'
+ [2023-04-12 16:28:58,805] Admin_14 - Step_20: Enter to 'Address 2' textbox with value is'356 Los Bancos'
+ [2023-04-12 16:28:59,992] Admin_14 - Step_21: Enter to 'Zip / postal code' textbox with value is'986589'
+ [2023-04-12 16:29:01,158] Admin_14 - Step_22: Enter to 'Phone number' textbox with value is'0987654666'
+ [2023-04-12 16:29:02,356] Admin_14 - Step_23: Enter to 'Fax number' textbox with value is'+84987654666'
+ [2023-04-12 16:29:03,547] Admin_14 - Step_24: Click to 'Save' button
+ [2023-04-12 16:29:04,522] Admin_14 - Step_25: Verify 'The address has been updated successfully' message is displayed
+ [2023-04-12 16:29:04,646] Admin_14 - Step_26: Verify 'First name' textbox value is equals 'Edit Automation'
+ [2023-04-12 16:29:04,730] Admin_14 - Step_27: Verify 'Last name' textbox value is equals 'Edit FC'
+ [2023-04-12 16:29:04,809] Admin_14 - Step_28: Verify 'Email' textbox value is equals 'editautomationfc@gmail.com'
+ [2023-04-12 16:29:04,899] Admin_14 - Step_29: Verify 'Company' textbox value is equals 'Edit Automation FC'
+ [2023-04-12 16:29:04,981] Admin_14 - Step_30: Verify 'United States'is selected in 'Country' dropdown
+ [2023-04-12 16:29:05,104] Admin_14 - Step_31: Verify 'California'is selected in 'State / province' dropdown
+ [2023-04-12 16:29:05,255] Admin_14 - Step_32: Verify 'County / region' textbox value is equals 'United States'
+ [2023-04-12 16:29:05,342] Admin_14 - Step_33: Verify 'City' textbox value is equals 'Albany'
+ [2023-04-12 16:29:05,437] Admin_14 - Step_34: Verify 'Address 1' textbox value is equals '123 PO Box'
+ [2023-04-12 16:29:05,516] Admin_14 - Step_35: Verify 'Address 2' textbox value is equals '356 Los Bancos'
+ [2023-04-12 16:29:05,605] Admin_14 - Step_36: Verify 'Zip / postal code' textbox value is equals '986589'
+ [2023-04-12 16:29:05,686] Admin_14 - Step_37: Verify 'Phone number' textbox value is equals '0987654666'
+ [2023-04-12 16:29:05,762] Admin_14 - Step_38: Verify 'Fax number' textbox value is equals '+84987654666'
+ [2023-04-12 16:29:05,819] Admin_14 - Step_39: Click to 'back to customer details' link
+ [2023-04-12 16:29:06,468] Admin_14 - Step_40: Verify 'First name' value is equals 'Edit Automation'
+ [2023-04-12 16:29:06,998] Admin_14 - Step_41: Verify 'Last name' value is equals 'Edit FC'
+ [2023-04-12 16:29:07,065] Admin_14 - Step_42: Verify 'Email' value is equals 'editautomationfc@gmail.com'
+ [2023-04-12 16:29:07,165] Admin_14 - Step_43: Verify 'Phone number' value is equals '0987654666'
+ [2023-04-12 16:29:07,262] Admin_14 - Step_44: Verify 'Fax number' value is equals '+84987654666'
+ [2023-04-12 16:29:07,356] Admin_14 - Step_45: Verify 'Address' value is equals 'Automation FC'
+ [2023-04-12 16:29:07,419] Admin_15 - Step_01: Click to 'Customers' in 'Customers' menu
+ [2023-04-12 16:29:09,008] Admin_15 - Step_02: Enter to 'Email' textbox with value is 'edit_automationfc79829@gmail.com'
+ [2023-04-12 16:29:10,196] Admin_15 - Step_03: Enter to 'Firstname' textbox with value is 'Edit Automation'
+ [2023-04-12 16:29:11,349] Admin_15 - Step_04: Enter to 'Lastname' textbox with value is 'Edit FC'
+ [2023-04-12 16:29:12,511] Admin_15 - Step_05: Select '2' in 'Month' dropdown
+ [2023-04-12 16:29:12,867] Admin_15 - Step_06: Select '2' in 'Day' dropdown
+ [2023-04-12 16:29:13,232] Admin_15 - Step_07: Enter to 'Company' textbox with value is 'Edit AutomationFC'
+ [2023-04-12 16:29:14,382] Admin_15 - Step_10: Click to 'Search' button
+ [2023-04-12 16:29:15,733] Admin_15 - Step_11: Click to 'Edit' button
+ [2023-04-12 16:29:17,449] Admin_15 - Step_12: Click to 'Delete' button
+ [2023-04-12 16:29:20,680] Admin_15 - Step_13: Accept to delete address info
+ [2023-04-12 16:29:20,715] Admin_15 - Step_14: Verify Address info is deleted
+ [2023-04-12 16:29:21,367] OS name = windows 11
+ [2023-04-12 16:29:21,367] Driver instance name = firefoxdriver: firefox on windows (3e19b113-837f-47a7-b1d7-dc854c1ba61f)

@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.RegisterPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 @Listeners(commons.MethodListener.class)
 public class User_02_Login extends BaseTest {
 	WebDriver driver;

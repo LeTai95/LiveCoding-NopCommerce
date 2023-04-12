@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.BillingAddressPageObject;
 import pageObjects.CheckoutPageObject;
 import pageObjects.ConfirmOrderPageObject;
@@ -25,6 +23,8 @@ import pageObjects.PaymentMethodPageObject;
 import pageObjects.ProductInfoPageObject;
 import pageObjects.RegisterPageObject;
 import pageObjects.ShoppingCartPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 
 @Listeners(commons.MethodListener.class)
 public class User_07_Order extends BaseTest {

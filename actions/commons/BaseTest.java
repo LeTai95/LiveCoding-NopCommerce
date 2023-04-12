@@ -154,7 +154,7 @@ public class BaseTest {
 			envUrl = "";
 			break;
 		case TESTING:
-			envUrl = "https://demo.nopcommerce.com/";
+			envUrl = "";
 			break;
 		case PROD:
 			envUrl = "";
@@ -164,6 +164,13 @@ public class BaseTest {
 			break;
 		case STAGING:
 			envUrl = "";
+			break;
+		case USER:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+			
+		case ADMIN:
+			envUrl = "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F";
 			break;
 		default:
 			envUrl = null;

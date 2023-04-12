@@ -2,6 +2,14 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import adminPageObjects.AdminAddNewAddressPageObject;
+import adminPageObjects.AdminCustomerInfoPageObject;
+import adminPageObjects.AdminCustomersPageObject;
+import adminPageObjects.AdminDashboardPageObject;
+import adminPageObjects.AdminEditAddressPageObject;
+import adminPageObjects.AdminHomePageObject;
+import adminPageObjects.AdminProductInfoPageObject;
+import adminPageObjects.AdminProductsPageObject;
 import pageObjects.AddressesPageObject;
 import pageObjects.BillingAddressPageObject;
 import pageObjects.ChangePasswordPageObject;
@@ -108,5 +116,41 @@ public class PageGeneraterManager {
 	public static OrderInfomationPageObject getOrderInfomationPage(WebDriver driver) {
 		return new OrderInfomationPageObject(driver);
 	}
+	
+	public static AdminHomePageObject getAdminHomePage(WebDriver driver) {
+		return new AdminHomePageObject(driver);
+	}
+	
+	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
+		return new AdminDashboardPageObject(driver);
+	}
+	
+	public static AdminProductsPageObject getAdminProductsPage(WebDriver driver) {
+		return new AdminProductsPageObject(driver);
+	}
+	
+	public static AdminProductInfoPageObject getAdminProductPage(WebDriver driver) {
+		return new AdminProductInfoPageObject(driver);
+	}
+	
+	public static AdminCustomersPageObject getCustomersPage(WebDriver driver) {
+		return new AdminCustomersPageObject(driver);
+	}
+	
+	public static AdminCustomerInfoPageObject getCustomerInfoPage(WebDriver driver) {
+		return new AdminCustomerInfoPageObject(driver);
+	}
+	
+	public static AdminAddNewAddressPageObject getAddNewAddressPage(WebDriver driver) {
+		return new AdminAddNewAddressPageObject(driver);
+	}
+	
+	public static AdminEditAddressPageObject getEditAddressPage(WebDriver driver) {
+		return new AdminEditAddressPageObject(driver);
+	}
+	
+	
+	
+	
 	
 }

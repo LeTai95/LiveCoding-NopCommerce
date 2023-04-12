@@ -231,6 +231,12 @@ public class BasePage {
  		return select.getFirstSelectedOption().getText();
  	}
  	
+ 	public String getSelectedItemInDefaultDropdown(String locatorType, String...dynamicValues ) {
+ 		
+ 		Select select = new Select(getWebElement(getDynamicXpath(locatorType,dynamicValues)));
+ 		return select.getFirstSelectedOption().getText();
+ 	}
+ 	
  	public boolean isDropdownMultiple(String locatorType) {
  		
  		Select select = new Select(getWebElement(locatorType));
@@ -239,7 +245,7 @@ public class BasePage {
  	
 	public void selectItemInCustomDropdown (String parentXpath, String childXpath, String extTextItem) {
 		getWebElement(parentXpath).click();
-		sleepInSecond(1);
+		sleepInSecond(3);
 		
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);	
 		List<WebElement> allDropdownItems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childXpath)));	
@@ -253,6 +259,7 @@ public class BasePage {
 				}
 			}
 		}
+	
 
 	public void sleepInSecond(long timeInSecond) {
 		try {
@@ -395,7 +402,7 @@ public class BasePage {
 		driver.switchTo().frame(getWebElement(locatorType));
 	}
 	
-	public void switchToDefautContent(String locatorType) {
+	public void switchToDefautContent() {
 		
 		driver.switchTo().defaultContent();
 	}
@@ -447,6 +454,11 @@ public class BasePage {
 	public void clickToElementByJS(String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click();", getWebElement(locatorType));
+	}
+	
+	public void clickToElementByJS(String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].click();", getWebElement(getDynamicXpath(locatorType,dynamicValues)));
 	}
 	
 	public void scrollToElement(String locatorType) {

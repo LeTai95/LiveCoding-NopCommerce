@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.RegisterPageObject;
 import pageObjects.SearchPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 
 @Listeners(commons.MethodListener.class)
 public class User_04_Search_Advanced_Search extends BaseTest {

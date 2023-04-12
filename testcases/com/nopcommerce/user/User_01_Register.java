@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 @Listeners(commons.MethodListener.class)
 public class User_01_Register extends BaseTest {
 	WebDriver driver;
@@ -24,7 +24,7 @@ public class User_01_Register extends BaseTest {
 	@Parameters({"browser","enviroment"})
 	@BeforeClass
 	public void beforeClass(String browserName, String enviroment) {
-		log.info("Pre-Condition- Step 01: Open browser and navigate to website");
+		log.info("Pre-Condition - Step 01: Open browser and navigate to website");
 		driver = getBrowserDriver(browserName, enviroment);
 		homePage = PageGeneraterManager.getHomePage(driver);
 		validEmail = UserData.Register.VALID_EMAIL + getRandomNumberByDateTime() + "@gmail.com";

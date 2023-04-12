@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.CompareProductListPageObject;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
@@ -19,6 +17,8 @@ import pageObjects.RecentlyViewedProductsPageObject;
 import pageObjects.RegisterPageObject;
 import pageObjects.ShoppingCartPageObject;
 import pageObjects.WishlistPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 
 @Listeners(commons.MethodListener.class)
 public class User_06_Wishlist_Compare_RecentView extends BaseTest {

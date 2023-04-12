@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.data.UserData;
 
-import commons.BaseTest;
-import commons.PageGeneraterManager;
 import pageObjects.AddressesPageObject;
 import pageObjects.ChangePasswordPageObject;
 import pageObjects.HomePageObject;
@@ -21,6 +19,8 @@ import pageObjects.MyProductReviewsPageObject;
 import pageObjects.ProductInfoPageObject;
 import pageObjects.ProductReviewPageObject;
 import pageObjects.RegisterPageObject;
+import commons.BaseTest;
+import commons.PageGeneraterManager;
 
 @Listeners(commons.MethodListener.class)
 public class User_03_My_Account extends BaseTest {
