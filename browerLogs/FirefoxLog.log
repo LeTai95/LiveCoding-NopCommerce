@@ -1,16 +1,16 @@
-1681291580216	geckodriver	INFO	Listening on 127.0.0.1:50625
-1681291580833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileonSMvE"
+1681491968522	geckodriver	INFO	Listening on 127.0.0.1:61070
+1681491969212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofilePA600T"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1681291581168	Marionette	INFO	Marionette enabled
+1681491969806	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1681291581173	Marionette	INFO	Listening on port 58528
-Read port: 58528
-1681291581396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofileonSMvE\\search.json.mozlz4", (void 0)))
+1681491969813	Marionette	INFO	Listening on port 64544
+Read port: 64544
+1681491969976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leduc\\AppData\\Local\\Temp\\rust_mozprofilePA600T\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
-1681291635891	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+1681492032533	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
@@ -22,10 +22,10 @@ k/t[r]@https://admin-demo.nopcommerce.com/js/qlvfucyxvmxlswx0bx1vxg.scripts.js?v
 t@https://admin-demo.nopcommerce.com/js/qlvfucyxvmxlswx0bx1vxg.scripts.js?v=M1Ov74NfRaEDWnAXADkDp5tuu80:104:849
 initOnce@https://admin-demo.nopcommerce.com/js/qlvfucyxvmxlswx0bx1vxg.scripts.js?v=M1Ov74NfRaEDWnAXADkDp5tuu80:104:1251
 init@https://admin-demo.nopcommerce.com/js/qlvfucyxvmxlswx0bx1vxg.scripts.js?v=M1Ov74NfRaEDWnAXADkDp5tuu80:105:637
-@https://admin-demo.nopcommerce.com/Admin/Customer/List:1467:46
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:1468:46
 e@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=LO1ZLwpRUE4YpyjPJfd6yZIfA9I:2:30038
 Deferred/then/l/</t<@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=LO1ZLwpRUE4YpyjPJfd6yZIfA9I:2:30340
-1681291677560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+1681492091227	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
@@ -40,5 +40,5 @@ init@https://admin-demo.nopcommerce.com/js/qlvfucyxvmxlswx0bx1vxg.scripts.js?v=M
 @https://admin-demo.nopcommerce.com/Admin/Customer/List:1472:46
 e@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=LO1ZLwpRUE4YpyjPJfd6yZIfA9I:2:30038
 Deferred/then/l/</t<@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=LO1ZLwpRUE4YpyjPJfd6yZIfA9I:2:30340
-1681291761400	Marionette	INFO	Stopped listening on port 58528
+1681492183118	Marionette	INFO	Stopped listening on port 64544
 Dynamically enable window occlusion 1

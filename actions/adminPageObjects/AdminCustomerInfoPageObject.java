@@ -26,8 +26,11 @@ public class AdminCustomerInfoPageObject extends BasePage {
 	}
 
 	public void selectItemInCustomerRolesDropdown(String textItem) {
-		selectItemInCustomDropdown(AdminCustomerInfoPageUIs.PARENT_XPATH_CUSTOMER_ROLES_DROPDOWN,
-				AdminCustomerInfoPageUIs.CHILD_XPATH_CUSTOMER_ROLES_DROPDOWN, textItem);
+		enterAndSelectItemInDropdown(AdminCustomerInfoPageUIs.PARENT_XPATH_CUSTOMER_ROLES_DROPDOWN,
+				AdminCustomerInfoPageUIs.CHILD_XPATH_CUSTOMER_ROLES_DROPDOWN,
+				AdminCustomerInfoPageUIs.INPUT_ITEM_XPATH_CUSTOMER_ROLES_DROPDOWN, textItem);
+//		selectItemInCustomDropdown(AdminCustomerInfoPageUIs.PARENT_XPATH_CUSTOMER_ROLES_DROPDOWN,
+//				AdminCustomerInfoPageUIs.CHILD_XPATH_CUSTOMER_ROLES_DROPDOWN, textItem);
 	}
 
 	public void clickToSaveAndContinueButton() {
@@ -38,7 +41,7 @@ public class AdminCustomerInfoPageObject extends BasePage {
 	public void enterToTextareaByTextboxID(String textareaID, String textValue) {
 		waitForElementVisiable(AdminCustomerInfoPageUIs.DYNAMIC_TEXTAREA_BY_TEXTAREA_ID, textareaID);
 		sendkeyToElement(AdminCustomerInfoPageUIs.DYNAMIC_TEXTAREA_BY_TEXTAREA_ID, textValue, textareaID);
-		
+
 	}
 
 	public boolean isNewCustomerAddSuccessMessageDisplayed() {

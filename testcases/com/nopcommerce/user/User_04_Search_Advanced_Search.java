@@ -75,68 +75,68 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 
 	@Test
 	public void Search_01_Search_With_Empty_Data() {
-		log.info("Search_01 - Step 1: Click to 'Search' button");
+		log.info("Search_01 - Step 01: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 
-		log.info("Search_01 - Step 2: Verify error message is displayed");
+		log.info("Search_01 - Step 02: Verify error message is displayed");
 		Assert.assertEquals(searchPage.isErrorMessageDisplayed(), UserData.Search.ERROR_MESSAGE);
 	}
 
 	@Test
 	public void Search_02_Search_With_Data_Not_Exist() {
-		log.info("Search_02 - Step 1: Enter to 'Search keyword' textbox with value 'Macbook Pro 2050'");
+		log.info("Search_02 - Step 01: Enter to 'Search keyword' textbox with value 'Macbook Pro 2050'");
 		searchPage.enterToSearchTextbox("Macbook Pro 2050");
 
-		log.info("Search_02 - Step 2: Click to 'Search' button");
+		log.info("Search_02 - Step 02: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 
-		log.info("Search_02 - Step 3: Verify product not found error message is displayed");
+		log.info("Search_02 - Step 03: Verify product not found error message is displayed");
 		Assert.assertEquals(searchPage.isProductNotFoundErrorMessageDisplayed(),
 				UserData.Search.PRODUCT_NOT_FOUND_ERROR_MESSAGE);
 	}
 
 	@Test
 	public void Search_03_Search_With_Relative_Data() {
-		log.info("Search_03 - Step 1: Enter to 'Search keyword' textbox with value 'lenovo'");
+		log.info("Search_03 - Step 01: Enter to 'Search keyword' textbox with value 'lenovo'");
 		searchPage.enterToSearchTextbox("lenovo");
 
-		log.info("Search_03 - Step 2: Click to 'Search' button");
+		log.info("Search_03 - Step 02: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 
-		log.info("Search_03 - Step 3: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed");
+		log.info("Search_03 - Step 03: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed");
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Lenovo IdeaCentre 600 All-in-One PC"));
 		
-		log.info("Search_03 - Step 4: Verify 'Lenovo Thinkpad X1 Carbon Laptop' is displayed");
+		log.info("Search_03 - Step 04: Verify 'Lenovo Thinkpad X1 Carbon Laptop' is displayed");
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Lenovo Thinkpad X1 Carbon Laptop"));
 	}
 
 	@Test
 	public void Search_04_Search_With_Absolute_Data() {
-		log.info("Search_04 - Step 1: Enter to 'Search keyword' textbox with value 'ThinkPad X1 Carbon'");
+		log.info("Search_04 - Step 01: Enter to 'Search keyword' textbox with value 'ThinkPad X1 Carbon'");
 		searchPage.enterToSearchTextbox("ThinkPad X1 Carbon");
 
-		log.info("Search_04 - Step 2: Click to 'Search' button");
+		log.info("Search_04 - Step 02: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 
-		log.info("Search_04 - Step 3: Verify 'Lenovo Thinkpad X1 Carbon Laptop' is displayed");
+		log.info("Search_04 - Step 03: Verify 'Lenovo Thinkpad X1 Carbon Laptop' is displayed");
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Lenovo Thinkpad X1 Carbon Laptop"));
 	}
 
 	@Test
 	public void Search_05_Search_With_Parent_Catelogies() {
-		log.info("Search_05 - Step 1: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
+		log.info("Search_05 - Step 01: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
 		searchPage.enterToSearchTextbox("Apple MacBook Pro");
 		
-		log.info("Search_05 - Step 2: Check to 'Advanced search' checkbox");
+		log.info("Search_05 - Step 02: Check to 'Advanced search' checkbox");
 		searchPage.checkToCheckboxByName("Advanced search");
 		
-		log.info("Search_05 - Step 3: Select 'Computers' from 'Category' dropdown");
+		log.info("Search_05 - Step 03: Select 'Computers' from 'Category' dropdown");
 		searchPage.selectItemFromDropdownByName("Category", "Computers");
 		
-		log.info("Search_05 - Step 4: Click to 'Search' button");
+		log.info("Search_05 - Step 04: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 		
-		log.info("Search_05 - Step 5: Verify product not found error message is displayed");
+		log.info("Search_05 - Step 05: Verify product not found error message is displayed");
 		Assert.assertEquals(searchPage.isProductNotFoundErrorMessageDisplayed(),
 				UserData.Search.PRODUCT_NOT_FOUND_ERROR_MESSAGE);
 	}
@@ -145,78 +145,78 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 	public void Search_06_Search_With_Sub_Catelogies() {
 		
 		
-		log.info("Search_06 - Step 1: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
+		log.info("Search_06 - Step 01: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
 		searchPage.enterToSearchTextbox("Apple MacBook Pro");
 		
-		log.info("Search_06 - Step 2: Check to 'Advanced search' checkbox");
+		log.info("Search_06 - Step 02: Check to 'Advanced search' checkbox");
 		searchPage.checkToCheckboxByName("Advanced search");
 		
-		log.info("Search_06 - Step 3: Select 'Computers' from 'Category' dropdown");
+		log.info("Search_06 - Step 03: Select 'Computers' from 'Category' dropdown");
 		searchPage.selectItemFromDropdownByName("Category", "Computers");
 		
-		log.info("Search_06 - Step 4: Check to 'Automatically search sub categories' checkbox");
+		log.info("Search_06 - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByName("Automatically search sub categories");
 		
-		log.info("Search_06 - Step 5: Click to 'Search' button");
+		log.info("Search_06 - Step 05: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 		
-		log.info("Search_04 - Step 3: Verify 'Apple MacBook Pro 13-inch' is displayed");
+		log.info("Search_04 - Step 06: Verify 'Apple MacBook Pro 13-inch' is displayed");
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Apple MacBook Pro 13-inch"));
 		
 	}
 
 	@Test
 	public void Search_07_Search_With_Incorrect_Manufacturer() {
-		log.info("Search_07 - Step 1: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
+		log.info("Search_07 - Step 01: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
 		searchPage.enterToSearchTextbox("Apple MacBook Pro");
 		
-		log.info("Search_07 - Step 2: Check to 'Advanced search' checkbox");
+		log.info("Search_07 - Step 02: Check to 'Advanced search' checkbox");
 		searchPage.checkToCheckboxByName("Advanced search");
 		
-		log.info("Search_07 - Step 3: Select 'Computers' from 'Category' dropdown");
+		log.info("Search_07 - Step 03: Select 'Computers' from 'Category' dropdown");
 		searchPage.selectItemFromDropdownByName("Category", "Computers");
 		
-		log.info("Search_07 - Step 4: Check to 'Automatically search sub categories' checkbox");
+		log.info("Search_07 - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByName("Automatically search sub categories");
 		
-		log.info("Search_07 - Step 5: Select 'HP' from 'Manufacturer' dropdown");
+		log.info("Search_07 - Step 05: Select 'HP' from 'Manufacturer' dropdown");
 		searchPage.selectItemFromDropdownByName("Manufacturer", "HP");
 		
-		log.info("Search_07 - Step 6: Check to 'Search In product descriptions' checkbox");
+		log.info("Search_07 - Step 06: Check to 'Search In product descriptions' checkbox");
 		searchPage.checkToCheckboxByName("Search In product descriptions");
 		
-		log.info("Search_07 - Step 7: Click to 'Search' button");
+		log.info("Search_07 - Step 07: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 		
-		log.info("Search_07 - Step 8: Verify product not found error message is displayed");
+		log.info("Search_07 - Step 08: Verify product not found error message is displayed");
 		Assert.assertEquals(searchPage.isProductNotFoundErrorMessageDisplayed(),
 				UserData.Search.PRODUCT_NOT_FOUND_ERROR_MESSAGE);
 	}
 
 	@Test
 	public void Search_08_Search_With_Correct_Manufacturer() {
-		log.info("Search_08 - Step 1: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
+		log.info("Search_08 - Step 01: Enter to 'Search keyword' textbox with value 'Apple MacBook Pro'");
 		searchPage.enterToSearchTextbox("Apple MacBook Pro");
 		
-		log.info("Search_08 - Step 2: Check to 'Advanced search' checkbox");
+		log.info("Search_08 - Step 02: Check to 'Advanced search' checkbox");
 		searchPage.checkToCheckboxByName("Advanced search");
 		
-		log.info("Search_08 - Step 3: Select 'Computers' from 'Category' dropdown");
+		log.info("Search_08 - Step 03: Select 'Computers' from 'Category' dropdown");
 		searchPage.selectItemFromDropdownByName("Category", "Computers");
 		
-		log.info("Search_08 - Step 4: Check to 'Automatically search sub categories' checkbox");
+		log.info("Search_08 - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByName("Automatically search sub categories");
 		
-		log.info("Search_08 - Step 5: Select 'Apple' from 'Manufacturer' dropdown");
+		log.info("Search_08 - Step 05: Select 'Apple' from 'Manufacturer' dropdown");
 		searchPage.selectItemFromDropdownByName("Manufacturer", "Apple");
 		
-		log.info("Search_08 - Step 6: Check to 'Search In product descriptions' checkbox");
+		log.info("Search_08 - Step 06: Check to 'Search In product descriptions' checkbox");
 		searchPage.checkToCheckboxByName("Search In product descriptions");
 		
-		log.info("Search_08 - Step 7: Click to 'Search' button");
+		log.info("Search_08 - Step 07: Click to 'Search' button");
 		searchPage.clickToSearchButton();
 		
-		log.info("Search_08 - Step 8: Verify 'Apple MacBook Pro 13-inch' is displayed");
+		log.info("Search_08 - Step 08: Verify 'Apple MacBook Pro 13-inch' is displayed");
 		Assert.assertTrue(searchPage.isProductDisplayedByText("Apple MacBook Pro 13-inch"));
 	}
 

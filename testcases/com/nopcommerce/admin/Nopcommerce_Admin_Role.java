@@ -185,7 +185,7 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 		Assert.assertEquals(adminProductInfoPage.getProductInforDescription2(),
 				AdminData.ProductInfo.COMPUTERS_LENOVO_FULL_DESCRIPTION_2);
 
-		log.info("Admin_06 - Step_05: Switch to Default content");
+		log.info("Admin_06 - Step_07: Switch to Default content");
 		adminProductInfoPage.swithToDefaultContent();
 	}
 
@@ -211,7 +211,7 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomerInfoPage.enterToTextboxByTextboxID("FirstName", AdminData.CustomerInfo.FIRST_NAME);
 
-		log.info("Admin_07 - Step_06: Enter to 'Last name' textbox with value is '" + AdminData.CustomerInfo.LAST_NAME
+		log.info("Admin_07 - Step_07: Enter to 'Last name' textbox with value is '" + AdminData.CustomerInfo.LAST_NAME
 				+ "'");
 		adminCustomerInfoPage.enterToTextboxByTextboxID("LastName", AdminData.CustomerInfo.LAST_NAME);
 
@@ -222,66 +222,76 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomerInfoPage.enterToTextboxByTextboxID("DateOfBirth", AdminData.CustomerInfo.DATE_OF_BIRTH);
 
-		log.info("Admin_07 - Step_09: Enter to 'Company name' with value is '" + AdminData.CustomerInfo.COMPANY_NAME
+		log.info("Admin_07 - Step_10: Enter to 'Company name' with value is '" + AdminData.CustomerInfo.COMPANY_NAME
 				+ "'");
 		adminCustomerInfoPage.enterToTextboxByTextboxID("Company", AdminData.CustomerInfo.COMPANY_NAME);
 
-//		log.info("Admin_07 - Step_10: Select 'Guests' in 'Customer roles' dropdown");
-//		adminCustomerInfoPage.selectItemInCustomerRolesDropdown("Guests");
+		log.info("Admin_07 - Step_11: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomerInfoPage.deleteItemInDropdown("Registered");
 
-		log.info("Admin_07 - Step_11: Check to 'Active' checkbox");
+		log.info("Admin_07 - Step_12: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomerInfoPage.selectItemInCustomerRolesDropdown("Guests");
+
+		log.info("Admin_07 - Step_13: Check to 'Active' checkbox");
 		adminCustomerInfoPage.checkToCheckboxByCheckboxID("Active");
 
-		log.info("Admin_07 - Step_12: Enter to 'Admin comment' textbox with value is '"
+		log.info("Admin_07 - Step_14: Enter to 'Admin comment' textbox with value is '"
 				+ AdminData.CustomerInfo.ADMIN_COMMENT + "'");
 		adminCustomerInfoPage.enterToTextareaByTextboxID("AdminComment", AdminData.CustomerInfo.ADMIN_COMMENT);
 
-		log.info("Admin_07 - Step_13: Click to 'Save and Continue Edit' button");
+		log.info("Admin_07 - Step_15: Click to 'Save and Continue Edit' button");
 		adminCustomerInfoPage.clickToSaveAndContinueButton();
 
-		log.info("Admin_07 - Step_14: Verify 'New customer has been added successfully' message is displayed");
+		log.info("Admin_07 - Step_16: Verify 'New customer has been added successfully' message is displayed");
 		Assert.assertTrue(adminCustomerInfoPage.isNewCustomerAddSuccessMessageDisplayed());
 
-		log.info("Admin_07 - Step_15: Verify 'Email' value is '" + email + "'");
+		log.info("Admin_07 - Step_17: Verify 'Email' value is '" + email + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextboxValueDisplayedByTextboxID("Email"), email);
 
-		log.info("Admin_07 - Step_16: Verify 'First name' value is '" + AdminData.CustomerInfo.FIRST_NAME + "'");
+		log.info("Admin_07 - Step_18: Verify 'First name' value is '" + AdminData.CustomerInfo.FIRST_NAME + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextboxValueDisplayedByTextboxID("FirstName"),
 				AdminData.CustomerInfo.FIRST_NAME);
 
-		log.info("Admin_07 - Step_17: Verify 'Last name' value is '" + AdminData.CustomerInfo.LAST_NAME + "'");
+		log.info("Admin_07 - Step_19: Verify 'Last name' value is '" + AdminData.CustomerInfo.LAST_NAME + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextboxValueDisplayedByTextboxID("LastName"),
 				AdminData.CustomerInfo.LAST_NAME);
 
-		log.info("Admin_07 - Step_18: Verify 'Male' radio button is checked");
+		log.info("Admin_07 - Step_20: Verify 'Male' radio button is checked");
 		Assert.assertTrue(adminCustomerInfoPage.isCheckboxCheckedByCheckboxID("Gender_Male"));
 
-		log.info("Admin_07 - Step_19: Verify 'Data of birth' value is '" + AdminData.CustomerInfo.DATE_OF_BIRTH + "'");
+		log.info("Admin_07 - Step_21: Verify 'Data of birth' value is '" + AdminData.CustomerInfo.DATE_OF_BIRTH + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextboxValueDisplayedByTextboxID("DateOfBirth"),
 				AdminData.CustomerInfo.DATE_OF_BIRTH);
 
-		log.info("Admin_07 - Step_20: Verify 'Company name' value is '" + AdminData.CustomerInfo.COMPANY_NAME + "'");
+		log.info("Admin_07 - Step_22: Verify 'Company name' value is '" + AdminData.CustomerInfo.COMPANY_NAME + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextboxValueDisplayedByTextboxID("Company"),
 				AdminData.CustomerInfo.COMPANY_NAME);
 
-		log.info("Admin_07 - Step_21: Verify 'Registered' is selected in 'Customer roles' dropdown");
-		Assert.assertTrue(adminCustomerInfoPage.isItemInDropdownSelected("Registered"));
+		log.info("Admin_07 - Step_23: Verify 'Guests' is selected in 'Customer roles' dropdown");
+		Assert.assertTrue(adminCustomerInfoPage.isItemInDropdownSelected("Guests"));
 
-		log.info("Admin_07 - Step_22: Verify 'Active' checkbox is checked");
+		log.info("Admin_07 - Step_24: Verify 'Active' checkbox is checked");
 		Assert.assertTrue(adminCustomerInfoPage.isCheckboxCheckedByCheckboxID("Active"));
 
-		log.info("Admin_07 - Step_23: Verify 'Admin comment' value is '" + AdminData.CustomerInfo.ADMIN_COMMENT + "'");
+		log.info("Admin_07 - Step_25: Verify 'Admin comment' value is '" + AdminData.CustomerInfo.ADMIN_COMMENT + "'");
 		Assert.assertEquals(adminCustomerInfoPage.isTextareaValueDisplayedByTextareaID("AdminComment"),
 				AdminData.CustomerInfo.ADMIN_COMMENT);
 
-		log.info("Admin_07 - Step_24: Click to 'back to customer list' link");
+		log.info("Admin_07 - Step_26: Click to 'back to customer list' link");
 		adminCustomersPage = adminCustomerInfoPage.clickToBackToCustomerListLink();
 
-		log.info("Admin_07 - Step_25: Click to 'Search' button");
+		log.info("Admin_07 - Step_27: Delete 'Registered' in 'Customer role' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_07 - Step_28: Select 'Guests' in 'Customer role' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
+
+		log.info("Admin_07 - Step_29: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
-		log.info("Admin_07 - Step_26: Verify Customer Info is displayed");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(email));
+		log.info("Admin_07 - Step_30: Verify Customer Info is displayed");
+		Assert.assertTrue(adminCustomersPage
+				.isCustomerInfoDisplayed(AdminData.CustomerInfo.FIRST_NAME + " " + AdminData.CustomerInfo.LAST_NAME));
 
 	}
 
@@ -293,14 +303,18 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 		log.info("Admin_08 - Step_02: Enter to 'Email' textbox with value is '" + email + "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchEmail", email);
 
-//		log.info("Admin_08 - Step_04: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_08 - Step_03: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_08 - Step_04: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_08 - Step_05: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
-		log.info("Admin_08 - Step_06: Verify Customer Info is displayed");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(email));
+		log.info("Admin_09 - Step_06: Verify Customer Info is displayed");
+		Assert.assertTrue(adminCustomersPage
+				.isCustomerInfoDisplayed(AdminData.CustomerInfo.FIRST_NAME + " " + AdminData.CustomerInfo.LAST_NAME));
 
 	}
 
@@ -317,14 +331,18 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchLastName", AdminData.CustomerInfo.LAST_NAME);
 
-//		log.info("Admin_09 - Step_05: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_09 - Step_04: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_09 - Step_05: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_09 - Step_06: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
-		log.info("Admin_09 - Step_07: Verify Customer Info is displayed");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(email));
+		log.info("Admin_10 - Step_07: Verify Customer Info is displayed");
+		Assert.assertTrue(adminCustomersPage
+				.isCustomerInfoDisplayed(AdminData.CustomerInfo.FIRST_NAME + " " + AdminData.CustomerInfo.LAST_NAME));
 
 	}
 
@@ -337,14 +355,18 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.COMPANY_NAME);
 
-//		log.info("Admin_10 - Step_04: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_10 - Step_03: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_10 - Step_04: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_10 - Step_05: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
 		log.info("Admin_10 - Step_06: Verify Customer Info is displayed");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(email));
+		Assert.assertTrue(adminCustomersPage
+				.isCustomerInfoDisplayed(AdminData.CustomerInfo.FIRST_NAME + " " + AdminData.CustomerInfo.LAST_NAME));
 	}
 
 	@Test
@@ -373,14 +395,18 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.COMPANY_NAME);
 
-//		log.info("Admin_11 - Step_09: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_11 - Step_08: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_11 - Step_09: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_11 - Step_10: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
 		log.info("Admin_11 - Step_11: Verify Customer Info is displayed");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(email));
+		Assert.assertTrue(adminCustomersPage
+				.isCustomerInfoDisplayed(AdminData.CustomerInfo.FIRST_NAME + " " + AdminData.CustomerInfo.LAST_NAME));
 
 	}
 
@@ -410,14 +436,17 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.COMPANY_NAME);
 
-//		log.info("Admin_12 - Step_09: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_12 - Step_08: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_12 - Step_09: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_12 - Step_10: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
 		log.info("Admin_12 - Step_11: Click to 'Edit' button");
-		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(email);
+		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(AdminData.CustomerInfo.COMPANY_NAME);
 
 		log.info("Admin_12 - Step_12: Enter to 'Email' textbox with value is '" + editEmail + "'");
 		adminCustomerInfoPage.enterToTextboxByTextboxID("Email", editEmail);
@@ -472,26 +501,27 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ AdminData.CustomerInfo.EDIT_COMPANY_NAME + "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
-//		log.info("Admin_12 - Step_27: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_12 - Step_27: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
 
-		log.info("Admin_12 - Step_28: Click to 'Search' button");
+		log.info("Admin_12 - Step_28: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
+
+		log.info("Admin_12 - Step_29: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
-		log.info("Admin_12 - Step_29: Verify '" + editEmail + "' is displayed in Customer Info");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(editEmail));
+		log.info("Admin_12 - Step_30: Verify '" + AdminData.CustomerInfo.EDIT_FIRST_NAME + " "
+				+ AdminData.CustomerInfo.EDIT_LAST_NAME + "' is displayed in Customer Info");
+		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(
+				AdminData.CustomerInfo.EDIT_FIRST_NAME + " " + AdminData.CustomerInfo.EDIT_LAST_NAME));
 
-		log.info("Admin_12 - Step_30: Verify '" + AdminData.CustomerInfo.EDIT_FIRST_NAME
-				+ " "+ AdminData.CustomerInfo.EDIT_LAST_NAME + "' is displayed in Customer Info");
-		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(AdminData.CustomerInfo.EDIT_FIRST_NAME
-				+ " " +AdminData.CustomerInfo.EDIT_LAST_NAME));
-		
-		log.info("Admin_12 - Step_31: Verify '" + AdminData.CustomerInfo.EDIT_COMPANY_NAME + "' is displayed in Customer Info");
+		log.info("Admin_12 - Step_31: Verify '" + AdminData.CustomerInfo.EDIT_COMPANY_NAME
+				+ "' is displayed in Customer Info");
 		Assert.assertTrue(adminCustomersPage.isCustomerInfoDisplayed(AdminData.CustomerInfo.EDIT_COMPANY_NAME));
 
 	}
 
-	 @Test
+	@Test
 	public void Admin_13_Add_New_Addres_In_Customer_Detail() {
 		log.info("Admin_13 - Step_01: Click to 'Customers' in 'Customers' menu");
 		adminCustomersPage.clickToCustomersPage();
@@ -517,14 +547,17 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ AdminData.CustomerInfo.EDIT_COMPANY_NAME + "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
-//		log.info("Admin_13 - Step_09: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_13 - Step_08: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_13 - Step_09: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_13 - Step_10: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
 		log.info("Admin_13 - Step_11: Click to 'Edit' button");
-		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(editEmail);
+		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
 		log.info("Admin_13 - Step_12: Click to 'Add new address' button");
 		adminAddNewAddressPage = adminCustomerInfoPage.clickToAddNewAddressButton();
@@ -649,7 +682,7 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 
 		log.info("Admin_13 - Step_41: Click to 'back to customer details' link");
 		adminCustomerInfoPage = adminAddNewAddressPage.clickToBackToCustomerDetailsLink();
-		
+
 		log.info("Admin_13 - Step_42: Verify 'First name' value is equals '" + AdminData.AddressInfo.FIRST_NAME + "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.FIRST_NAME));
 
@@ -697,163 +730,166 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ AdminData.CustomerInfo.EDIT_COMPANY_NAME + "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
-//		log.info("Admin_14 - Step_09: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_14 - Step_08: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
 
-		log.info("Admin_14 - Step_08: Click to 'Search' button");
+		log.info("Admin_14 - Step_09: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
+
+		log.info("Admin_14 - Step_10: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
-		log.info("Admin_14 - Step_09: Click to 'Edit' button");
-		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(editEmail);
+		log.info("Admin_14 - Step_11: Click to 'Edit' button");
+		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
-		log.info("Admin_14 - Step_10: Click to 'Edit' button in 'Address'");
+		log.info("Admin_14 - Step_12: Click to 'Edit' button in 'Address'");
 		adminEditAddressPage = adminCustomerInfoPage.clickToEditButton();
 
-		log.info("Admin_14 - Step_11: Enter to 'First name' textbox with value is '"
+		log.info("Admin_14 - Step_13: Enter to 'First name' textbox with value is '"
 				+ AdminData.AddressInfo.EDIT_FIRST_NAME + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_FirstName", AdminData.AddressInfo.EDIT_FIRST_NAME);
 
-		log.info("Admin_14 - Step_12: Enter to 'Last name' textbox with value is '"
+		log.info("Admin_14 - Step_14: Enter to 'Last name' textbox with value is '"
 				+ AdminData.AddressInfo.EDIT_LAST_NAME + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_LastName", AdminData.AddressInfo.EDIT_LAST_NAME);
 
-		log.info("Admin_14 - Step_13: Enter to 'Email' textbox with value is '" + AdminData.AddressInfo.EDIT_EMAIL
+		log.info("Admin_14 - Step_15: Enter to 'Email' textbox with value is '" + AdminData.AddressInfo.EDIT_EMAIL
 				+ "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_Email", AdminData.AddressInfo.EDIT_EMAIL);
 
-		log.info("Admin_14 - Step_14: Enter to 'Company' textbox with value is '" + AdminData.AddressInfo.EDIT_COMPANY
+		log.info("Admin_14 - Step_16: Enter to 'Company' textbox with value is '" + AdminData.AddressInfo.EDIT_COMPANY
 				+ "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_Company", AdminData.AddressInfo.EDIT_COMPANY);
 
-		log.info("Admin_14 - Step_15: Select '" + AdminData.AddressInfo.EDIT_COUNTRY + "'in 'Country' dropdown");
+		log.info("Admin_14 - Step_17: Select '" + AdminData.AddressInfo.EDIT_COUNTRY + "'in 'Country' dropdown");
 		adminEditAddressPage.selectItemInDropdownByDropdownID("Address_CountryId", AdminData.AddressInfo.EDIT_COUNTRY);
 
-		log.info("Admin_14 - Step_16: Select '" + AdminData.AddressInfo.EDIT_STATE_PROVICE
+		log.info("Admin_14 - Step_18: Select '" + AdminData.AddressInfo.EDIT_STATE_PROVICE
 				+ "'in 'State / province' dropdown");
 		adminEditAddressPage.selectItemInDropdownByDropdownID("Address_StateProvinceId",
 				AdminData.AddressInfo.EDIT_STATE_PROVICE);
 
-		log.info("Admin_14 - Step_17: Enter to 'County / region' textbox with value is'"
+		log.info("Admin_14 - Step_19: Enter to 'County / region' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_COUNTRY + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_County", AdminData.AddressInfo.EDIT_COUNTRY);
 
-		log.info("Admin_14 - Step_18: Enter to 'City' textbox with value is'" + AdminData.AddressInfo.EDIT_CITY + "'");
+		log.info("Admin_14 - Step_20: Enter to 'City' textbox with value is'" + AdminData.AddressInfo.EDIT_CITY + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_City", AdminData.AddressInfo.EDIT_CITY);
 
-		log.info("Admin_14 - Step_19: Enter to 'Address 1' textbox with value is'"
+		log.info("Admin_14 - Step_21: Enter to 'Address 1' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_ADDRESS_1 + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_Address1", AdminData.AddressInfo.EDIT_ADDRESS_1);
 
-		log.info("Admin_14 - Step_20: Enter to 'Address 2' textbox with value is'"
+		log.info("Admin_14 - Step_22: Enter to 'Address 2' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_ADDRESS_2 + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_Address2", AdminData.AddressInfo.EDIT_ADDRESS_2);
 
-		log.info("Admin_14 - Step_21: Enter to 'Zip / postal code' textbox with value is'"
+		log.info("Admin_14 - Step_23: Enter to 'Zip / postal code' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_ZIP_PORTAL_CODE + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_ZipPostalCode",
 				AdminData.AddressInfo.EDIT_ZIP_PORTAL_CODE);
 
-		log.info("Admin_14 - Step_22: Enter to 'Phone number' textbox with value is'"
+		log.info("Admin_14 - Step_24: Enter to 'Phone number' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_PHONE_NUMBER + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_PhoneNumber", AdminData.AddressInfo.EDIT_PHONE_NUMBER);
 
-		log.info("Admin_14 - Step_23: Enter to 'Fax number' textbox with value is'"
+		log.info("Admin_14 - Step_25: Enter to 'Fax number' textbox with value is'"
 				+ AdminData.AddressInfo.EDIT_FAX_NUMBER + "'");
 		adminEditAddressPage.enterToTextboxByTextboxID("Address_FaxNumber", AdminData.AddressInfo.EDIT_FAX_NUMBER);
 
-		log.info("Admin_14 - Step_24: Click to 'Save' button");
+		log.info("Admin_14 - Step_26: Click to 'Save' button");
 		adminEditAddressPage.clickToSaveButton();
 
-		log.info("Admin_14 - Step_25: Verify 'The address has been updated successfully' message is displayed");
+		log.info("Admin_14 - Step_27: Verify 'The address has been updated successfully' message is displayed");
 		Assert.assertTrue(adminEditAddressPage.isAddressUpdatedSuccessMessageDisplayed());
 
-		log.info("Admin_14 - Step_26: Verify 'First name' textbox value is equals '"
+		log.info("Admin_14 - Step_28: Verify 'First name' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_FIRST_NAME + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_FirstName"),
 				AdminData.AddressInfo.EDIT_FIRST_NAME);
 
-		log.info("Admin_14 - Step_27: Verify 'Last name' textbox value is equals '"
+		log.info("Admin_14 - Step_29: Verify 'Last name' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_LAST_NAME + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_LastName"),
 				AdminData.AddressInfo.EDIT_LAST_NAME);
 
-		log.info("Admin_14 - Step_28: Verify 'Email' textbox value is equals '" + AdminData.AddressInfo.EDIT_EMAIL
+		log.info("Admin_14 - Step_30: Verify 'Email' textbox value is equals '" + AdminData.AddressInfo.EDIT_EMAIL
 				+ "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_Email"),
 				AdminData.AddressInfo.EDIT_EMAIL);
 
-		log.info("Admin_14 - Step_29: Verify 'Company' textbox value is equals '" + AdminData.AddressInfo.EDIT_COMPANY
+		log.info("Admin_14 - Step_31: Verify 'Company' textbox value is equals '" + AdminData.AddressInfo.EDIT_COMPANY
 				+ "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_Company"),
 				AdminData.AddressInfo.EDIT_COMPANY);
 
-		log.info("Admin_14 - Step_30: Verify '" + AdminData.AddressInfo.EDIT_COUNTRY
+		log.info("Admin_14 - Step_32: Verify '" + AdminData.AddressInfo.EDIT_COUNTRY
 				+ "'is selected in 'Country' dropdown");
 		Assert.assertEquals(adminEditAddressPage.isItemSelectedInDropdown("Address_CountryId"),
 				AdminData.AddressInfo.EDIT_COUNTRY);
 
-		log.info("Admin_14 - Step_31: Verify '" + AdminData.AddressInfo.EDIT_STATE_PROVICE
+		log.info("Admin_14 - Step_33: Verify '" + AdminData.AddressInfo.EDIT_STATE_PROVICE
 				+ "'is selected in 'State / province' dropdown");
 		Assert.assertEquals(adminEditAddressPage.isItemSelectedInDropdown("Address_StateProvinceId"),
 				AdminData.AddressInfo.EDIT_STATE_PROVICE);
 
-		log.info("Admin_14 - Step_32: Verify 'County / region' textbox value is equals '"
+		log.info("Admin_14 - Step_34: Verify 'County / region' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_COUNTRY + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_County"),
 				AdminData.AddressInfo.EDIT_COUNTRY);
 
-		log.info("Admin_14 - Step_33: Verify 'City' textbox value is equals '" + AdminData.AddressInfo.EDIT_CITY + "'");
+		log.info("Admin_14 - Step_35: Verify 'City' textbox value is equals '" + AdminData.AddressInfo.EDIT_CITY + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_City"),
 				AdminData.AddressInfo.EDIT_CITY);
 
-		log.info("Admin_14 - Step_34: Verify 'Address 1' textbox value is equals '"
+		log.info("Admin_14 - Step_36: Verify 'Address 1' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_ADDRESS_1 + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_Address1"),
 				AdminData.AddressInfo.EDIT_ADDRESS_1);
 
-		log.info("Admin_14 - Step_35: Verify 'Address 2' textbox value is equals '"
+		log.info("Admin_14 - Step_37: Verify 'Address 2' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_ADDRESS_2 + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_Address2"),
 				AdminData.AddressInfo.EDIT_ADDRESS_2);
 
-		log.info("Admin_14 - Step_36: Verify 'Zip / postal code' textbox value is equals '"
+		log.info("Admin_14 - Step_38: Verify 'Zip / postal code' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_ZIP_PORTAL_CODE + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_ZipPostalCode"),
 				AdminData.AddressInfo.EDIT_ZIP_PORTAL_CODE);
 
-		log.info("Admin_14 - Step_37: Verify 'Phone number' textbox value is equals '"
+		log.info("Admin_14 - Step_39: Verify 'Phone number' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_PHONE_NUMBER + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_PhoneNumber"),
 				AdminData.AddressInfo.EDIT_PHONE_NUMBER);
 
-		log.info("Admin_14 - Step_38: Verify 'Fax number' textbox value is equals '"
+		log.info("Admin_14 - Step_40: Verify 'Fax number' textbox value is equals '"
 				+ AdminData.AddressInfo.EDIT_FAX_NUMBER + "'");
 		Assert.assertEquals(adminEditAddressPage.isTextboxValueDisplayedByTextboxID("Address_FaxNumber"),
 				AdminData.AddressInfo.EDIT_FAX_NUMBER);
 
-		log.info("Admin_14 - Step_39: Click to 'back to customer details' link");
+		log.info("Admin_14 - Step_41: Click to 'back to customer details' link");
 		adminCustomerInfoPage = adminEditAddressPage.clickToBackToCustomerDetailsLink();
 
-		log.info("Admin_14 - Step_40: Verify 'First name' value is equals '" + AdminData.AddressInfo.EDIT_FIRST_NAME
+		log.info("Admin_14 - Step_42: Verify 'First name' value is equals '" + AdminData.AddressInfo.EDIT_FIRST_NAME
 				+ "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.EDIT_FIRST_NAME));
 
-		log.info("Admin_14 - Step_41: Verify 'Last name' value is equals '" + AdminData.AddressInfo.EDIT_LAST_NAME
+		log.info("Admin_14 - Step_43: Verify 'Last name' value is equals '" + AdminData.AddressInfo.EDIT_LAST_NAME
 				+ "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.EDIT_LAST_NAME));
 
-		log.info("Admin_14 - Step_42: Verify 'Email' value is equals '" + AdminData.AddressInfo.EDIT_EMAIL + "'");
+		log.info("Admin_14 - Step_44: Verify 'Email' value is equals '" + AdminData.AddressInfo.EDIT_EMAIL + "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.EDIT_EMAIL));
 
-		log.info("Admin_14 - Step_43: Verify 'Phone number' value is equals '" + AdminData.AddressInfo.EDIT_PHONE_NUMBER
+		log.info("Admin_14 - Step_45: Verify 'Phone number' value is equals '" + AdminData.AddressInfo.EDIT_PHONE_NUMBER
 				+ "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.EDIT_PHONE_NUMBER));
 
-		log.info("Admin_14 - Step_44: Verify 'Fax number' value is equals '" + AdminData.AddressInfo.EDIT_FAX_NUMBER
+		log.info("Admin_14 - Step_46: Verify 'Fax number' value is equals '" + AdminData.AddressInfo.EDIT_FAX_NUMBER
 				+ "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInfoDisplay(AdminData.AddressInfo.EDIT_FAX_NUMBER));
 
-		log.info("Admin_14 - Step_45: Verify 'Address' value is equals '" + AdminData.AddressInfo.COMPANY+ "'");
+		log.info("Admin_14 - Step_47: Verify 'Address' value is equals '" + AdminData.AddressInfo.COMPANY + "'");
 		Assert.assertTrue(adminCustomerInfoPage.isAddressInAddressInfoDisplay(AdminData.AddressInfo.COMPANY));
 
 	}
@@ -884,14 +920,17 @@ public class Nopcommerce_Admin_Role extends BaseTest {
 				+ AdminData.CustomerInfo.EDIT_COMPANY_NAME + "'");
 		adminCustomersPage.enterToTextboxByTextboxID("SearchCompany", AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
-//		log.info("Admin_15 - Step_09: Select 'Registered' item in 'Customer roles' dropdown");
-//		adminCustomersPage.selectItemInCustomerRolesDropdown("Registered");
+		log.info("Admin_15 - Step_08: Clear item 'Registered' in 'Customer roles' dropdown");
+		adminCustomersPage.deleteItemInCustomerRolesDropdown("Registered");
+
+		log.info("Admin_15 - Step_09: Select 'Guests' in 'Customer roles' dropdown");
+		adminCustomersPage.selectItemInCustomerRolesDropdown("Guests");
 
 		log.info("Admin_15 - Step_10: Click to 'Search' button");
 		adminCustomersPage.clickToSearchButton();
 
 		log.info("Admin_15 - Step_11: Click to 'Edit' button");
-		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(editEmail);
+		adminCustomerInfoPage = adminCustomersPage.clickToEditButton(AdminData.CustomerInfo.EDIT_COMPANY_NAME);
 
 		log.info("Admin_15 - Step_12: Click to 'Delete' button");
 		adminCustomerInfoPage.clickToDeleteButton();

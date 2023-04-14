@@ -243,6 +243,21 @@ public class BasePage {
  		return select.isMultiple();
  	}
  	
+ 	public void enterAndSelectItemInDropdown(String textboxXpath, String itemListXpath,String  inputItemXpath,String extTextItem) {
+ 		getWebElement(textboxXpath).click();
+ 		getWebElement(inputItemXpath).sendKeys(extTextItem);
+ 		sleepInSecond(2);
+ 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);	
+		List<WebElement> allDropdownItems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(itemListXpath)));
+ 		for (WebElement item : allDropdownItems) {
+			if (item.getText().trim().equals(extTextItem)) {
+				item.click();
+				break;
+			}
+		}
+ 	}
+ 	
+ 	
 	public void selectItemInCustomDropdown (String parentXpath, String childXpath, String extTextItem) {
 		getWebElement(parentXpath).click();
 		sleepInSecond(3);

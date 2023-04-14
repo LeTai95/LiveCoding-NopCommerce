@@ -90,61 +90,61 @@ public class User_03_My_Account extends BaseTest {
 		log.info("My_Account_01- Step 01: Click to 'My Account' link");
 		myAccountPage = homePage.clickToMyAccountLink();
 
-		log.info("My_Account_01- Step 01: Check to 'Female' radio");
+		log.info("My_Account_01- Step 02: Check to 'Female' radio");
 		myAccountPage.checkToCheckBoxByName("female");
 
-		log.info("My_Account_01- Step 02: Enter to Firstname textbox with value '"
+		log.info("My_Account_01- Step 03: Enter to Firstname textbox with value '"
 				+ UserData.MyAccount.FIRST_NAME_MY_ACCOUNT_PAGE + "'");
 		myAccountPage.enterToTextboxByID("FirstName", UserData.MyAccount.FIRST_NAME_MY_ACCOUNT_PAGE);
 
-		log.info("My_Account_01- Step 03: Check to Lastname textbox with value '"
+		log.info("My_Account_01- Step 04: Check to Lastname textbox with value '"
 				+ UserData.MyAccount.LAST_NAME_MY_ACCOUNT_PAGE + "'");
 		myAccountPage.enterToTextboxByID("LastName", UserData.MyAccount.LAST_NAME_MY_ACCOUNT_PAGE);
 
-		log.info("My_Account_01- Step 04: Select day from 'DateOfBirthDay' dropdown with value '"
+		log.info("My_Account_01- Step 05: Select day from 'DateOfBirthDay' dropdown with value '"
 				+ UserData.MyAccount.DAY + "'");
 		myAccountPage.selectItemByName("DateOfBirthDay", UserData.MyAccount.DAY);
 
-		log.info("My_Account_01- Step 05: Select month from 'DateOfBirthMonth' dropdown with value '"
+		log.info("My_Account_01- Step 06: Select month from 'DateOfBirthMonth' dropdown with value '"
 				+ UserData.MyAccount.MONTH + "'");
 		myAccountPage.selectItemByName("DateOfBirthMonth", UserData.MyAccount.MONTH);
 
-		log.info("My_Account_01- Step 06: Select year from 'DateOfBirthYear' dropdown with value '"
+		log.info("My_Account_01- Step 07: Select year from 'DateOfBirthYear' dropdown with value '"
 				+ UserData.MyAccount.YEAR + "'");
 		myAccountPage.selectItemByName("DateOfBirthYear", UserData.MyAccount.YEAR);
 
-		log.info("My_Account_01- Step 07: Enter to Company name textbox with value '" + UserData.MyAccount.COMPANY_NAME
+		log.info("My_Account_01- Step 08: Enter to Company name textbox with value '" + UserData.MyAccount.COMPANY_NAME
 				+ "'");
 		myAccountPage.enterToTextboxByID("Company", UserData.MyAccount.COMPANY_NAME);
 
-		log.info("My_Account_01- Step 08: Click to 'Save' button");
+		log.info("My_Account_01- Step 09: Click to 'Save' button");
 		myAccountPage.clickToSaveButton();
 
-		log.info("My_Account_01- Step 09: Verify Female radio is checked");
+		log.info("My_Account_01- Step 10: Verify Female radio is checked");
 		Assert.assertTrue(myAccountPage.isFemaleRadioIsChecked("female"));
 
-		log.info("My_Account_01- Step 10: Verify Firstname textbox is equals '"
+		log.info("My_Account_01- Step 11: Verify Firstname textbox is equals '"
 				+ UserData.MyAccount.FIRST_NAME_MY_ACCOUNT_PAGE + "'");
 		Assert.assertEquals(myAccountPage.getFirstnameValue("FirstName"),
 				UserData.MyAccount.FIRST_NAME_MY_ACCOUNT_PAGE);
 
-		log.info("My_Account_01- Step 11: Verify Lastname textbox is equals '"
+		log.info("My_Account_01- Step 12: Verify Lastname textbox is equals '"
 				+ UserData.MyAccount.LAST_NAME_MY_ACCOUNT_PAGE + "'");
 		Assert.assertEquals(myAccountPage.getLastnameValue("LastName"), UserData.MyAccount.LAST_NAME_MY_ACCOUNT_PAGE);
 
-		log.info("My_Account_01- Step 12: Verify Company name textbox is equals '" + UserData.MyAccount.COMPANY_NAME
+		log.info("My_Account_01- Step 13: Verify Company name textbox is equals '" + UserData.MyAccount.COMPANY_NAME
 				+ "'");
 		Assert.assertEquals(myAccountPage.getCompanyNameValue("Company"), UserData.MyAccount.COMPANY_NAME);
 
-		log.info("My_Account_01- Step 13: Verify '" + UserData.MyAccount.DAY + "' is selected");
+		log.info("My_Account_01- Step 14: Verify '" + UserData.MyAccount.DAY + "' is selected");
 		Assert.assertEquals(myAccountPage.getTextFromDropdownByName("DateOfBirthDay", UserData.MyAccount.DAY),
 				UserData.MyAccount.DAY);
 
-		log.info("My_Account_01- Step 14: Verify '" + UserData.MyAccount.MONTH + "' is selected");
+		log.info("My_Account_01- Step 15: Verify '" + UserData.MyAccount.MONTH + "' is selected");
 		Assert.assertEquals(myAccountPage.getTextFromDropdownByName("DateOfBirthMonth", UserData.MyAccount.MONTH),
 				UserData.MyAccount.MONTH);
 
-		log.info("My_Account_01- Step 15: Verify '" + UserData.MyAccount.YEAR + "' is selected");
+		log.info("My_Account_01- Step 16: Verify '" + UserData.MyAccount.YEAR + "' is selected");
 		Assert.assertEquals(myAccountPage.getTextFromDropdownByName("DateOfBirthYear", UserData.MyAccount.YEAR),
 				UserData.MyAccount.YEAR);
 	}
@@ -190,13 +190,13 @@ public class User_03_My_Account extends BaseTest {
 		log.info("My_Account_02- Step 13: Enter to Phone number textbox with value '" + UserData.MyAccount.PHONE_NUMBER + "'");
 		addressesPage.enterToTextboxByName("Address_PhoneNumber", UserData.MyAccount.PHONE_NUMBER);
 
-		log.info("My_Account_02- Step 15: Enter to fax number textbox with value '" + UserData.MyAccount.FAX_NUMBER + "'");
+		log.info("My_Account_02- Step 14: Enter to fax number textbox with value '" + UserData.MyAccount.FAX_NUMBER + "'");
 		addressesPage.enterToTextboxByName("Address_FaxNumber", UserData.MyAccount.FAX_NUMBER);
 
-		log.info("My_Account_02- Step 16: Click to 'Save' button");
+		log.info("My_Account_02- Step 15: Click to 'Save' button");
 		addressesPage.clickToSaveButton();
 
-		log.info("My_Account_02- Step 17: Verify address added successfully");
+		log.info("My_Account_02- Step 16: Verify address added successfully");
 		Assert.assertTrue(addressesPage.isAddedAddressesSuccessMessageDisplayed());
 
 	}
@@ -255,31 +255,31 @@ public class User_03_My_Account extends BaseTest {
 
 	@Test
 	public void My_Account_04_My_Product_Reviews() {
-		log.info("My_Account_04 - Step 1: Hover To Computers");
+		log.info("My_Account_04 - Step 01: Hover To Computers");
 		homePage.hoverToMenuByText("Computers ");
 
-		log.info("My_Account_04 - Step 2: Click to Desktops in Computers menu");
+		log.info("My_Account_04 - Step 02: Click to Desktops in Computers menu");
 		homePage.clickToItemByText("Desktops ");
 
-		log.info("My_Account_04 - Step 3: Click to Product");
+		log.info("My_Account_04 - Step 03: Click to Product");
 		productInfoPage = homePage.clickToProductByText("Build your own computer");
 
-		log.info("My_Account_04 - Step 4: Click Add your review link");
+		log.info("My_Account_04 - Step 04: Click Add your review link");
 		productReviewPage = productInfoPage.clickToAddYourReviewLink();
 
-		log.info("My_Account_04 - Step 5: Enter to Review title textbox with value '" + reviewTitle + "'");
+		log.info("My_Account_04 - Step 05: Enter to Review title textbox with value '" + reviewTitle + "'");
 		productReviewPage.enterToReviewTitleTextbox(reviewTitle);
 
-		log.info("My_Account_04 - Step 6: Enter to Review text textbox with value '" + UserData.MyAccount.REVIEW_TEXT + "'");
+		log.info("My_Account_04 - Step 06: Enter to Review text textbox with value '" + UserData.MyAccount.REVIEW_TEXT + "'");
 		productReviewPage.enterToReviewtextTextarea(UserData.MyAccount.REVIEW_TEXT);
 
-		log.info("My_Account_04 - Step 7: Click to Rating radio");
+		log.info("My_Account_04 - Step 07: Click to Rating radio");
 		productReviewPage.clickToRadioByNumber(UserData.MyAccount.RATING_NUMBER);
 
-		log.info("My_Account_04 - Step 8: Click to 'Submit' button");
+		log.info("My_Account_04 - Step 08: Click to 'Submit' button");
 		productReviewPage.clickToSubmitReviewButton();
 
-		log.info("My_Account_04 - Step 9: Click to 'My Account' link");
+		log.info("My_Account_04 - Step 09: Click to 'My Account' link");
 		myAccountPage = productReviewPage.clickToMyAccountLink();
 
 		log.info("My_Account_04 - Step 10: Navigate 'My Product Review' link");

@@ -49,12 +49,7 @@ public class AdminCustomersPageObject extends BasePage {
 
 	public void deleteItemInCustomerRolesDropdown(String textItem) {
 		waitForElementClickable(AdminCustomersPageUIs.DELETE_ITEM_ICON_IN_DROPDOWN, textItem);
-		clickToElement(AdminCustomersPageUIs.DELETE_ITEM_ICON_IN_DROPDOWN, textItem);
-	}
-
-	public void selectItemInCustomerRolesDropdown(String textItem) {
-		selectItemInCustomDropdown(AdminCustomersPageUIs.PARENT_DROPDOWN_CUSTOMER_ROLES_DROPDOWN,
-				AdminCustomersPageUIs.CHILD_DROPDOWN_CUSTOMER_ROLES_DROPDOWN, textItem);
+		clickToElementByJS(AdminCustomersPageUIs.DELETE_ITEM_ICON_IN_DROPDOWN, textItem);
 	}
 
 	public void selectItemInDropdownByDropdownID(String dropdownID, String textItem) {
@@ -62,15 +57,21 @@ public class AdminCustomersPageObject extends BasePage {
 		selectItemInDefaultDropdown(AdminCustomersPageUIs.DYNAMIC_DROPDOWN_BY_DROPDOWN_NAME, textItem, dropdownID);
 	}
 
-	public AdminCustomerInfoPageObject clickToEditButton(String emailValue) {
-		waitForElementClickable(AdminCustomersPageUIs.DYNAMIC_EDIT_BUTTON_BY_EMAIL_VALUE, emailValue);
-		clickToElement(AdminCustomersPageUIs.DYNAMIC_EDIT_BUTTON_BY_EMAIL_VALUE, emailValue);
+	public AdminCustomerInfoPageObject clickToEditButton(String customerInfo) {
+		waitForElementClickable(AdminCustomersPageUIs.DYNAMIC_EDIT_BUTTON_BY_CUSTOMER_INFO, customerInfo);
+		clickToElement(AdminCustomersPageUIs.DYNAMIC_EDIT_BUTTON_BY_CUSTOMER_INFO, customerInfo);
 		return PageGeneraterManager.getCustomerInfoPage(driver);
 	}
 
 	public boolean isCustomerInfoDisplayed(String customerInfo) {
 		waitForElementVisiable(AdminCustomersPageUIs.CUSTOMER_INFO, customerInfo);
 		return isElementDisplayed(AdminCustomersPageUIs.CUSTOMER_INFO, customerInfo);
+	}
+
+	public void selectItemInCustomerRolesDropdown(String textItem) {
+		enterAndSelectItemInDropdown(AdminCustomersPageUIs.PARENT_XPATH_CUSTOMER_ROLES_DROPDOWN,
+				AdminCustomersPageUIs.CHILD_XPATH_CUSTOMER_ROLES_DROPDOWN,
+				AdminCustomersPageUIs.INPUT_ITEM_XPATH_CUSTOMER_ROLES_DROPDOWN, textItem);
 	}
 
 }

@@ -34,6 +34,7 @@ public class User_01_Register extends BaseTest {
 	public void Register_01_Empty_Data() {
 		log.info("Register_01 - Step 01: Click to 'Register' link");
 		registerPage = homePage.clickToRegisterLink();
+		
 		log.info("Register_01 - Step 02: Click to 'Register' button");
 		registerPage.clickToRegisterButton();
 		
@@ -43,13 +44,13 @@ public class User_01_Register extends BaseTest {
 		log.info("Register_01 - Step 04: Verify Lastname error message displayed");
 		Assert.assertTrue(registerPage.isLastnameErrorMessageDisplayed());
 		
-		log.info("Register_01 - Step 04: Verify Email error message displayed");
+		log.info("Register_01 - Step 05: Verify Email error message displayed");
 		Assert.assertTrue(registerPage.isEmailErrorMessageDisplayed());
 		
-		log.info("Register_01 - Step 05: Verify Password error message displayed");
+		log.info("Register_01 - Step 06: Verify Password error message displayed");
 		Assert.assertTrue(registerPage.isPasswordErrorMessageDisplayed());
 		
-		log.info("Register_01 - Step 06: Verify ConfirmPassword error message displayed");
+		log.info("Register_01 - Step 07: Verify ConfirmPassword error message displayed");
 		Assert.assertTrue(registerPage.isConfirmPasswordErrorMessageDisplayed());
 	}
 
@@ -103,7 +104,7 @@ public class User_01_Register extends BaseTest {
 		log.info("Register_03 - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();
 		
-		log.info("Register_03 - Step 09: Verify register success message is displayed");
+		log.info("Register_03 - Step 08: Verify register success message is displayed");
 		Assert.assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
 	}
 
@@ -130,7 +131,7 @@ public class User_01_Register extends BaseTest {
 		log.info("Register_04 - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();
 		
-		log.info("Register_04 - Step 09: Verify exsting email message is displayed");
+		log.info("Register_04 - Step 08: Verify exsting email message is displayed");
 		Assert.assertTrue(registerPage.isExstingEmailMessageDisplayed());
 	}
 
@@ -157,7 +158,7 @@ public class User_01_Register extends BaseTest {
 		log.info("Register_05 - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();
 		
-		log.info("Register_05 - Step 07: Verify Password error message eror displayed");
+		log.info("Register_05 - Step 08: Verify Password error message eror displayed");
 		Assert.assertTrue(registerPage.isPasswordErrorMessageDisplayed());
 	}
 

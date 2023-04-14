@@ -99,23 +99,23 @@ public class User_06_Wishlist_Compare_RecentView extends BaseTest {
 
 	@Test
 	public void TC_02_Wishlist_02_Add_Product_To_Cart_From_Wishlist_Page() {
-		log.info("Wishlist_02 - Step 06: Click to 'Wishlist' link");
+		log.info("Wishlist_02 - Step 01: Click to 'Wishlist' link");
 		wishlistPage = homePage.clickToWishlistLink();
 
-		log.info("Wishlist_02 - Step 07: Check to checkbox 'Add to cart'");
+		log.info("Wishlist_02 - Step 02: Check to checkbox 'Add to cart'");
 		wishlistPage.checkToCheckboxByRowNumberAndColumnName("1", "Add to cart");
 
-		log.info("Wishlist_02 - Step 08: Click to 'Add To Cart' button");
+		log.info("Wishlist_02 - Step 03: Click to 'Add To Cart' button");
 		shoppingCartPage = wishlistPage.clickToAddToCartButton();
 
-		log.info("Wishlist_02 - Step 09: Verify product added to Cart success");
+		log.info("Wishlist_02 - Step 04: Verify product added to Cart success");
 		Assert.assertTrue(
 				shoppingCartPage.isProductAddedToCartSuccess("1", "Product(s)", "HP Spectre XT Pro UltraBook"));
 
-		log.info("Wishlist_02 - Step 10: Navigate to Wishlist page");
+		log.info("Wishlist_02 - Step 05: Navigate to Wishlist page");
 		wishlistPage = shoppingCartPage.clickToWishlistLink();
 
-		log.info("Wishlist_02 - Step 10: Verify product is not displayed");
+		log.info("Wishlist_02 - Step 06: Verify product is not displayed");
 		verifyTrue(wishlistPage.isProductNotDisplayedByRowNumberAndColumnName("1", "Product(s)",
 				"HP Spectre XT Pro UltraBook"));
 	}
@@ -140,7 +140,7 @@ public class User_06_Wishlist_Compare_RecentView extends BaseTest {
 		log.info("Wishlist_03 - Step 06: Click to 'Remove' button");
 		wishlistPage.clickToRemoveButton("1", "Remove");
 
-		log.info("Wishlist_02 - Step 10: Verify product is not displayed");
+		log.info("Wishlist_03 - Step 07: Verify product is not displayed");
 		verifyTrue(wishlistPage.isProductNotDisplayedByRowNumberAndColumnName("1", "Product(s)", "Nokia Lumia 1020"));
 	}
 
