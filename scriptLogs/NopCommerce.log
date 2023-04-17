@@ -26424,3 +26424,185 @@ Session ID: 9999a173-9ca4-4c38-8370-94a01c546608
  [2023-04-15 00:09:42,387] Admin_15 - Step_14: Verify Address info is deleted
  [2023-04-15 00:09:43,091] OS name = windows 11
  [2023-04-15 00:09:43,091] Driver instance name = firefoxdriver: firefox on windows (c0b19a65-0183-4820-a080-bf9a95c4f3c9)
+ [2023-04-17 09:06:05,187] Pre-Condition - Step 01: Open browser and navigate to website
+ [2023-04-17 09:06:32,179] Register_01 - Step 01: Click to 'Register' link
+ [2023-04-17 09:06:38,028] Register_01 - Step 02: Click to 'Register' button
+ [2023-04-17 09:06:48,579] Register_02 - Step 01: Click to Register link
+ [2023-04-17 09:06:48,704] Register_03 - Step 01: Click to 'Register; link
+ [2023-04-17 09:06:48,720] Register_04 - Step 01: Click to 'Register' link
+ [2023-04-17 09:06:48,736] Register_05 - Step 01: Click to 'Register' link
+ [2023-04-17 09:06:48,751] Register_06 - Step 01: Click to 'Register' link
+ [2023-04-17 09:06:48,767] OS name = windows 11
+ [2023-04-17 09:06:48,767] Driver instance name = firefoxdriver: firefox on windows (1eaef690-72bc-4dac-9671-5c9a53d1d38d)
+ [2023-04-17 09:06:48,782] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10756, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1eaef690-72bc-4dac-9671-5c9a53d1d38d
+ [2023-04-17 09:06:58,250] Pre-Condition - Step 01: Open browser and navigate to website
+ [2023-04-17 09:07:23,698] Register_01 - Step 01: Click to 'Register' link
+ [2023-04-17 09:07:28,234] Register_01 - Step 02: Click to 'Register' button
+ [2023-04-17 09:07:28,940] Register_02 - Step 01: Click to Register link
+ [2023-04-17 09:07:28,956] Register_03 - Step 01: Click to 'Register; link
+ [2023-04-17 09:07:28,972] Register_04 - Step 01: Click to 'Register' link
+ [2023-04-17 09:07:28,987] Register_05 - Step 01: Click to 'Register' link
+ [2023-04-17 09:07:29,003] Register_06 - Step 01: Click to 'Register' link
+ [2023-04-17 09:07:29,019] OS name = windows 11
+ [2023-04-17 09:07:29,019] Driver instance name = firefoxdriver: firefox on windows (13ac0ba6-dea7-4f9b-a014-20d227ca3b89)
+ [2023-04-17 09:07:29,034] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GIGO', ip: '192.168.57.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16988, moz:profile: C:\Users\leduc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13ac0ba6-dea7-4f9b-a014-20d227ca3b89
+ [2023-04-17 09:19:52,513] Pre-Condition - Step 01: Open browser and navigate to website
+ [2023-04-17 09:19:58,408] Register_01 - Step 01: Click to 'Register' link
+ [2023-04-17 09:19:59,677] Register_01 - Step 02: Click to 'Register' button
+ [2023-04-17 09:20:00,021] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-04-17 09:20:00,122] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-04-17 09:20:00,203] Register_01 - Step 05: Verify Email error message displayed
+ [2023-04-17 09:20:00,295] Register_01 - Step 06: Verify Password error message displayed
+ [2023-04-17 09:20:00,432] Register_01 - Step 07: Verify ConfirmPassword error message displayed
+ [2023-04-17 09:20:00,524] Register_02 - Step 01: Click to Register link
+ [2023-04-17 09:20:01,547] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:20:01,688] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:20:01,838] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-04-17 09:20:01,983] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:20:02,149] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:20:02,312] Register_02 - Step 07: Click to 'Register' button
+ [2023-04-17 09:20:02,663] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-04-17 09:20:02,771] Register_03 - Step 01: Click to 'Register; link
+ [2023-04-17 09:20:03,826] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:20:03,977] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:20:04,115] Register_03 - Step 04: Enter to Email textbox with value 'afc98390@gmail.com'
+ [2023-04-17 09:20:04,283] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:20:04,437] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:20:04,589] Register_03 - Step 07: Click to 'Register' button
+ [2023-04-17 09:20:06,518] Register_03 - Step 08: Verify register success message is displayed
+ [2023-04-17 09:20:06,627] Register_04 - Step 01: Click to 'Register' link
+ [2023-04-17 09:20:07,642] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:20:07,779] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:20:07,944] Register_04 - Step 04: Enter to Email textbox with value 'afc98390@gmail.com'
+ [2023-04-17 09:20:08,092] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:20:08,257] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:20:08,397] Register_04 - Step 07: Click to 'Register' button
+ [2023-04-17 09:20:09,407] Register_04 - Step 08: Verify exsting email message is displayed
+ [2023-04-17 09:20:09,522] Register_05 - Step 01: Click to 'Register' link
+ [2023-04-17 09:20:10,523] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:20:10,666] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:20:10,805] Register_05 - Step 04: Enter to Email textbox with value 'afc98390@gmail.com'
+ [2023-04-17 09:20:10,962] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-04-17 09:20:11,125] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:20:11,312] Register_05 - Step 07: Click to 'Register' button
+ [2023-04-17 09:20:11,641] Register_05 - Step 08: Verify Password error message eror displayed
+ [2023-04-17 09:20:11,741] Register_06 - Step 01: Click to 'Register' link
+ [2023-04-17 09:20:12,748] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:20:12,880] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:20:13,043] Register_06 - Step 04: Enter to Email textbox with value 'afc98390@gmail.com'
+ [2023-04-17 09:20:13,204] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:20:13,372] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-04-17 09:20:13,515] Register_06 - Step 07: Click to 'Register' button
+ [2023-04-17 09:20:14,317] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-04-17 09:20:14,437] OS name = windows 11
+ [2023-04-17 09:20:14,437] Driver instance name = firefoxdriver: firefox on windows (234781e7-1041-4163-9d55-43d54330c913)
+ [2023-04-17 09:22:12,181] Pre-Condition - Step 01: Open browser and navigate to website
+ [2023-04-17 09:22:17,374] Register_01 - Step 01: Click to 'Register' link
+ [2023-04-17 09:22:18,506] Register_01 - Step 02: Click to 'Register' button
+ [2023-04-17 09:22:18,850] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-04-17 09:22:18,938] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-04-17 09:22:19,029] Register_01 - Step 05: Verify Email error message displayed
+ [2023-04-17 09:22:19,113] Register_01 - Step 06: Verify Password error message displayed
+ [2023-04-17 09:22:19,207] Register_01 - Step 07: Verify ConfirmPassword error message displayed
+ [2023-04-17 09:22:19,314] Register_02 - Step 01: Click to Register link
+ [2023-04-17 09:22:20,348] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:22:20,466] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:22:20,600] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-04-17 09:22:20,728] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:22:20,885] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:22:21,045] Register_02 - Step 07: Click to 'Register' button
+ [2023-04-17 09:22:21,376] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-04-17 09:22:21,485] Register_03 - Step 01: Click to 'Register; link
+ [2023-04-17 09:22:22,547] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:22:22,696] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:22:22,873] Register_03 - Step 04: Enter to Email textbox with value 'afc37357@gmail.com'
+ [2023-04-17 09:22:23,045] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:22:23,201] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:22:23,361] Register_03 - Step 07: Click to 'Register' button
+ [2023-04-17 09:22:25,318] Register_03 - Step 08: Verify register success message is displayed
+ [2023-04-17 09:22:25,421] Register_04 - Step 01: Click to 'Register' link
+ [2023-04-17 09:22:26,420] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:22:26,563] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:22:26,691] Register_04 - Step 04: Enter to Email textbox with value 'afc37357@gmail.com'
+ [2023-04-17 09:22:26,852] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:22:27,000] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:22:27,184] Register_04 - Step 07: Click to 'Register' button
+ [2023-04-17 09:22:28,225] Register_04 - Step 08: Verify exsting email message is displayed
+ [2023-04-17 09:22:28,331] Register_05 - Step 01: Click to 'Register' link
+ [2023-04-17 09:22:29,398] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:22:29,534] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:22:29,709] Register_05 - Step 04: Enter to Email textbox with value 'afc37357@gmail.com'
+ [2023-04-17 09:22:29,846] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-04-17 09:22:29,946] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 09:22:30,095] Register_05 - Step 07: Click to 'Register' button
+ [2023-04-17 09:22:30,429] Register_05 - Step 08: Verify Password error message eror displayed
+ [2023-04-17 09:22:30,530] Register_06 - Step 01: Click to 'Register' link
+ [2023-04-17 09:22:31,574] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 09:22:31,709] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 09:22:31,877] Register_06 - Step 04: Enter to Email textbox with value 'afc37357@gmail.com'
+ [2023-04-17 09:22:32,039] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 09:22:32,181] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-04-17 09:22:32,342] Register_06 - Step 07: Click to 'Register' button
+ [2023-04-17 09:22:33,169] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-04-17 09:22:33,294] OS name = windows 11
+ [2023-04-17 09:22:33,294] Driver instance name = firefoxdriver: firefox on windows (6184ec14-dbc6-4268-9ccc-8f3069a4ba49)
+ [2023-04-17 11:37:49,366] Pre-Condition - Step 01: Open browser and navigate to website
+ [2023-04-17 11:37:56,931] Register_01 - Step 01: Click to 'Register' link
+ [2023-04-17 11:37:58,200] Register_01 - Step 02: Click to 'Register' button
+ [2023-04-17 11:37:58,564] Register_01 - Step 03: Verify Firstname error message displayed
+ [2023-04-17 11:37:58,653] Register_01 - Step 04: Verify Lastname error message displayed
+ [2023-04-17 11:37:58,749] Register_01 - Step 05: Verify Email error message displayed
+ [2023-04-17 11:37:58,845] Register_01 - Step 06: Verify Password error message displayed
+ [2023-04-17 11:37:58,937] Register_01 - Step 07: Verify ConfirmPassword error message displayed
+ [2023-04-17 11:37:59,047] Register_02 - Step 01: Click to Register link
+ [2023-04-17 11:37:59,645] Register_02 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 11:37:59,793] Register_02 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 11:37:59,950] Register_02 - Step 04: Enter to Email textbox with value 'afc@@gmail.com'
+ [2023-04-17 11:38:00,123] Register_02 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 11:38:00,246] Register_02 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 11:38:00,389] Register_02 - Step 07: Click to 'Register' button
+ [2023-04-17 11:38:00,749] Register_02 - Step 08: Verify wrong email message displayed
+ [2023-04-17 11:38:00,818] Register_03 - Step 01: Click to 'Register; link
+ [2023-04-17 11:38:01,341] Register_03 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 11:38:01,504] Register_03 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 11:38:01,636] Register_03 - Step 04: Enter to Email textbox with value 'afc76911@gmail.com'
+ [2023-04-17 11:38:01,759] Register_03 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 11:38:01,898] Register_03 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 11:38:02,020] Register_03 - Step 07: Click to 'Register' button
+ [2023-04-17 11:38:02,899] Register_03 - Step 08: Verify register success message is displayed
+ [2023-04-17 11:38:03,021] Register_04 - Step 01: Click to 'Register' link
+ [2023-04-17 11:38:03,543] Register_04 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 11:38:03,680] Register_04 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 11:38:03,804] Register_04 - Step 04: Enter to Email textbox with value 'afc76911@gmail.com'
+ [2023-04-17 11:38:03,936] Register_04 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 11:38:04,046] Register_04 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 11:38:04,162] Register_04 - Step 07: Click to 'Register' button
+ [2023-04-17 11:38:04,709] Register_04 - Step 08: Verify exsting email message is displayed
+ [2023-04-17 11:38:04,829] Register_05 - Step 01: Click to 'Register' link
+ [2023-04-17 11:38:05,756] Register_05 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 11:38:05,986] Register_05 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 11:38:06,128] Register_05 - Step 04: Enter to Email textbox with value 'afc76911@gmail.com'
+ [2023-04-17 11:38:06,276] Register_05 - Step 05: Enter to Password textbox with value '12345'
+ [2023-04-17 11:38:06,434] Register_05 - Step 06: Enter to Confirm Password textbox with value '123456'
+ [2023-04-17 11:38:06,610] Register_05 - Step 07: Click to 'Register' button
+ [2023-04-17 11:38:07,003] Register_05 - Step 08: Verify Password error message eror displayed
+ [2023-04-17 11:38:07,136] Register_06 - Step 01: Click to 'Register' link
+ [2023-04-17 11:38:07,710] Register_06 - Step 02: Enter to Firstname textbox with value 'A'
+ [2023-04-17 11:38:07,880] Register_06 - Step 03: Enter to Lastname textbox with value 'B'
+ [2023-04-17 11:38:08,062] Register_06 - Step 04: Enter to Email textbox with value 'afc76911@gmail.com'
+ [2023-04-17 11:38:08,257] Register_06 - Step 05: Enter to Password textbox with value '123456'
+ [2023-04-17 11:38:08,444] Register_06 - Step 06: Enter to Confirm Password textbox with value '000000'
+ [2023-04-17 11:38:08,583] Register_06 - Step 07: Click to 'Register' button
+ [2023-04-17 11:38:09,418] Register_06 - Step 08: Verify Confirm Password error message eror displayed 
+ [2023-04-17 11:38:09,627] OS name = windows 11
+ [2023-04-17 11:38:09,627] Driver instance name = firefoxdriver: firefox on windows (09264b7a-0796-40ca-907c-c4b6ddc70d13)
